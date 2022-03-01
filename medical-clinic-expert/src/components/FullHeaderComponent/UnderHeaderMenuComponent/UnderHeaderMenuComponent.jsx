@@ -1,39 +1,41 @@
 import React from "react";
 import { MenuButtonsComponent } from "../MenuButtonsComponent/MenuButtonsComponent";
+import expandArrow from '../../../img/expandArrow.svg'
 import './UnderHeaderMenuComponent.css'
 
 const buttons = [
     {
         name: "Информация",
-        className: "menuButtons_information",
+        expandArrow: expandArrow,
     },
     {
         name: "Медуслуги",
-        className: "menuButtons_med",
+        expandArrow: expandArrow,
     },
     {
         name: "Сотрудники",
-        className: "menuButtons_doctors",
+        expandArrow: "",
     },
     {
         name: "ДМС",
-        className: "menuButtons_dms",
+        expandArrow: "",
     },
     {
         name: "Контакты",
-        className: "menuButtons_contacts",
+        expandArrow: "",
     },
 ];
 
-export const UnderHeaderMenuComponent = (props) => {
+export const UnderHeaderMenuComponent = () => {
     return (
         <>
             <div className="menuButtonsAll">
                 <MenuButtonsComponent
                     buttons={buttons}
+                    expandArrow={expandArrow}
                     className="menuButtons"
                 />
-                <button>Записаться на прием</button>
+                <button className="makeAnAppointmentButton">Записаться на прием</button>
             </div>
         </>
     );

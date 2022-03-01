@@ -1,11 +1,9 @@
 import React from "react";
-import { HeaderComponent } from "../src/components/HeaderComponent/HeaderComponent";
-import { UnderHeaderMenuComponent } from '../src/components/UnderHeaderMenuComponent/UnderHeaderMenuComponent'
+import { FullHeaderComponent } from "../src/components/FullHeaderComponent/FullHeaderComponent";
 
 function App() {
     return <>
-        <HeaderComponent />
-        <UnderHeaderMenuComponent/>
+        <FullHeaderComponent />
     </>;
 }
 
