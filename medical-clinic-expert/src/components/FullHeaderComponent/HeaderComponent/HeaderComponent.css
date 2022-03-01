@@ -10,7 +10,7 @@
     text-align: right;
 }
 
-.expertButton {
+.header__expertButton {
     background-color: transparent;
     color: #ff5b5b;
     position: relative;
@@ -23,13 +23,13 @@
     cursor: pointer;
 }
 
-.expertButton_logo {
+.header__expertButton_logo {
     position: absolute;
     margin: auto;
     padding-left: 26px;
 }
 
-.expButtonDescription {
+.header__expertButton_description {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -41,7 +41,7 @@
     margin: 7px 0px;
 }
 
-.headerAddress {
+.header__informationContainer_address {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 300;
@@ -52,7 +52,7 @@
     color: #2f2f2f;
 }
 
-.headerPhone {
+.header__informationContainer_phoneNumber {
     font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
@@ -63,7 +63,7 @@
     margin-top: 7px;
 }
 
-.headerTimetable {
+.header__informationContainer_timetable {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -76,7 +76,7 @@
     margin-bottom: 10px;
 }
 
-.headerUnderline {
+.header__underline {
     border-bottom: 1px solid #d8d8d8;
     margin: 0 auto;
 }
