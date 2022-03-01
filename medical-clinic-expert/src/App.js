@@ -1,5 +1,10 @@
+import React from "react";
+import { HeaderComponent } from "../src/components/HeaderComponent/HeaderComponent";
+
 function App() {
-  return <div />
+    return <>
+        <HeaderComponent />
+    </>;
 }
 
 export default App;

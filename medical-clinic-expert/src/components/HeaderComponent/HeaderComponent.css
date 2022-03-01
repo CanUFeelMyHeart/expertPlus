@@ -1,0 +1,89 @@
+.header {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-top: 15px;
+}
+
+.headerMainButton {
+    margin-left: 150px;
+}
+
+.headerInformation {
+    text-align: right;
+    margin-right: 150px;
+}
+
+.expertButton {
+    background-color: transparent;
+    color: #ff5b5b;
+    position: relative;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    letter-spacing: 0.14em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.expertButton_logo {
+    position: absolute;
+    margin: auto;
+    padding-left: 26px;
+}
+
+.expButtonDescription {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: left;
+    letter-spacing: 0.14em;
+    color: #c6c6c6;
+    margin: 7px 0px;
+}
+
+.headerAddress {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    letter-spacing: 0.14em;
+    color: #2f2f2f;
+}
+
+.headerPhone {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: right;
+    color: #ff5b5b;
+    margin-top: 7px;
+}
+
+.headerTimetable {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    letter-spacing: 0.14em;
+    color: #2f2f2f;
+    margin-top: 7px;
+}
+
+.headerUnderline {
+    border: 1px solid #d8d8d8;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
