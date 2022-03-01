@@ -26,7 +26,9 @@ export const HeaderComponent = () => {
                     </h4>
                 </div>
             </div>
-            <hr className="headerUnderline" />
+            <div className="headerUnderlineContainer">
+                <hr className="headerUnderline" />
+            </div>
         </>
     );
 };

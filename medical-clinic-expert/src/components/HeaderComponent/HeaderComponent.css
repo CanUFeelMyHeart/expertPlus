@@ -81,9 +81,14 @@
     margin-top: 7px;
 }
 
-.headerUnderline {
-    border: 1px solid #d8d8d8;
+.headerUnderlineContainer {
     max-width: 1320px;
     margin: 0 auto;
+}
+
+.headerUnderline {
+    border: 1px solid #d8d8d8;
     margin-top: 8px;
+    margin-right: 40px;
+    margin-left: 40px;
 }
