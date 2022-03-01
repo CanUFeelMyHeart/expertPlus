@@ -3,17 +3,36 @@ import { MenuButtonsComponent } from "../MenuButtonsComponent/MenuButtonsCompone
 import expandArrow from "../../../img/expandArrow.svg";
 import "./UnderHeaderMenuComponent.css";
 
+const informationButton = [
+    { name: "О клинике", ref: "" },
+    { name: "Лицензии", ref: "" },
+    { name: "Вакансии", ref: "" },
+    { name: "Законодательная база", ref: "" },
+    { name: "Сведения о квалификации медицинских работников", ref: "" },
+    { name: "Контролирующие организации", ref: "" },
+    { name: "Официальные документы", ref: "" },
+    { name: "Положение о предоставлении платных мед. услуг", ref: "" },
+    { name: "Карта сайта", ref: "" },
+];
+
+// {
+//     name: "Медуслуги",
+//     expandArrow: expandArrow,
+//     ref: "/contacts",
+//     buttons: [
+//         { name: "О клинике", ref: "" },
+//         { name: "Лицензии", ref: "" },
+//         { name: "Вакансии", ref: "" },
+//         { name: "Законодательная база", ref: "" },
+//         { name: "Сведения о квалификации медицинских работников", ref: "" },
+//         { name: "Контролирующие организации", ref: "" },
+//         { name: "Официальные документы", ref: "" },
+//         { name: "Положение о предоставлении платных мед. услуг", ref: "" },
+//         { name: "Карта сайта", ref: "" }
+//     ],
+// },
+
 const buttons = [
-    {
-        name: "Информация",
-        expandArrow: expandArrow,
-        ref: "/info",
-    },
-    {
-        name: "Медуслуги",
-        expandArrow: expandArrow,
-        ref: "/services",
-    },
     {
         name: "Сотрудники",
         expandArrow: "",
@@ -36,6 +55,7 @@ export const UnderHeaderMenuComponent = () => {
         <>
             <div className="menuButtonsAll">
                 <MenuButtonsComponent
+                    informationButton={informationButton}
                     buttons={buttons}
                     className="menuButtons"
                 />
