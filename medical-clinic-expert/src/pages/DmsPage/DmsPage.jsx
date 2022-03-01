@@ -1,5 +1,11 @@
 import React from "react";
+import { FullHeaderComponent as Header } from "../../components/FullHeaderComponent/FullHeaderComponent";
 
 export const DmsPage = () => {
-    return <div>dms page</div>;
+    return (
+        <>
+            <Header />
+            <div>dms page</div>
+        </>
+    );
 };

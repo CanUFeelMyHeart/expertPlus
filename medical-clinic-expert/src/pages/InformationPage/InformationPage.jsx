@@ -1,5 +1,11 @@
 import React from "react";
+import { FullHeaderComponent as Header } from "../../components/FullHeaderComponent/FullHeaderComponent";
 
 export const InformationPage = () => {
-    return <div>info page</div>;
+    return (
+        <>
+            <Header />
+            <div>information page</div>
+        </>
+    );
 };
