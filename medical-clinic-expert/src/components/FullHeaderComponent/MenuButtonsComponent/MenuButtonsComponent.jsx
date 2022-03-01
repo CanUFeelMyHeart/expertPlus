@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { InformationButtonExpand as InfoButton } from "./InformationButtonExpanded/InformationButtonExpanded";
 import "./MenuButtonsComponent.css";
 
 export const MenuButtonsComponent = (props) => {
@@ -19,7 +20,7 @@ export const MenuButtonsComponent = (props) => {
     return (
         <>
             <div className={props.className}>
-                <button onClick={() => setOpenInfoFunction()}>info</button>
+                <button onClick={() => setOpenInfoFunction()}>Информация</button>
                 {props.buttons.map((button, index) => (
                     <button
                         key={index}
@@ -30,38 +31,10 @@ export const MenuButtonsComponent = (props) => {
                     </button>
                 ))}
             </div>
-            <div
-                className="infoExpandingList"
-                style={{
-                    display: openInfo ? "block" : "none",
-                }}
-            >
-                <div 
-                style={{
-                    display: openInfo ? "flex" : "none",
-                }}
-                className="infoExpandingListContainer">
-                    {props.informationButton.map((button, index) => (
-                        <button key={index}>
-                            <h4>{button.name}</h4>
-                        </button>
-                    ))}
-                </div>
-            </div>
+            <InfoButton
+                openInfo={openInfo}
+                informationButton={props.informationButton}
+            />
         </>
     );
 };
-
-// {props.buttons.map((button, index) => (
-//     <button
-//         key={index}
-//         className="menuButton"
-//         onClick={(e) => handleClick(button.ref)}
-//     >
-//         <h4>{button.name}</h4>
-//         <img
-//             src={button.expandArrow}
-//             className="menuButtonExpandArrow"
-//         />
-//     </button>
-// ))}
