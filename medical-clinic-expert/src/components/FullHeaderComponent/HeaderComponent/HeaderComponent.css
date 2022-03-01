@@ -1,5 +1,4 @@
 .header {
-    max-width: 1600px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -7,13 +6,8 @@
     margin-top: 15px;
 }
 
-.headerMainButton {
-    margin-left: 150px;
-}
-
 .headerInformation {
     text-align: right;
-    margin-right: 150px;
 }
 
 .expertButton {
@@ -79,11 +73,10 @@
     letter-spacing: 0.14em;
     color: #2f2f2f;
     margin-top: 7px;
+    margin-bottom: 10px;
 }
 
 .headerUnderline {
     border: 1px solid #d8d8d8;
-    max-width: 1300px;
     margin: 0 auto;
-    margin-top: 16px;
 }

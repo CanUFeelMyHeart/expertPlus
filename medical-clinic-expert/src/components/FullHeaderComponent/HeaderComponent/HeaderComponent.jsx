@@ -1,6 +1,6 @@
 import React from "react";
 import "./HeaderComponent.css";
-import logo from "../../img/logo.svg";
+import logo from "../../../img/logo.svg";
 
 export const HeaderComponent = () => {
     return (
@@ -26,7 +26,9 @@ export const HeaderComponent = () => {
                     </h4>
                 </div>
             </div>
-            <hr className="headerUnderline" />
+            <div className="headerUnderlineContainer">
+                <hr className="headerUnderline" />
+            </div>
         </>
     );
 };

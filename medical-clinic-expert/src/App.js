@@ -1,9 +1,9 @@
 import React from "react";
-import { HeaderComponent } from "../src/components/HeaderComponent/HeaderComponent";
+import { FullHeaderComponent } from "../src/components/FullHeaderComponent/FullHeaderComponent";
 
 function App() {
     return <>
-        <HeaderComponent />
+        <FullHeaderComponent />
     </>;
 }
 
