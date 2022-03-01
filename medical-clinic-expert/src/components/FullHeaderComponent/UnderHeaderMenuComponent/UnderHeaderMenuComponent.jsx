@@ -1,7 +1,7 @@
 import React from "react";
 import { MenuButtonsComponent } from "../MenuButtonsComponent/MenuButtonsComponent";
-import expandArrow from '../../../img/expandArrow.svg'
-import './UnderHeaderMenuComponent.css'
+import expandArrow from "../../../img/expandArrow.svg";
+import "./UnderHeaderMenuComponent.css";
 
 const buttons = [
     {
@@ -35,7 +35,12 @@ export const UnderHeaderMenuComponent = () => {
                     expandArrow={expandArrow}
                     className="menuButtons"
                 />
-                <button className="makeAnAppointmentButton">Записаться на прием</button>
+                <button className="makeAnAppointmentButton">
+                    Записаться на прием
+                </button>
+            </div>
+            <div className="headerUnderlineContainer">
+                <hr className="headerUnderline" />
             </div>
         </>
     );

@@ -7,8 +7,11 @@ export const MenuButtonsComponent = (props) => {
             <div className={props.className}>
                 {props.buttons.map((button, index) => (
                     <button key={index} className="menuButton">
-                        {button.name}
-                        <img src={button.expandArrow} />
+                        <h4>{button.name}</h4>
+                        <img
+                            src={button.expandArrow}
+                            className="menuButtonExpandArrow"
+                        />
                     </button>
                 ))}
             </div>

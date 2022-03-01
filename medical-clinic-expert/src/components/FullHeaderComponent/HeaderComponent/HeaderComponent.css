@@ -73,10 +73,10 @@
     letter-spacing: 0.14em;
     color: #2f2f2f;
     margin-top: 7px;
+    margin-bottom: 10px;
 }
 
 .headerUnderline {
     border: 1px solid #d8d8d8;
-    margin-top: 8px;
     margin: 0 auto;
 }

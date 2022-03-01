@@ -8,4 +8,10 @@
 .makeAnAppointmentButton {
     width: 191px;
     justify-self: end;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    color: #484848;
 }
