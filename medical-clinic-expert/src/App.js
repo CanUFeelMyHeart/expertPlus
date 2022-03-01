@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { FullHeaderComponent as Header } from "./components/FullHeaderComponent/FullHeaderComponent";
+import { AboutClinicComponent as AboutClinic } from "./components/AboutClinicComponent/AboutClinicComponent";
+
 import { ContactsPage } from "./pages/ContactsPage/ContactsPage";
 import { DmsPage } from "./pages/DmsPage/DmsPage";
 import { DoctorsPage } from "./pages/DoctorsPage/DoctorsPage";
@@ -19,6 +21,7 @@ function App() {
                     <Route path="/dms" element={<DmsPage />} />
                     <Route path="/contacts" element={<ContactsPage />} />
                 </Routes>
+                <AboutClinic />
             </div>
         </Router>
     );
