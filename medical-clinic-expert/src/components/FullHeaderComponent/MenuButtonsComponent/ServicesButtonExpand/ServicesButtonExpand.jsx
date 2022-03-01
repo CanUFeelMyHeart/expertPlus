@@ -1,26 +1,26 @@
 import React from "react";
-import "./InformationButtonExpand.css";
+import "./ServicesButtonExpand.css";
 
-export const InformationButtonExpand = (props) => {
+export const ServicesButtonExpand = (props) => {
     return (
         <>
             <div
-                className="infoExpandingList"
+                className="servicesExpandingList"
                 style={{
-                    display: props.openInfo ? "block" : "none",
+                    display: props.openServices ? "block" : "none",
                 }}
             >
                 <div
                     style={{
-                        display: props.openInfo ? "flex" : "none",
+                        display: props.openServices ? "flex" : "none",
                     }}
-                    className="infoExpandingListContainer"
+                    className="servicesExpandingListContainer"
                 >
-                    {props.informationButton.map((button, index) => (
+                    {props.servicesButton.map((button, index) => (
                         <>
                             <button
                                 key={index}
-                                className="infoExpandingList__button"
+                                className="servicesExpandingList__button"
                             >
                                 <h4>{button.name}</h4>
                             </button>
