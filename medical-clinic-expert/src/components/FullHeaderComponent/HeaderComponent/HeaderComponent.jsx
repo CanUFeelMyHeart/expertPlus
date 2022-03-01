@@ -1,13 +1,19 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./HeaderComponent.css";
 import logo from "../../../img/logo.svg";
 
 export const HeaderComponent = () => {
+    const navigate = useNavigate();
+
     return (
         <>
             <div className="header">
                 <div className="headerMainButton">
-                    <button className="expertButton">
+                    <button
+                        className="expertButton"
+                        onClick={(e) => navigate("/")}
+                    >
                         ЭКСПЕРТ
                         <img className="expertButton_logo" src={logo} />
                     </button>

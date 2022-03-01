@@ -7,22 +7,27 @@ const buttons = [
     {
         name: "Информация",
         expandArrow: expandArrow,
+        ref: "/info",
     },
     {
         name: "Медуслуги",
         expandArrow: expandArrow,
+        ref: "/services",
     },
     {
         name: "Сотрудники",
         expandArrow: "",
+        ref: "/doctors",
     },
     {
         name: "ДМС",
         expandArrow: "",
+        ref: "/dms",
     },
     {
         name: "Контакты",
         expandArrow: "",
+        ref: "/contacts",
     },
 ];
 
@@ -32,7 +37,6 @@ export const UnderHeaderMenuComponent = () => {
             <div className="menuButtonsAll">
                 <MenuButtonsComponent
                     buttons={buttons}
-                    expandArrow={expandArrow}
                     className="menuButtons"
                 />
                 <button className="makeAnAppointmentButton">
