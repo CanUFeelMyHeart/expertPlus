@@ -7,7 +7,7 @@ export const FullHeaderComponent = () => {
     return (
         <>
             <div className="FullHeaderComponent">
-                <div className="FullHeaderComponentContainer">
+                <div className="FullHeaderComponent__container">
                     <HeaderComponent />
                     <UnderHeaderMenuComponent />
                 </div>
