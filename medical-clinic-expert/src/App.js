@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { FullHeaderComponent as Header } from "./components/FullHeaderComponent/FullHeaderComponent";
 import { AboutClinicComponent as AboutClinic } from "./components/AboutClinicComponent/AboutClinicComponent";
-
+import { ServicesComponent } from "./components/ServicesComponent/ServicesComponent";
 import { ContactsPage } from "./pages/ContactsPage/ContactsPage";
 import { DmsPage } from "./pages/DmsPage/DmsPage";
 import { DoctorsPage } from "./pages/DoctorsPage/DoctorsPage";
@@ -22,6 +22,7 @@ function App() {
                     <Route path="/contacts" element={<ContactsPage />} />
                 </Routes>
                 <AboutClinic />
+                <ServicesComponent />
             </div>
         </Router>
     );

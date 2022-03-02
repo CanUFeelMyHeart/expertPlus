@@ -1,9 +1,10 @@
-.aboutClinic {
+.servicesBlock {
     width: 1160px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
-.aboutClinic__header {
+.servicesBlock__header {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
@@ -16,7 +17,7 @@
     margin-top: 15px;
 }
 
-.aboutClinic__description {
+.servicesBlock__description {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 300;
@@ -27,8 +28,10 @@
     color: #484848;
 }
 
-.aboutClinic__aboutClinicBlockComponent {
+.servicesBlock__availableServices {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     margin-top: 20px;
+    margin-left: 20px;
 }
