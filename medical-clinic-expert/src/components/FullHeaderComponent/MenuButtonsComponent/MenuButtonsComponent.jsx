@@ -54,13 +54,16 @@ export const MenuButtonsComponent = (props) => {
                     </button>
                 ))}
             </div>
+            <>
             <InfoButton
                 openInfo={openInfo}
                 informationButton={props.informationButton}
-            />
+                onClick={() => setOpenInfo(!openInfo)}
+            /></>
             <ServicesButton
                 openServices={openServices}
                 servicesButton={props.servicesButton}
+                onClick={() => setOpenServices(!openServices)}
             />
         </>
     );

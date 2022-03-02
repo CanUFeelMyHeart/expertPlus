@@ -13,16 +13,13 @@ export const ServicesButtonExpand = (props) => {
         <>
             <div
                 className="servicesExpandingList"
+                id="servicesExpandingList"
                 style={{
                     display: props.openServices ? "block" : "none",
                 }}
+                onClick={props.onClick}
             >
-                <div
-                    style={{
-                        display: props.openServices ? "flex" : "none",
-                    }}
-                    className="servicesExpandingList__container"
-                >
+                <div className="servicesExpandingList__container">
                     {props.servicesButton.map((button, index) => (
                         <>
                             <button

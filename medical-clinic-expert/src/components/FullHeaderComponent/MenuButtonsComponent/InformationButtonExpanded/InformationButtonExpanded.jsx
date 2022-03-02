@@ -9,13 +9,9 @@ export const InformationButtonExpand = (props) => {
                 style={{
                     display: props.openInfo ? "block" : "none",
                 }}
+                onClick={props.onClick}
             >
-                <div
-                    style={{
-                        display: props.openInfo ? "flex" : "none",
-                    }}
-                    className="infoExpandingList__container"
-                >
+                <div className="infoExpandingList__container">
                     {props.informationButton.map((button, index) => (
                         <>
                             <button

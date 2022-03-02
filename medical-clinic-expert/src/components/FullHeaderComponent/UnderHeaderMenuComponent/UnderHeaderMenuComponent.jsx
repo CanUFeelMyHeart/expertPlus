@@ -68,7 +68,7 @@ export const UnderHeaderMenuComponent = () => {
                     buttons={buttons}
                 />
                 <button className="menuButtonsAll__makeAnAppointmentButton">
-                    Записаться на прием
+                    <h3>Записаться на прием</h3>
                 </button>
             </div>
             <hr className="header__underline" />
