@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ScrollToTop from './ScrollToTop'
 
 import { ContactsPage } from "../../pages/ContactsPage/ContactsPage"
 import { DmsPage } from "../../pages/DmsPage/DmsPage";
@@ -33,6 +34,7 @@ import { UrologistServicePage } from '../../pages/ServicesPages/UrologistService
 export const NavigationRouter = ({children}) => {
     return (
         <Router>
+            <ScrollToTop/>
             {children}
                 <Routes>
                 <Route path="/" exact element={<MainPage />} />
