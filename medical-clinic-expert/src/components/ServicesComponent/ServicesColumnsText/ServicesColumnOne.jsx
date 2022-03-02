@@ -1,34 +1,34 @@
 export const services1 = [
     {
         name: "Акушер-гинеколог",
-        ref: "dsfds",
+        ref: "/ginekolog",
     },
     {
-        name: "Аллерголок-иммунолог",
-        ref: "dsfds",
+        name: "Аллерголог-иммунолог",
+        ref: "/allergolog-immunolog",
     },
     {
         name: "Гастроэнтеролог",
-        ref: "dsfds",
+        ref: "/gastroenterolog",
     },
     {
         name: "Дерматолог",
-        ref: "dsfds",
+        ref: "/dermatolog",
     },
     {
         name: "Кардиолог",
-        ref: "dsfds",
+        ref: "/kardiolog",
     },
     {
         name: "Колопроктолог",
-        ref: "dsfds",
+        ref: "/koloproktolog",
     },
     {
         name: "Массаж",
-        ref: "dsfds",
+        ref: "/massage",
     },
     {
         name: "Невролог",
-        ref: "dsfds",
+        ref: "/nevrolog",
     },
 ];

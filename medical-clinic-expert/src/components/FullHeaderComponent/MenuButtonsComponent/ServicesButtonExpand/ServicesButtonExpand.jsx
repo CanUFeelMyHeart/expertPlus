@@ -1,7 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./ServicesButtonExpand.css";
 
 export const ServicesButtonExpand = (props) => {
+    const navigate = useNavigate();
+
+    function handleClick(ref) {
+        navigate(ref);
+    }
+
     return (
         <>
             <div
@@ -21,6 +28,7 @@ export const ServicesButtonExpand = (props) => {
                             <button
                                 key={index}
                                 className="servicesExpandingList__container_button"
+                                onClick={() => handleClick(button.ref)}
                             >
                                 <h3>{button.name}</h3>
                             </button>
