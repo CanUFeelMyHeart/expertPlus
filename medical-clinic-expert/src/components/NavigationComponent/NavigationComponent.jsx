@@ -6,6 +6,9 @@ import { ContactsPage } from "../../pages/ContactsPage/ContactsPage"
 import { DmsPage } from "../../pages/DmsPage/DmsPage";
 import { DoctorsPage } from "../../pages/DoctorsPage/DoctorsPage";
 import { MainPage } from "../../pages/MainPage/MainPage";
+
+
+
 import { AllergistImmunologistServicePage } from '../../pages/ServicesPages/AllergistImmunologistServicePage/AllergistImmunologistServicePage'
 import { CardiologistServicePage } from '../../pages/ServicesPages/CardiologistServicePage/CardiologistServicePage'
 import { CardiovascularSurgeonServicePage } from '../../pages/ServicesPages/CardiovascularSurgeonServicePage/CardiovascularSurgeonServicePage'
@@ -42,30 +45,30 @@ export const NavigationRouter = ({children}) => {
                 <Route path="/dms" element={<DmsPage />} />
                 <Route path="/contacts" element={<ContactsPage />} />
 
-                <Route path="/allergolog-immunolog" element={<AllergistImmunologistServicePage />} />
-                <Route path="/kardiolog" element={<CardiologistServicePage />} />
-                <Route path="/serdechno-sosudistiy-hirurg" element={<CardiovascularSurgeonServicePage />} />
-                <Route path="/koloproktolog" element={<ColoproctologistServicePage />} />
-                <Route path="/dermatolog" element={<DermatologistServicePage />} />
-                <Route path="/endokrinolog" element={<EndocrinologistServicePage />} />
-                <Route path="/funkczionalnaya-diagnostika" element={<FunctionalDiagnosticsServicePage />} />
-                <Route path="/gastroenterolog" element={<GastroenterologistServicePage />} />
-                <Route path="/ginekolog" element={<GynecologistServicePage />} />
-                <Route path="/massage" element={<MassageServicePage />} />
-                <Route path="/nevrolog" element={<NeurologistServicePage />} />
-                <Route path="/onkolog" element={<OncologistServicePage />} />
-                <Route path="/prochie-uslugi" element={<OtherServicesPage />} />
-                <Route path="/otorinolaringolog" element={<OtorhinolaryngologistServicePage />} />
-                <Route path="/fizioterapiya" element={<PhysiotherapyServicePage />} />
-                <Route path="/psikholog" element={<PsychologistServicePage />} />
-                <Route path="/pulmonolog" element={<PulmonologistServicePage />} />
-                <Route path="/revmatolog" element={<RheumatologistServicePage />} />
-                <Route path="/xirurg" element={<SurgeonServicePage />} />
-                <Route path="/terapevt" element={<TherapistServicePage />} />
-                <Route path="/travmatolog-ortoped" element={<TraumatologistOrthopedistServicePage />} />
-                <Route path="/proczedurnyij-kabinet" element={<TreatmentRoomServicePage />} />
-                <Route path="/ultrazvukovaya-diagnostika" element={<UltrasoundDiagnosticsServicePage />} />
-                <Route path="/urolog" element={<UrologistServicePage />} />
+                <Route path="/services/allergolog-immunolog" element={<AllergistImmunologistServicePage />} />
+                <Route path="/services/kardiolog" element={<CardiologistServicePage />} />
+                <Route path="/services/serdechno-sosudistiy-hirurg" element={<CardiovascularSurgeonServicePage />} />
+                <Route path="/services/koloproktolog" element={<ColoproctologistServicePage />} />
+                <Route path="/services/dermatolog" element={<DermatologistServicePage />} />
+                <Route path="/services/endokrinolog" element={<EndocrinologistServicePage />} />
+                <Route path="/services/funkczionalnaya-diagnostika" element={<FunctionalDiagnosticsServicePage />} />
+                <Route path="/services/gastroenterolog" element={<GastroenterologistServicePage />} />
+                <Route path="/services/ginekolog" element={<GynecologistServicePage />} />
+                <Route path="/services/massage" element={<MassageServicePage />} />
+                <Route path="/services/nevrolog" element={<NeurologistServicePage />} />
+                <Route path="/services/onkolog" element={<OncologistServicePage />} />
+                <Route path="/services/prochie-uslugi" element={<OtherServicesPage />} />
+                <Route path="/services/otorinolaringolog" element={<OtorhinolaryngologistServicePage />} />
+                <Route path="/services/fizioterapiya" element={<PhysiotherapyServicePage />} />
+                <Route path="/services/psikholog" element={<PsychologistServicePage />} />
+                <Route path="/services/pulmonolog" element={<PulmonologistServicePage />} />
+                <Route path="/services/revmatolog" element={<RheumatologistServicePage />} />
+                <Route path="/services/xirurg" element={<SurgeonServicePage />} />
+                <Route path="/services/terapevt" element={<TherapistServicePage />} />
+                <Route path="/services/travmatolog-ortoped" element={<TraumatologistOrthopedistServicePage />} />
+                <Route path="/services/proczedurnyij-kabinet" element={<TreatmentRoomServicePage />} />
+                <Route path="/services/ultrazvukovaya-diagnostika" element={<UltrasoundDiagnosticsServicePage />} />
+                <Route path="/services/urolog" element={<UrologistServicePage />} />
             </Routes>
         </Router>
     );

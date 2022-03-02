@@ -1,34 +1,34 @@
 export const services3 = [
     {
         name: "Травматолог-ортопед",
-        ref: "/travmatolog-ortoped",
+        ref: "/services/travmatolog-ortoped",
     },
     {
         name: "Ультразвуковая диагностика (УЗИ)",
-        ref: "/ultrazvukovaya-diagnostika",
+        ref: "/services/ultrazvukovaya-diagnostika",
     },
     {
         name: "Уролог",
-        ref: "/urolog",
+        ref: "/services/urolog",
     },
     {
         name: "Физиотерапия",
-        ref: "/fizioterapiya",
+        ref: "/services/fizioterapiya",
     },
     {
         name: "Функциональная диагностика",
-        ref: "/funkczionalnaya-diagnostika",
+        ref: "/services/funkczionalnaya-diagnostika",
     },
     {
         name: "Хирург",
-        ref: "/xirurg",
+        ref: "/services/xirurg",
     },
     {
         name: "Эндокринолог",
-        ref: "/endokrinolog",
+        ref: "/services/endokrinolog",
     },
     {
         name: "Прочие услуги",
-        ref: "/prochie-uslugi",
+        ref: "/services/prochie-uslugi",
     }
 ];
