@@ -1,7 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./InformationButtonExpand.css";
 
 export const InformationButtonExpand = (props) => {
+    const navigate = useNavigate();
+
+    function handleClick(ref) {
+        navigate(ref);
+    }
+
     return (
         <>
             <div
@@ -17,6 +24,7 @@ export const InformationButtonExpand = (props) => {
                             <button
                                 key={index}
                                 className="infoExpandingList__container_button"
+                                onClick={() => handleClick(button.ref)}
                             >
                                 <h3>{button.name}</h3>
                             </button>

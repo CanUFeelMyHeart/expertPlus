@@ -7,7 +7,15 @@ import { DmsPage } from "../../pages/DmsPage/DmsPage";
 import { DoctorsPage } from "../../pages/DoctorsPage/DoctorsPage";
 import { MainPage } from "../../pages/MainPage/MainPage";
 
-
+import { InfoAboutPage } from '../../pages/InformationPage/InfoAboutPage/InfoAboutPage'
+import { InfoControlOrgPage } from '../../pages/InformationPage/InfoControlOrgPage/InfoControlOrgPage'
+import { InfoLegFramPage } from '../../pages/InformationPage/InfoLegFramPage/InfoLegFramPage'
+import { InfoLicencePage } from '../../pages/InformationPage/InfoLicencePage/InfoLicencePage'
+import { InfoMapPage } from '../../pages/InformationPage/InfoMapPage/InfoMapPage'
+import { InfoOffDocumentsPage } from '../../pages/InformationPage/InfoOffDocumentsPage/InfoOffDocumentsPage'
+import { InfoQualificationsPage } from '../../pages/InformationPage/InfoQualificationsPage/InfoQualificationsPage'
+import { InfoRegulationsPage } from '../../pages/InformationPage/InfoRegulationsPage/InfoRegulationsPage'
+import { InfoVacanciesPage } from '../../pages/InformationPage/InfoVacanciesPage/InfoVacanciesPage'
 
 import { AllergistImmunologistServicePage } from '../../pages/ServicesPages/AllergistImmunologistServicePage/AllergistImmunologistServicePage'
 import { CardiologistServicePage } from '../../pages/ServicesPages/CardiologistServicePage/CardiologistServicePage'
@@ -44,6 +52,16 @@ export const NavigationRouter = ({children}) => {
                 <Route path="/doctors" element={<DoctorsPage />} />
                 <Route path="/dms" element={<DmsPage />} />
                 <Route path="/contacts" element={<ContactsPage />} />
+
+                <Route path="/info/about" element={<InfoAboutPage />} />
+                <Route path="/info/control-org" element={<InfoControlOrgPage />} />
+                <Route path="/info/docs" element={<InfoLegFramPage />} />
+                <Route path="/info/licence" element={<InfoLicencePage />} />
+                <Route path="/info/sitemap" element={<InfoMapPage />} />
+                <Route path="/info/oficialnyie-dokumenty" element={<InfoOffDocumentsPage />} />
+                <Route path="/info/svedeniya-o-kvalifikaczii-mediczinskix-rabotnikov" element={<InfoQualificationsPage />} />
+                <Route path="/info/polozhenie-o-predostavlenii-platnyix-mediczinskix-uslug" element={<InfoRegulationsPage />} />
+                <Route path="/info/jobs" element={<InfoVacanciesPage />} />
 
                 <Route path="/services/allergolog-immunolog" element={<AllergistImmunologistServicePage />} />
                 <Route path="/services/kardiolog" element={<CardiologistServicePage />} />
