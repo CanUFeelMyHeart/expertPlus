@@ -14,17 +14,17 @@ export const ServicesButtonExpand = (props) => {
                     style={{
                         display: props.openServices ? "flex" : "none",
                     }}
-                    className="servicesExpandingListContainer"
+                    className="servicesExpandingList__container"
                 >
                     {props.servicesButton.map((button, index) => (
                         <>
                             <button
                                 key={index}
-                                className="servicesExpandingList__button"
+                                className="servicesExpandingList__container_button"
                             >
                                 <h4>{button.name}</h4>
                             </button>
-                            <hr className="expandedListHr" />
+                            <hr className="servicesExpandingList__container_hr" />
                         </>
                     ))}
                 </div>
