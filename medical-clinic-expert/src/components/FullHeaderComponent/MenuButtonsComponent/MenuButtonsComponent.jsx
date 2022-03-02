@@ -50,7 +50,7 @@ export const MenuButtonsComponent = (props) => {
                         className="menuButton"
                         onClick={(e) => handleClick(button.ref)}
                     >
-                        <h4>{button.name}</h4>
+                        <h3>{button.name}</h3>
                     </button>
                 ))}
             </div>

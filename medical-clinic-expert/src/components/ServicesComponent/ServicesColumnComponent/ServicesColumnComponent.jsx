@@ -19,7 +19,7 @@ export const ServicesColumnComponent = (props) => {
                     //onClick={(e) => handleClick(button.ref)}
                 >
                     <img src={availableServiceArrow} className="servicesColumnComponent_arrow"></img>
-                    <h4>{service.name}</h4>
+                    <h3>{service.name}</h3>
                 </button>
             ))}
         </div>

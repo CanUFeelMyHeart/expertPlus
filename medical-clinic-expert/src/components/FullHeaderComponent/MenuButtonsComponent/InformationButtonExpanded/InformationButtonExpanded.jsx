@@ -22,7 +22,7 @@ export const InformationButtonExpand = (props) => {
                                 key={index}
                                 className="infoExpandingList__container_button"
                             >
-                                <h4>{button.name}</h4>
+                                <h3>{button.name}</h3>
                             </button>
                             <hr className="infoExpandingList__container_hr" />
                         </>

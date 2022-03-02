@@ -8,13 +8,13 @@ import "./ServicesComponent.css";
 export const ServicesComponent = () => {
     return (
         <div className="servicesBlock">
-            <h1 className="servicesBlock__header">Оказываемые услуги</h1>
-            <h2 className="servicesBlock__description">
+            <h2 className="servicesBlock__header">Оказываемые услуги</h2>
+            <h3 className="servicesBlock__description">
                 В клинике практикуют высококвалифицированные специалисты в
                 области гинекологии, неврологии, эндокринологии, терапии,
                 хирургии, травматологии-ортопедии, врачи с большим опытом УЗИ и
                 функциональной (ЭЭГ, Холтер) диагностики.
-            </h2>
+            </h3>
 
             <div className="servicesBlock__availableServices">
                 <Column services={services1} />
