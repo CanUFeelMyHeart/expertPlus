@@ -5,7 +5,7 @@
     margin: 0 auto;
 }
 
-.makeAnAppointmentButton {
+.menuButtonsAll__makeAnAppointmentButton {
     width: 191px;
     justify-self: end;
     cursor: pointer;
