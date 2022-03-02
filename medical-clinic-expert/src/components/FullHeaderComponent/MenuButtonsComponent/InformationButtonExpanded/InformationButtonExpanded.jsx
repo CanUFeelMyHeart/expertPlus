@@ -14,17 +14,17 @@ export const InformationButtonExpand = (props) => {
                     style={{
                         display: props.openInfo ? "flex" : "none",
                     }}
-                    className="infoExpandingListContainer"
+                    className="infoExpandingList__container"
                 >
                     {props.informationButton.map((button, index) => (
                         <>
                             <button
                                 key={index}
-                                className="infoExpandingList__button"
+                                className="infoExpandingList__container_button"
                             >
                                 <h4>{button.name}</h4>
                             </button>
-                            <hr className="expandedListHr" />
+                            <hr className="infoExpandingList__container_hr" />
                         </>
                     ))}
                 </div>

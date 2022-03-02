@@ -29,20 +29,20 @@ export const MenuButtonsComponent = (props) => {
 
     return (
         <>
-            <div className={props.className}>
+            <div className="menuButtons">
                 <button
                     className="menuButton"
                     onClick={() => setOpenInfoFunction()}
                 >
                     Информация
-                    <img className="menuButtonExpandArrow" src={expandArrow} />
+                    <img className="menuButton__expandArrow" src={expandArrow} />
                 </button>
                 <button
                     className="menuButton"
                     onClick={() => setOpenServicesFunction()}
                 >
                     Медуслуги
-                    <img className="menuButtonExpandArrow" src={expandArrow} />
+                    <img className="menuButton__expandArrow" src={expandArrow} />
                 </button>
                 {props.buttons.map((button, index) => (
                     <button
