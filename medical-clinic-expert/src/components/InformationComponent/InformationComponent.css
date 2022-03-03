@@ -1,0 +1,31 @@
+/* .InformationContainer {
+    width: 1920px;
+    height: 1080px;
+    color: red;
+    margin: 0 auto;
+    /* margin-bottom: 20px; */
+    /* text-align: center;
+} */ 
+
+.informationBlock {
+    width: 1920px;
+    height: 703px;
+    /* background-image: url("../../img/bg_fone.png"); */
+}
+
+
+.informationHeading {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    width: 1040px;
+    display: inline-block; 
+    letter-spacing: 0.05em;
+    padding-right: 300px; 
+     color:#484848;
+} 
+
+
