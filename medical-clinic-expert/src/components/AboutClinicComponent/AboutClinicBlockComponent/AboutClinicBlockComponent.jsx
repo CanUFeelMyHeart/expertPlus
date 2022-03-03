@@ -1,20 +1,18 @@
 import React from "react";
 import "./AboutClinicBlockComponent.css";
-import testImage from "../../../img/logo.svg";
 
-export const AboutClinicBlockComponent = () => {
+export const AboutClinicBlockComponent = (props) => {
     return (
         <div className="aboutClinicBlock">
             <div className="aboutClinicBlock__img">
-                <img src={testImage}></img>
+                <img src={props.image}></img>
             </div>
             <div className="aboutClinicBlock__header">
-                <h2>Спец узкого профиля</h2>
+                <h2>{props.header}</h2>
             </div>
             <div className="aboutClinicBlock__description">
                 <h3>
-                    Онколог-маммолог Аллерголог-иммунолог, пульмонолог •
-                    Колопроктолог • Дерматолог • Сердечно-сосудистый хирург
+                    {props.description}
                 </h3>
             </div>
         </div>

@@ -1,8 +1,9 @@
 import React from "react";
 import { AboutClinicBlockComponent } from "./AboutClinicBlockComponent/AboutClinicBlockComponent";
+import { aboutClinicInfo } from "./AboutClinicInfo";
 import "./AboutClinicComponent.css";
 
-export const AboutClinicComponent = () => {
+export const AboutClinicComponent = (props) => {
     return (
         <div className="aboutClinic">
             <h2 className="aboutClinic__header">О клинике</h2>
@@ -18,10 +19,13 @@ export const AboutClinicComponent = () => {
                 которой разработают для Вас индивидуальную схему лечения.
             </h3>
             <div className="aboutClinic__aboutClinicBlockComponent">
-                <AboutClinicBlockComponent />
-                <AboutClinicBlockComponent />
-                <AboutClinicBlockComponent />
-                <AboutClinicBlockComponent />
+                {aboutClinicInfo.map((aboutClinicInfoBlock, index) => (
+                    <AboutClinicBlockComponent
+                        image={aboutClinicInfoBlock.image}
+                        header={aboutClinicInfoBlock.header}
+                        description={aboutClinicInfoBlock.description}
+                    />
+                ))}
             </div>
         </div>
     );
