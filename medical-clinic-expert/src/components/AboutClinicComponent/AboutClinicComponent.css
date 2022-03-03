@@ -1,5 +1,6 @@
 .aboutClinic {
     width: 1160px;
+    min-width: 1024px;
     margin: 0 auto;
 }
 
@@ -28,5 +29,6 @@
 .aboutClinic__aboutClinicBlockComponent {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     margin-top: 20px;
 }
