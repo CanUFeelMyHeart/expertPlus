@@ -11,9 +11,13 @@ export const AboutClinicBlockComponent = (props) => {
                 <h2>{props.header}</h2>
             </div>
             <div className="aboutClinicBlock__description">
-                <h3>
-                    {props.description}
-                </h3>
+                <ul className={props.ulClassName}>
+                    {props.description.map((description, index) => (
+                        <li key={index}>
+                            <h3>{description}</h3>
+                        </li>
+                    ))}
+                </ul>
             </div>
         </div>
     );

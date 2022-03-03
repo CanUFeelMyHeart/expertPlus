@@ -24,6 +24,7 @@ export const AboutClinicComponent = (props) => {
                         image={aboutClinicInfoBlock.image}
                         header={aboutClinicInfoBlock.header}
                         description={aboutClinicInfoBlock.description}
+                        ulClassName={aboutClinicInfoBlock.ulClassName}
                     />
                 ))}
             </div>

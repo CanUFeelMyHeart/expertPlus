@@ -42,3 +42,11 @@
     padding: 10px 20px;
     color: #ffffff;
 }
+
+.noDots {
+    list-style-type: none;
+}
+
+.withDots {
+    padding: 0px 20px;
+}
