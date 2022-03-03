@@ -9,6 +9,7 @@
 
 .informationBlock {
     width: 1920px;
+    padding-bottom: 100px;
     height: 703px;
     background-image: url("../../img/bg_fone.png"); 
 }
@@ -21,7 +22,7 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
-    text-align: center;
+    text-align: left;
     width: 1040px;
     margin: 0px 10px; 
     letter-spacing: 0.05em;
@@ -31,6 +32,12 @@
 
 .informationTextContainer {
     width: 1040px;
-    height: 612px;
-    text-align: center;
+    height: 627px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 15px 15px 45px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    align-items: flex-start;
+    padding: 10px 10px 15px;
+    
+    margin: 37px 240px;   
 }
