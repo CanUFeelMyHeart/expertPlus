@@ -3,7 +3,8 @@
     min-width: 100px;
     height: 400px;
     display: flex;
-    margin: 13.5px;
+    margin: 0px 13.5px;
+    margin-bottom: 20px;
     flex-direction: column;
     align-items: center;
 
@@ -60,5 +61,4 @@
 .aboutClinicBlock:hover {
     background: linear-gradient(209.51deg, #8791e6 0.34%, #0d69c0 99.44%);
     transform: scale(1.03);
-
 }
