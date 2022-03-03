@@ -1,9 +1,20 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./AboutClinicBlockComponent.css";
 
 export const AboutClinicBlockComponent = (props) => {
+    const navigate = useNavigate();
+
+    function HandleClick(ref) {
+        navigate(ref);
+        window.scrollTo(0, 0);
+    }
+
     return (
-        <div className="aboutClinicBlock">
+        <button
+            className="aboutClinicBlock"
+            onClick={() => HandleClick(props.reff)}
+        >
             <div className="aboutClinicBlock__img">
                 <img src={props.image}></img>
             </div>
@@ -19,6 +30,6 @@ export const AboutClinicBlockComponent = (props) => {
                     ))}
                 </ul>
             </div>
-        </div>
+        </button>
     );
 };

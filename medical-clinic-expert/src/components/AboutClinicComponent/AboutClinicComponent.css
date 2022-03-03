@@ -32,3 +32,9 @@
     justify-content: space-between;
     margin-top: 20px;
 }
+
+.aboutClinic__hr {
+    border-bottom: 1px solid #4c89c1;
+    max-width: 960px;
+    margin: 0 auto;
+}

@@ -5,10 +5,14 @@
     display: flex;
     margin: 13.5px;
     flex-direction: column;
+    align-items: center;
 
     background: linear-gradient(209.51deg, #9fa6e8 0.34%, #3281c9 99.44%);
     box-shadow: 15px 15px 45px 5px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
+
+    cursor: pointer;
+    transition: transform 250ms;
 }
 
 .aboutClinicBlock__img {
@@ -26,6 +30,7 @@
     align-items: center;
     font-family: "Roboto";
     font-style: normal;
+    text-align: left;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
@@ -39,6 +44,7 @@
     font-weight: 300;
     line-height: 21px;
     letter-spacing: -0.02em;
+    text-align: left;
     padding: 10px 20px;
     color: #ffffff;
 }
@@ -49,4 +55,10 @@
 
 .withDots {
     padding: 0px 20px;
+}
+
+.aboutClinicBlock:hover {
+    background: linear-gradient(209.51deg, #8791e6 0.34%, #0d69c0 99.44%);
+    transform: scale(1.03);
+
 }

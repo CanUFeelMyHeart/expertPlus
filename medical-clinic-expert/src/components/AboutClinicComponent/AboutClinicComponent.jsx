@@ -20,14 +20,16 @@ export const AboutClinicComponent = (props) => {
             </h3>
             <div className="aboutClinic__aboutClinicBlockComponent">
                 {aboutClinicInfo.map((aboutClinicInfoBlock, index) => (
-                    <AboutClinicBlockComponent
+                    <AboutClinicBlockComponent key={index}
                         image={aboutClinicInfoBlock.image}
                         header={aboutClinicInfoBlock.header}
                         description={aboutClinicInfoBlock.description}
                         ulClassName={aboutClinicInfoBlock.ulClassName}
+                        reff={aboutClinicInfoBlock.ref}
                     />
                 ))}
             </div>
+            <hr className="aboutClinic__hr"/>
         </div>
     );
 };
