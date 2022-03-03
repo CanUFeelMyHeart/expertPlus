@@ -9,7 +9,9 @@ export const InformationComponent = () => {
         <div className="informationBlock">
             
             <div className="informationTextContainer"> 
-                <h3 className="informationHeading">Частная медицинская клиника «Эксперт Плюс»</h3>
+                <div className="informationFrame">
+                    <h3 className="informationHeading">Частная медицинская клиника «Эксперт Плюс»</h3>
+                </div>
             </div>
         </div>
       
