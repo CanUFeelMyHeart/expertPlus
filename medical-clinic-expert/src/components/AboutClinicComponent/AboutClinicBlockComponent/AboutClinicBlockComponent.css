@@ -16,4 +16,29 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 10px;
+}
+
+.aboutClinicBlock__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+.aboutClinicBlock__description {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    padding: 10px;
+    color: #ffffff;
 }
