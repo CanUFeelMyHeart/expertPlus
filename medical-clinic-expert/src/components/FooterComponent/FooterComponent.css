@@ -1,0 +1,27 @@
+.footerBlock {
+    background: #eaeaea;
+    height: 74px;
+}
+
+.footerContainer {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.footerContainer__statistic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 49px;
+}
+
+.footerContainer_info {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 115.4%;
+    letter-spacing: 0.055em;
+}
+
+.footerContainer_statImage {
+    margin-right: 7px;
+}
