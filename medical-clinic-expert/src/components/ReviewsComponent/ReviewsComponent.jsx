@@ -1,23 +1,44 @@
 import React from "react";
+import { CarouselSectionComponent } from "./CarouselSectionComponent";
+import { comments } from "./ReviewsInfo";
+import { carousel__navigation } from "./NavInfo";
 import "./ReviewsComponent.css";
-
-var items = [
-    {
-        name: "Пациент",
-        description:
-            "Наблюдаюсь у гинеколога Летуновской Ольги Викторовны Врач от Бога!! Очень благодарна , за ее профессионализм, лечение помогает, сама проводит обследование ,все очень доступно объясняет, очень внимательная. Лечилась у многих гинекологов в Красноармейском районе ,на сегодняшний момент это лучший доктор!!",
-    },
-    {
-        name: "Петрова О.Л.",
-        description:
-            "Очень редкое сочетание – симпатичная девушка, профессионализм и уважение к старшим. Она провела мне ультразвуковую диагностику желчного пузыря и, не смотря на не утешительный диагноз, помогла добрым словом и дала необходимые рекомендации. Кстати, после очень сложной операции, позже, мы случайно встретились в коридоре, и она поздоровалась со мной по имени и отчеству, пожелала скорейшего выздоровления. А это говорит о том, что Анна Эдуардовна с душой относится к своей работе и переживает за своих пациентов.",
-    },
-];
 
 export const ReviewsComponent = (props) => {
     return (
         <div className="reviewsComponent__block">
-
+            <h2 className="reviewsComponent__block_header">Отзывы клиентов</h2>
+            <div className="reviewsComponent__block_carousel">
+                <section className="carousel" aria-label="Gallery">
+                    <ol className="carousel__viewport">
+                        {comments.map((comment, index) => (
+                            <CarouselSectionComponent
+                                key={index}
+                                name={comment.name}
+                                description={comment.description}
+                                id={comment.id}
+                                href_prev={comment.href_prev}
+                                href_next={comment.href_next}
+                            />
+                        ))}
+                    </ol>
+                    <aside className="carousel__navigation">
+                        <ol className="carousel__navigation-list">
+                            {carousel__navigation.map((nav, index) => (
+                                <li
+                                    key={index}
+                                    className="carousel__navigation-item"
+                                >
+                                    <a
+                                        href={nav.href}
+                                        className="carousel__navigation-button"
+                                    ></a>
+                                </li>
+                            ))}
+                        </ol>
+                    </aside>
+                </section>
+            </div>
         </div>
     );
 };
