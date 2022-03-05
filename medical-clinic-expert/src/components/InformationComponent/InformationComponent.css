@@ -1,15 +1,7 @@
-/* .InformationContainer {
-    width: 1920px;
-    height: 1080px;
-    color: red;
-    margin: 0 auto;
-    /* margin-bottom: 20px; */
-    /* text-align: center;
-} */ 
 
 .informationBlock {
     width: 1920px;
-    padding-bottom: 100px;
+    padding-top: 5px;
     height: 703px;
     background-image: url("../../img/bg_fone.png"); 
 }
@@ -24,7 +16,7 @@
     line-height: 28px;
     text-align: left;
     width: 1040px;
-    margin: 0px 10px; 
+    /* margin: 0px 10px;  */
     letter-spacing: 0.05em;
     padding: 20px 10px 20px 50px;
     color:#484848;
@@ -38,6 +30,34 @@
     border-radius: 20px;
     align-items: flex-start;
     padding: 10px 10px 15px;
-    
+    border-top: 100px;
     margin: 37px 240px;   
+}
+
+.informationUnderLine {
+    border: 1px solid #4C89C1;
+    width: 750px;
+}
+
+.informationAboutClinic {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    padding: 20px 70px 20px 70px;
+    color: #424242;
+    margin: 0px 10px;
+}
+
+.InformationAboutServises {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    margin: 0px 40px;
+    color: #424242;
 }
