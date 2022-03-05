@@ -8,6 +8,7 @@ import { DmsPage } from "./pages/DmsPage/DmsPage";
 import { DoctorsPage } from "./pages/DoctorsPage/DoctorsPage";
 import { MainPage } from "./pages/MainPage/MainPage";
 import {InformationComponent} from "./components/InformationComponent/InformationComponent"
+import {MapComponent} from "./components/MapComponent/MapComponent"
 function App() {
     return (
         <Router>
@@ -24,6 +25,7 @@ function App() {
                 <AboutClinic />
                 <ServicesComponent />
                 <InformationComponent />
+                <MapComponent/>
             </div>
         </Router>
     );
