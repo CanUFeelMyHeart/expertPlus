@@ -21,16 +21,15 @@ export const ServicesButtonExpand = (props) => {
             >
                 <div className="servicesExpandingList__container">
                     {props.servicesButton.map((button, index) => (
-                        <>
+                        <div key={index}>
                             <button
-                                key={index}
                                 className="servicesExpandingList__container_button"
                                 onClick={() => handleClick(button.ref)}
                             >
                                 <h3>{button.name}</h3>
                             </button>
                             <hr className="servicesExpandingList__container_hr" />
-                        </>
+                        </div>
                     ))}
                 </div>
             </div>
