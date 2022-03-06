@@ -1,0 +1,25 @@
+.menuButtons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 26px;
+    width: 575px;
+}
+
+.menuButton {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    color: #484848;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 0px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.menuButton__expandArrow {
+    padding-left: 6px;
+}

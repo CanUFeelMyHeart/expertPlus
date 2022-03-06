@@ -1,0 +1,23 @@
+.servicesColumnComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.servicesColumnComponent__serviceButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    padding: 12px 0px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.servicesColumnComponent_arrow {
+    margin-right: 20px;
+}

@@ -1,0 +1,9 @@
+.FullHeaderComponent {
+    max-width: 1510px;
+    margin: 0 auto;
+}
+
+.FullHeaderComponent__container {
+    margin-left: 40px;
+    margin-right: 40px;
+}
