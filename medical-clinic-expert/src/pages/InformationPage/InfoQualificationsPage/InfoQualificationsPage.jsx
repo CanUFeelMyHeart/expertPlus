@@ -1,6 +1,4 @@
 import React from "react";
-import { AboutClinicComponent } from "../../../components/AboutClinicComponent/AboutClinicComponent";
-import { ServicesComponent } from "../../../components/ServicesComponent/ServicesComponent";
 import { InformationContainerComponent } from "../../../components/InformationContainerComponent/InformationContainerComponent";
 import { qualificationsInfo } from "./QualificationsInfo";
 import "./InfoQualificationsPage.css";
@@ -51,8 +49,6 @@ export const InfoQualificationsPage = () => {
                     </tbody>
                 </table>
             </InformationContainerComponent>
-            <AboutClinicComponent />
-            <ServicesComponent />
         </div>
     );
 };

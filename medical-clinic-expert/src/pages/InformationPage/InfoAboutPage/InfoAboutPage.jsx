@@ -1,8 +1,6 @@
 import React from "react";
-import { AboutClinicComponent } from "../../../components/AboutClinicComponent/AboutClinicComponent";
-import { ServicesComponent } from "../../../components/ServicesComponent/ServicesComponent";
 import { InformationContainerComponent } from "../../../components/InformationContainerComponent/InformationContainerComponent";
-import './InfoAboutPage.css'
+import "./InfoAboutPage.css";
 
 export const InfoAboutPage = () => {
     return (
@@ -34,7 +32,9 @@ export const InfoAboutPage = () => {
                     8:00–18:00.
                 </h3>
                 <br />
-                <h3 className="InfoAboutPage_text">В клинике действует социальная система скидок:</h3>
+                <h3 className="InfoAboutPage_text">
+                    В клинике действует социальная система скидок:
+                </h3>
                 <br />
                 <h3 className="InfoAboutPage_text">
                     5% скидка на все услуги клиники медработникам, пенсионерам,
@@ -47,8 +47,6 @@ export const InfoAboutPage = () => {
                     запускаются бонусные программы.
                 </h3>
             </InformationContainerComponent>
-            <AboutClinicComponent />
-            <ServicesComponent />
         </div>
     );
 };
