@@ -4,6 +4,7 @@ import "./PriceListComponent.css";
 export const PriceListComponent = (props) => {
     return (
         <div className="PriceListBlock">
+            <h2 className="PriceListBlock_header">Прайс-лист</h2>
             <table className="PriceListComponent__table">
                 <thead>
                     <tr className="PriceListComponent__thead">
