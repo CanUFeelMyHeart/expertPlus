@@ -1,0 +1,8 @@
+.InfoLicencePage__picture {
+    max-width: 300px;
+    float: left;
+}
+
+.InfoLicencePage__picture img {
+    width: 100%;
+}
