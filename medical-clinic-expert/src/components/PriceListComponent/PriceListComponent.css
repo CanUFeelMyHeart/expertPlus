@@ -9,18 +9,38 @@
     color: #3d3d3d;
 }
 
+.PriceListBlock_header {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    margin-bottom: 25px;
+    margin-top: 15px;
+
+    color: #3281c9;
+}
+
 .PriceListComponent__table {
     border-collapse: collapse;
 }
 
 .PriceListComponent__thead {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
 }
 
-.PriceListComponent__thead_td {
+.PriceListComponent__thead_td,
+.PriceListComponent__thead_td_price {
     padding-left: 10px;
     padding-bottom: 5px;
+}
+
+.PriceListComponent__thead_td_price {
+    min-width: 150px;
 }
 
 .PriceListComponent__trow_td {
@@ -39,4 +59,27 @@ tbody tr:nth-child(odd) {
 
 tbody tr:nth-child(even) {
     background-color: #f9f9f9; /* фон четных строк */
+}
+
+.OfertaComponent {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.OfertaComponent__inner {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background: linear-gradient(89.89deg, #4c89c1 0%, #9fa6e8 100%);
+    border-radius: 10px;
+    padding: 15px 30px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+
+    letter-spacing: 0.05em;
 }
