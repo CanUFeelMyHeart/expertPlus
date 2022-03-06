@@ -136,6 +136,11 @@ li {
     height: 100%;
 }
 
+.carousel__slide_description,
+.carousel__slide_name {
+    font-weight: 400;
+}
+
 .carousel__slide:nth-child(even) {
     background: rgba(255, 255, 255, 0.8);
 }
@@ -202,7 +207,7 @@ li {
     display: inline-block;
     width: 1.5rem;
     height: 1.5rem;
-    background-color: #DDDDDD;
+    background-color: #dddddd;
     background-clip: content-box;
     border: 0.25rem solid transparent;
     border-radius: 50%;
