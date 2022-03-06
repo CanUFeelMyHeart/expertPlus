@@ -4,17 +4,19 @@
     align-items: flex-start;
     max-width: 1160px;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .InformationContainerComponent__header {
     font-family: "Roboto";
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 36px;
     line-height: 42px;
     letter-spacing: 0.05em;
     margin: 10px;
     margin-bottom: 30px;
+    margin-top: 20px;
 
     color: #4C4C4C;
 }
