@@ -1,0 +1,40 @@
+.InformationContainerComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 1160px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.InformationContainerComponent__container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.InformationContainerComponent__header {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+    margin: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+
+    color: #4C4C4C;
+}
+
+.InformationContainerComponent__mainInfo {
+    width: 100%;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 70px;
+    padding-bottom: 40px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 14px 14px 45px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}

@@ -1,6 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { FullHeaderComponent as Header } from "./components/FullHeaderComponent/FullHeaderComponent";
+<<<<<<< HEAD
 import { AboutClinicComponent as AboutClinic } from "./components/AboutClinicComponent/AboutClinicComponent";
 import { ServicesComponent } from "./components/ServicesComponent/ServicesComponent";
 import { ContactsPage } from "./pages/ContactsPage/ContactsPage";
@@ -8,12 +8,20 @@ import { DmsPage } from "./pages/DmsPage/DmsPage";
 import { DoctorsPage } from "./pages/DoctorsPage/DoctorsPage";
 import { MainPage } from "./pages/MainPage/MainPage";
 import {InformationComponent} from "./components/InformationComponent/InformationComponent"
+<<<<<<< Updated upstream
 import {MapComponent} from "./components/MapComponent/MapComponent"
+=======
+=======
+import { NavigationRouter as Router } from "./components/NavigationComponent/NavigationComponent";
+
+>>>>>>> main
+>>>>>>> Stashed changes
 function App() {
     return (
-        <Router>
-            <div className="App">
+        <div className="App">
+            <Router>
                 <Header />
+<<<<<<< HEAD
                 <Routes>
                     <Route path="/" exact element={<MainPage />} />
                     {/* <Route path="/info" element={<InformationPage/>} />
@@ -28,6 +36,10 @@ function App() {
                 <MapComponent/>
             </div>
         </Router>
+=======
+            </Router>
+        </div>
+>>>>>>> main
     );
 }
 
