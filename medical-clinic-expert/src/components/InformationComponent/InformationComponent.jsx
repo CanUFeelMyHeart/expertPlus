@@ -30,7 +30,6 @@ export const InformationComponent = () => {
                             специальный, процедурный кабинет.</li> <br></br>
                         
                         </ul>
-                        
                     </div>
                     <div className="InformationAboutServises">
                         Это лишь малый перечень возможностей медицинской клиники 
