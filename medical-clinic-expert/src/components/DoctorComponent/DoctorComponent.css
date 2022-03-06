@@ -1,0 +1,84 @@
+.DoctorComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 1160px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.DoctorComponent__container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.DoctorComponent__container_inner {
+    width: 100%;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 30px 70px;
+    padding-bottom: 40px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 14px 14px 45px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.DoctorComponent__doctorImage {
+    width: 300px;
+    margin-right: 54px;
+}
+
+.DoctorComponent__info_header {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+
+    color: #3281c9;
+}
+
+.DoctorComponent__info_speciality {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    margin-top: 10px;
+
+    color: rgb(53, 53, 53);
+}
+
+.DoctorComponent__info_hr {
+    border-bottom: 1px solid #d8d8d8;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.DoctorComponent__info_subheader {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    margin-top: 17px;
+
+    color: #3281c9;
+}
+
+.DoctorComponent__info_subdescription {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    margin-top: 10px;
+
+    color: #000000;
+}

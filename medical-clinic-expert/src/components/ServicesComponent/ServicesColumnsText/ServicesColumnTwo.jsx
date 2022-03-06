@@ -1,34 +1,34 @@
 export const services2 = [
     {
-        name: "Нейрохирург",
-        ref: "dsfds",
-    },
-    {
         name: "Онколог",
-        ref: "dsfds",
+        ref: "/services/onkolog",
     },
     {
         name: "Оториноларинголог (ЛОР)",
-        ref: "dsfds",
+        ref: "/services/otorinolaringolog",
     },
     {
         name: "Процедурный кабинет",
-        ref: "dsfds",
+        ref: "/services/proczedurnyij-kabinet",
     },
     {
         name: "Психолог",
-        ref: "dsfds",
+        ref: "/services/psikholog",
     },
     {
         name: "Пульмонолог",
-        ref: "dsfds",
+        ref: "/services/pulmonolog",
     },
     {
         name: "Ревматолог",
-        ref: "dsfds",
+        ref: "/services/revmatolog",
     },
     {
         name: "Сердечно-сосудистый хирург",
-        ref: "dsfds",
+        ref: "/services/serdechno-sosudistiy-hirurg",
+    },
+    {
+        name: "Терапевт",
+        ref: "/services/terapevt",
     },
 ];

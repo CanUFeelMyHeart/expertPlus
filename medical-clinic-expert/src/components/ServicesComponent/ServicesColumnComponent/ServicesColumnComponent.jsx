@@ -16,9 +16,12 @@ export const ServicesColumnComponent = (props) => {
                 <button
                     key={index}
                     className="servicesColumnComponent__serviceButton"
-                    //onClick={(e) => handleClick(button.ref)}
+                    onClick={() => handleClick(service.ref)}
                 >
-                    <img src={availableServiceArrow} className="servicesColumnComponent_arrow"></img>
+                    <img
+                        src={availableServiceArrow}
+                        className="servicesColumnComponent_arrow"
+                    ></img>
                     <h3>{service.name}</h3>
                 </button>
             ))}
