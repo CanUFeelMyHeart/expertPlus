@@ -1,0 +1,42 @@
+.PriceListBlock {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+
+    color: #3d3d3d;
+}
+
+.PriceListComponent__table {
+    border-collapse: collapse;
+}
+
+.PriceListComponent__thead {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.PriceListComponent__thead_td {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.PriceListComponent__trow_td {
+    border-top: 1px solid #ddd;
+    padding: 10px 10px;
+    margin-right: 20px;
+}
+
+.name {
+    padding-right: 20px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* фон нечетных строк */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* фон четных строк */
+}

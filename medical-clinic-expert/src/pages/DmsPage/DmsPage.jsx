@@ -1,6 +1,4 @@
 import React from "react";
-import { AboutClinicComponent as AboutClinic } from "../../components/AboutClinicComponent/AboutClinicComponent";
-import { ServicesComponent } from "../../components/ServicesComponent/ServicesComponent";
 import { InformationContainerComponent } from "../../components/InformationContainerComponent/InformationContainerComponent";
 import './DmsPage.css'
 
@@ -24,8 +22,6 @@ export const DmsPage = () => {
                     <li>Росгосстрах</li>
                 </ul>
             </InformationContainerComponent>
-            <AboutClinic />
-            <ServicesComponent />
         </div>
     );
 };

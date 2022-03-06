@@ -1,13 +1,14 @@
 import React from "react";
-import { AboutClinicComponent } from "../../../components/AboutClinicComponent/AboutClinicComponent";
-import { ServicesComponent } from "../../../components/ServicesComponent/ServicesComponent";
+import { InformationContainerComponent } from "../../../components/InformationContainerComponent/InformationContainerComponent";
+import { PriceListComponent } from "../../../components/PriceListComponent/PriceListComponent";
+import { priceInfoGynecologist } from "./PriceInfoGynecologist";
 
 export const GynecologistServicePage = () => {
     return (
         <div className="GynecologistServicePage">
-            <h2>Гинеколог block</h2>
-            <AboutClinicComponent />
-            <ServicesComponent />
+            <InformationContainerComponent header="Акушер-гинеколог">
+                <PriceListComponent priceInfo={priceInfoGynecologist} />
+            </InformationContainerComponent>
         </div>
     );
 };

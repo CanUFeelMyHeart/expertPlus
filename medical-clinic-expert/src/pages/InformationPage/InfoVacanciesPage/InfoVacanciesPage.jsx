@@ -1,6 +1,4 @@
 import React from "react";
-import { AboutClinicComponent } from "../../../components/AboutClinicComponent/AboutClinicComponent";
-import { ServicesComponent } from "../../../components/ServicesComponent/ServicesComponent";
 import { InformationContainerComponent } from "../../../components/InformationContainerComponent/InformationContainerComponent";
 import "./InfoVacanciesPage.css";
 
@@ -18,8 +16,6 @@ export const InfoVacanciesPage = () => {
                     <li>Врач аллерголог пульмонолог</li>
                 </ul>
             </InformationContainerComponent>
-            <AboutClinicComponent />
-            <ServicesComponent />
         </div>
     );
 };

@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { FooterComponent } from '../../components/FooterComponent/FooterComponent'
+import { MapComponent } from '../../components/MapComponent/MapComponent'
 import ScrollToTop from './ScrollToTop'
 
 import { ContactsPage } from "../../pages/ContactsPage/ContactsPage"
@@ -89,6 +90,7 @@ export const NavigationRouter = ({children}) => {
                 <Route path="/services/ultrazvukovaya-diagnostika" element={<UltrasoundDiagnosticsServicePage />} />
                 <Route path="/services/urolog" element={<UrologistServicePage />} />
             </Routes>
+            <MapComponent/>
             <FooterComponent/>
         </Router>
     );

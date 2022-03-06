@@ -1,6 +1,4 @@
 import React from "react";
-import { AboutClinicComponent } from "../../../components/AboutClinicComponent/AboutClinicComponent";
-import { ServicesComponent } from "../../../components/ServicesComponent/ServicesComponent";
 import { InformationContainerComponent } from "../../../components/InformationContainerComponent/InformationContainerComponent";
 import ogrn from "../../../assets/images/documents/ogrn.jpg";
 import ustav2 from "../../../assets/images/documents/ustav1.jpg";
@@ -29,8 +27,6 @@ export const InfoLegFramPage = () => {
                     </div>
                 </div>
             </InformationContainerComponent>
-            <AboutClinicComponent />
-            <ServicesComponent />
         </div>
     );
 };
