@@ -1,11 +1,12 @@
 import React from "react";
 import { AboutClinicComponent } from "../../../components/AboutClinicComponent/AboutClinicComponent";
 import { ServicesComponent } from "../../../components/ServicesComponent/ServicesComponent";
+import { InformationContainerComponent } from "../../../components/InformationContainerComponent/InformationContainerComponent";
 
 export const InfoRegulationsPage = () => {
     return (
         <div className="InfoRegulationsPage">
-            <h2>Положение о предоставлении платных мед. услуг block</h2>
+            <InformationContainerComponent header="Положение о предоставлении платных медицинских услуг"></InformationContainerComponent>
             <AboutClinicComponent />
             <ServicesComponent />
         </div>
