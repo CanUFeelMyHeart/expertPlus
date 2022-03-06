@@ -9,13 +9,21 @@ export const InfoQualificationsPage = () => {
     return (
         <div className="InfoQualificationsPage">
             <InformationContainerComponent header="Сведения о квалификации медицинских работников, участвующих в предоставлении платных медицинских услуг">
-                <table>
+                <table className="InfoQualificationsPage__table">
                     <thead>
                         <tr className="InfoQualificationsPage__thead">
-                            <td>Ф.И.О. врача</td>
-                            <td>Специальность</td>
-                            <td>Год выдачи, город</td>
-                            <td>Срок действия сертификата</td>
+                            <td className="InfoQualificationsPage__thead_td">
+                                Ф.И.О. врача
+                            </td>
+                            <td className="InfoQualificationsPage__thead_td">
+                                Специальность
+                            </td>
+                            <td className="InfoQualificationsPage__thead_td">
+                                Год выдачи, город
+                            </td>
+                            <td className="InfoQualificationsPage__thead_td">
+                                Срок действия сертификата
+                            </td>
                         </tr>
                     </thead>
                     <tbody>
