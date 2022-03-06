@@ -2,12 +2,12 @@ import React from "react";
 import { AboutClinicComponent } from "../../../components/AboutClinicComponent/AboutClinicComponent";
 import { ServicesComponent } from "../../../components/ServicesComponent/ServicesComponent";
 import { InformationContainerComponent } from "../../../components/InformationContainerComponent/InformationContainerComponent";
-import pic1 from "../../../assets/images/1.jpg";
-import pic2 from "../../../assets/images/2.jpg";
-import pic3 from "../../../assets/images/3.jpg";
-import pic4 from "../../../assets/images/4.jpg";
-import pic5 from "../../../assets/images/5.jpg";
-import pic6 from "../../../assets/images/6.jpg";
+import pic1 from "../../../assets/images/documents/1.jpg";
+import pic2 from "../../../assets/images/documents/2.jpg";
+import pic3 from "../../../assets/images/documents/3.jpg";
+import pic4 from "../../../assets/images/documents/4.jpg";
+import pic5 from "../../../assets/images/documents/5.jpg";
+import pic6 from "../../../assets/images/documents/6.jpg";
 import "./InfoLicencePage.css";
 
 export const InfoLicencePage = () => {
