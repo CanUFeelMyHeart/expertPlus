@@ -12,7 +12,7 @@ export const PriceListComponent = (props) => {
                         <td className="PriceListComponent__thead_td">
                             Наименование
                         </td>
-                        <td className="PriceListComponent__thead_td">
+                        <td className="PriceListComponent__thead_td_price ">
                             Цена, руб.
                         </td>
                     </tr>
