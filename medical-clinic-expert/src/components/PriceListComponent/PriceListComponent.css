@@ -5,6 +5,7 @@
     line-height: 27px;
     font-size: 16px;
     letter-spacing: 0.05em;
+    width: 100%;
 
     color: #3d3d3d;
 }
@@ -24,6 +25,7 @@
 
 .PriceListComponent__table {
     border-collapse: collapse;
+    width: 100%;
 }
 
 .PriceListComponent__thead {

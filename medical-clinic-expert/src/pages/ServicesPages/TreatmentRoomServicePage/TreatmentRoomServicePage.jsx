@@ -8,7 +8,6 @@ import { priceInfoTreatmentRoom } from "./PriceInfoTreatmentRoom";
 export const TreatmentRoomServicePage = () => {
     return (
         <div className="TreatmentRoomServicePage">
-            {" "}
             <InformationContainerComponent header="Процедурный кабинет">
                 <PriceListComponent priceInfo={priceInfoTreatmentRoom} />
             </InformationContainerComponent>
