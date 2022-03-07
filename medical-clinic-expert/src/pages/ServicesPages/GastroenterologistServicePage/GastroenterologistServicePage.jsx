@@ -6,7 +6,6 @@ import { SpecialistsInfoGastroenterologist } from "./SpecialistsInfoGastroentero
 import { OfertaComponent } from "../../../components/PriceListComponent/OfertaComponent";
 import { ServiceSpecialistsInfoComponent } from "../../../components/ServiceSpecialistsInfoComponent/ServiceSpecialistsInfoComponent";
 import { priceInfoGastroenterologist } from "./PriceInfoGastroenterologist";
-import allergist from "../../../assets/images/services/allergolog1.jpg";
 
 export const GastroenterologistServicePage = () => {
     return (
