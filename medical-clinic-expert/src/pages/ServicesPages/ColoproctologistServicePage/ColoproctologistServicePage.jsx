@@ -3,7 +3,6 @@ import { InformationContainerComponent } from "../../../components/InformationCo
 import { PriceListComponent } from "../../../components/PriceListComponent/PriceListComponent";
 import { ServicesSpecialistsComponent } from "../../../components/ServicesSpecialistsComponent/ServicesSpecialistsComponent";
 import { OfertaComponent } from "../../../components/PriceListComponent/OfertaComponent";
-import { ServiceSpecialistsInfoComponent } from "../../../components/ServiceSpecialistsInfoComponent/ServiceSpecialistsInfoComponent";
 import { SpecialistsInfoColoproctologist } from "./SpecialistsInfoColoproctologist";
 import { priceInfoColoproctologist } from "./PriceInfoColoproctologist";
 
