@@ -78,8 +78,10 @@
     margin-top: 15px;
 }
 
-ol,
-li {
+.carousel__viewport,
+.carousel__navigation-list,
+.carousel__navigation-item,
+.carousel__slide {
     list-style: none;
     margin: 0;
     padding: 0;

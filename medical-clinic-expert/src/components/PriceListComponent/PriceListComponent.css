@@ -80,6 +80,8 @@ tbody tr:nth-child(even) {
     font-weight: 300;
     font-size: 18px;
     line-height: 27px;
+    margin-left: 20px;
+    margin-right: 20px;
 
     letter-spacing: 0.05em;
 }
