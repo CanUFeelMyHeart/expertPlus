@@ -8,7 +8,7 @@ export const MainPage = () => {
     return (
         <>
             <div>
-                MAIN PAGEEEEEEEEEEEEEE
+                
                 <AboutClinic />
                 <ServicesComponent />
                 <InformationComponent/>

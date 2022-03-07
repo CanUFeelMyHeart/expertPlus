@@ -1,0 +1,23 @@
+.servisesContainer {
+    font-family: "Roboto";
+    font-style: normal;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    padding: 10px 0px 10px 0px;
+    color: #424242;
+    
+}
+
+.servisesHeading{
+    color: #3d3d3d;
+    font-family: "Roboto";
+    font-weight: bolder;
+    padding: 10px 0px 10px 0px;
+}
+
+.servisesText {
+    padding: 10px 10px 10px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+}
