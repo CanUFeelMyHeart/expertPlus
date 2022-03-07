@@ -50,10 +50,19 @@
 }
 
 .services_doctor_info_header {
-    color: #3281C9;
+    color: #3281c9;
 }
 
 .services_doctor_info_description {
     font-size: 16px;
     margin: 15px 30px;
+}
+
+.services_doctor_info_img_container {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.services_doctor_info_img {
+    max-width: 450px;
 }
