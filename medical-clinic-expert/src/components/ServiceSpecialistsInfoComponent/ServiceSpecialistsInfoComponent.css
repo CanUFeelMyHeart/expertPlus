@@ -66,3 +66,7 @@
 .services_doctor_info_img {
     max-width: 450px;
 }
+
+.services_li {
+    font-weight: bold;
+}
