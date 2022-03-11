@@ -78,5 +78,5 @@ export const mapPageInformation = [
     {name: "ДМС", innerInfo: [], ref: "/dms" },
     {name: "Новости", innerInfo: [], ref: "" },
     {name: "Тестирование формы онлайн записи", innerInfo: [], ref: "/online-test" },
-    {name: "Новости", innerInfo: [], ref: "/contacts" }
+    {name: "Контакты", innerInfo: [], ref: "/contacts" }
 ];

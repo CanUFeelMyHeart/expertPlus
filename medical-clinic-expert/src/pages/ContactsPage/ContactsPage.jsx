@@ -7,7 +7,7 @@ import "./ContactsPage.css";
 export const ContactsPage = () => {
     return (
         <div className="InfoControlOrgPage">
-            <InformationContainerComponent header="Контролирующие организации">
+            <InformationContainerComponent header="Контакты">
                 {contactPageInformation.map((controlInfo, index) => (
                     <ContactPageInfoComponent
                         key={index}
