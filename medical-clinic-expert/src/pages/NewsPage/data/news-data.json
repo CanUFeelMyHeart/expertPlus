@@ -2,51 +2,61 @@
   {
     "header": "Специальное предложение на комплексное лечение у ЛОР-врача",
     "description": "Только в ИЮНЕ действует специальное предложение на комплексное лечение у ЛОР-врача!",
-    "ref": "/news/speczialnoe-predlozhenie-na-kompleksnoe-lechenie-u-lor-vracha"
+    "ref": "/news/speczialnoe-predlozhenie-na-kompleksnoe-lechenie-u-lor-vracha",
+    "id": 10
   },
   {
     "header": "Внимание! Открыты вакансии: Медсестра и Администратор",
     "description": "Открыты вакансии на должности медсестры и администратора. Подробности по телефону +7 (8442) 50-88-77",
-    "ref": "/news/otkryityi-vakansii-medsestra-i-administrator"
+    "ref": "/news/otkryityi-vakansii-medsestra-i-administrator",
+    "id": 9
   },
   {
     "header": "В клинике Эксперт плюс проводится медикаментозное прерывание беременности на ранних сроках",
     "description": "Медикаментозный аборт отличается высокой эффективностью: на сроке до 8 недель она составляет 98%, на сроке 8–9 недель — 96%. На более поздних сроках медикаментозный аборт не используется.",
-    "ref": "/news/v-klinike-ekspert-plyus-provoditsya-medikamentoznoe-preryivanie-beremennosti-na-rannix-srokax"
+    "ref": "/news/v-klinike-ekspert-plyus-provoditsya-medikamentoznoe-preryivanie-beremennosti-na-rannix-srokax",
+    "id": 8
   },
   {
     "header": "Ультразвуковое исследование в гинекологии",
     "description": "В гинекологии есть два заболевания, развитие которых начинается постепенно и совершенно бессимптомно. Печально то, что впоследствии лечение этих заболеваний в их запущенной стадии чаще всего требует хирургического вмешательства, может снижать репродуктивный потенциал и быть достаточно дорогим.",
-    "ref": "/news/ultrazvukovoe-issledovanie-v-ginekologii"
+    "ref": "/news/ultrazvukovoe-issledovanie-v-ginekologii",
+    "id": 7
   },
   {
     "header": "В нашей клинике ведет прием аллерголог иммунолог Назарова Нина Владимировна",
     "description": "Аллерголог-иммунолог — это специалист, занимающийся диагностированием аллергических проявлений и заболеваний, а также их лечением. Он исследует причину, спровоцировавшую возникновение аллергии, механизм ее развития, объясняет пациенту методы профилактики.",
-    "ref": "/news/v-nashej-klinike-vedet-priem-allergolog-immunolog-nazarova-nina-vladimirovna"
+    "ref": "/news/v-nashej-klinike-vedet-priem-allergolog-immunolog-nazarova-nina-vladimirovna",
+    "id": 6
   },
   {
     "header": "Предложение новых комплексов лабораторных исследований со скидкой до 50%",
     "description": "'Сахарный диабет', 'Здоровая кожа', 'Свободное дыхание', 'Предоперационный гинекологический', 'Кардиологический'",
-    "ref": "/news/predlozhenie-novyix-kompleksov-laboratornyix-issledovanij-so-skidkoj-do-50"
+    "ref": "/news/predlozhenie-novyix-kompleksov-laboratornyix-issledovanij-so-skidkoj-do-50",
+    "id": 5
   },
   {
     "header": "С января в клинике принимает замечательный врач онколог-маммолог Безверхий Алексей Владимирович",
     "description": "Что делает врач онколог? Работа такого врача заключается в диагностике и лечении опухолей любых видов и на любых стадиях развития.",
-    "ref": "/news/prinimaet-vrach-onkolog-mammolog"
+    "ref": "/news/prinimaet-vrach-onkolog-mammolog",
+    "id": 4
   },
   {
     "header": "В нашей клинике ведет прием врач сосудистый хирург Титаренко Андрей Юрьевич",
     "description": "В рамках сосудистой хирургии производится выявление заболеваний кровеносных и лимфатических сосудов, а также подбираются методы лечения и профилактики.",
-    "ref": "/news/vedet-priem-vrach-sosudistyij-xirurg"
+    "ref": "/news/vedet-priem-vrach-sosudistyij-xirurg",
+    "id": 3
   },
   {
     "header": "С декабря в клинике проводится новый вид обследования - ЭЭГ",
     "description": "ЭЭГ или Электроэнцефалограмма — это способ фиксации биопотенциалов головного мозга с помощью специального аппарата — энцефалографа.",
-    "ref": "/news/novyij-vid-obsledovaniya-eeg"
+    "ref": "/news/novyij-vid-obsledovaniya-eeg",
+    "id": 2
   },
   {
     "header": "В клинике ведет прием врач аллерголог-иммунолог, пульмонолог Романенко Марина Александровна",
     "description": "Аллерголог-иммунолог, пульмонолог - это врач, который занимается диагностикой, лечением и профилактикой заболеваний дыхательных путей.",
-    "ref": "/news/vedet-priem-vrach-allergolog-immunolog-pulmonolog"
+    "ref": "/news/vedet-priem-vrach-allergolog-immunolog-pulmonolog",
+    "id": 1
   }
 ]
