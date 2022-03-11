@@ -1,11 +1,17 @@
 .footerBlock {
     background: #eaeaea;
-    height: 74px;
+    min-height: 74px;
+    padding-bottom: 10px;
 }
 
 .footerContainer {
     max-width: 1160px;
     margin: 0 auto;
+    
+}
+
+.footerContainer__inside {
+    margin: 0 20px;
 }
 
 .footerContainer__statistic {
