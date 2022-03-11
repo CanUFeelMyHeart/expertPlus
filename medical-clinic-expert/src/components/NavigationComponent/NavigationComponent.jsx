@@ -18,6 +18,7 @@ import { InfoOffDocumentsPage } from '../../pages/InformationPage/InfoOffDocumen
 import { InfoQualificationsPage } from '../../pages/InformationPage/InfoQualificationsPage/InfoQualificationsPage'
 import { InfoRegulationsPage } from '../../pages/InformationPage/InfoRegulationsPage/InfoRegulationsPage'
 import { InfoVacanciesPage } from '../../pages/InformationPage/InfoVacanciesPage/InfoVacanciesPage'
+import { NewsPage } from '../../pages/NewsPage/NewsPage'
 
 import { AllergistImmunologistServicePage } from '../../pages/ServicesPages/AllergistImmunologistServicePage/AllergistImmunologistServicePage'
 import { CardiologistServicePage } from '../../pages/ServicesPages/CardiologistServicePage/CardiologistServicePage'
@@ -54,7 +55,7 @@ export const NavigationRouter = ({children}) => {
                 <Route path="/doctors" element={<DoctorsPage />} />
                 <Route path="/dms" element={<DmsPage />} />
                 <Route path="/contacts" element={<ContactsPage />} />
-
+                <Route path="/news" element={<NewsPage/>} />
                 <Route path="/info/about" element={<InfoAboutPage />} />
                 <Route path="/info/control-org" element={<InfoControlOrgPage />} />
                 <Route path="/info/docs" element={<InfoLegFramPage />} />
