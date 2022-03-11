@@ -6,6 +6,11 @@
     margin-top: 15px;
 }
 
+.header__mainButtonContainer {
+    display: flex;
+    flex-direction: column;
+}
+
 .headerInformation {
     text-align: right;
 }
@@ -14,6 +19,9 @@
     background-color: transparent;
     color: #ff5b5b;
     position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     font-size: 50px;
     line-height: 61px;
     text-align: center;
@@ -23,9 +31,11 @@
     cursor: pointer;
 }
 
+.header__expertLogo {
+    font-size: 50px;
+}
+
 .header__expertButton_logo {
-    position: absolute;
-    margin: auto;
     padding-left: 26px;
 }
 
@@ -41,13 +51,16 @@
     margin: 7px 0px;
 }
 
+.header__informationContainer {
+    text-align: right;
+}
+
 .header__informationContainer_address {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
     line-height: 14px;
-    text-align: right;
     letter-spacing: 0.14em;
     color: #2f2f2f;
 }
@@ -56,9 +69,8 @@
     font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 36px;
     line-height: 41px;
-    text-align: right;
     color: #ff5b5b;
     margin-top: 7px;
 }
@@ -69,7 +81,6 @@
     font-weight: 300;
     font-size: 12px;
     line-height: 14px;
-    text-align: right;
     letter-spacing: 0.14em;
     color: #2f2f2f;
     margin-top: 7px;
@@ -80,3 +91,41 @@
     border-bottom: 1px solid #d8d8d8;
     margin: 0 auto;
 }
+
+@media (max-width: 961px) {
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      grid-gap: 10px;
+    }
+    
+    .header__informationContainer {
+        text-align: center;
+        width: 100%;
+        margin: 0 10px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .header__expertLogo {
+        font-size: 36px;
+    }
+
+    .header__expertButton_logo {
+        height: 36px;
+    }
+
+    .header__mainButtonContainer {
+        align-items: center;
+    }
+
+    .header__expertButton_description {
+        margin: 0;
+        text-align: center;
+    }
+
+    .header__informationContainer_phoneNumber {
+        font-size: 30px;
+    }
+  }
