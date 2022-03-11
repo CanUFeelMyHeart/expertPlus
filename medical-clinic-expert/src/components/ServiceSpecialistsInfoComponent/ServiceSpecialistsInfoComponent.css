@@ -70,3 +70,18 @@
 .services_li {
     font-weight: bold;
 }
+
+@media (max-width: 600px) {
+    .ServiceSpecialistsInfoComponent__container {
+      margin: 0;
+    }
+
+    .ServiceSpecialistsInfoComponent__mainInfo {
+        padding: 20px 10px;
+        display: block;
+    }
+
+    .services_doctor_info_img {
+        width: 70vw;
+    }
+  }
