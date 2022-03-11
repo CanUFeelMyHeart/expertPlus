@@ -56,6 +56,11 @@ const buttons = [
         expandArrow: "",
         ref: "/contacts",
     },
+    {
+        name: "Новости",
+        expandArrow: "",
+        ref: "/news",
+    },
 ];
 
 export const UnderHeaderMenuComponent = () => {
