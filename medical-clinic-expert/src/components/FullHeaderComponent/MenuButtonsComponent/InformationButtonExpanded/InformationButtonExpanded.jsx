@@ -21,7 +21,6 @@ export const InformationButtonExpand = (props) => {
         <div className="infoExpandingList__container">
           {props.informationButton.map((button, index) => (
             <div key={index}>
-              
               <button
                 className="infoExpandingList__container_button"
                 onClick={() => handleClick(button.ref)}
