@@ -38,11 +38,22 @@
     border-radius: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 961px) {
+    .InformationContainerComponent__mainInfo {
+        padding: 30px 10px ;
+    }
+  }
+
+@media (max-width: 700px) {
     .InformationContainerComponent__container {
       margin: 0;
     }
     .InformationContainerComponent__mainInfo {
         padding: 30px 10px ;
+    }
+
+    .InformationContainerComponent__header {
+        font-size: 24px;
+        line-height: 32px;
     }
   }
