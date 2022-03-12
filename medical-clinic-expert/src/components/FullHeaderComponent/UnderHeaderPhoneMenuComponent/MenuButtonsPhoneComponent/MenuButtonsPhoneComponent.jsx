@@ -70,16 +70,15 @@ export const MenuButtonsPhoneComponent = (props) => {
         />
 
         {props.buttons.map((button, index) => (
-          <>
+          <div key={index}>
             <button
-              key={index}
               className="menuButtonPhone"
               onClick={() => handleClick(button.ref)}
             >
               <h3>{button.name}</h3>
             </button>
             <hr className="header__underline" />
-          </>
+          </div>
         ))}
         <button className="menuButtonPhone">
           <h3>Записаться на прием</h3>
