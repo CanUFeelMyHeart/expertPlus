@@ -3,6 +3,7 @@
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 26px;
     width: 575px;
+    border-width: 10px;
 }
 
 .menuButton {

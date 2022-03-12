@@ -21,13 +21,14 @@ export const InformationButtonExpand = (props) => {
         <div className="infoExpandingList__container">
           {props.informationButton.map((button, index) => (
             <div key={index}>
-              <hr className="infoExpandingList__container_hr" />
+              
               <button
                 className="infoExpandingList__container_button"
                 onClick={() => handleClick(button.ref)}
               >
                 <h3>{button.name}</h3>
               </button>
+              <hr className="infoExpandingList__container_hr" />
             </div>
           ))}
         </div>

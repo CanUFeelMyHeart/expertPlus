@@ -50,11 +50,12 @@ export const MenuButtonsPhoneComponent = (props) => {
           Информация
           <img className="menuButton__expandArrow" src={expandArrow} />
         </button>
+        <hr className="header__underline" />
         <InfoButton
           openInfo={openInfo}
           informationButton={props.informationButton}
         />
-        <hr className="header__underline" />
+
         <button
           className="menuButtonPhone"
           onClick={() => setOpenServicesFunction()}
@@ -62,11 +63,12 @@ export const MenuButtonsPhoneComponent = (props) => {
           Медуслуги
           <img className="menuButton__expandArrow" src={expandArrow} />
         </button>
+        <hr className="header__underline" />
         <ServicesButton
           openServices={openServices}
           servicesButton={props.servicesButton}
         />
-        <hr className="header__underline" />
+
         {props.buttons.map((button, index) => (
           <>
             <button
