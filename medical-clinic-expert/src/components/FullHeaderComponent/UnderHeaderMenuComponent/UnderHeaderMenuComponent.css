@@ -17,7 +17,7 @@
 }
 
 @media (max-width: 961px) {
-  .menuButtonsAll {
+  .UnderHeaderMenuComponent {
     display: none;
   }
 }
