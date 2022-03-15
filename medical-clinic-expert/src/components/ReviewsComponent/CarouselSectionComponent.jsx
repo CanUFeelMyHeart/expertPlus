@@ -3,7 +3,7 @@ import "./ReviewsComponent.css";
 
 export const CarouselSectionComponent = (props) => {
     return (
-        <li id={props.id} tabindex="0" className="carousel__slide">
+        <li id={props.id} tabIndex="0" className="carousel__slide">
             <div className="carousel__snapper">
                 <a href={props.href_prev} className="carousel__prev">
                     Go to last slide

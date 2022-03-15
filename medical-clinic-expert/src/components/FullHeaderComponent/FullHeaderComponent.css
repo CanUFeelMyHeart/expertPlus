@@ -1,16 +1,16 @@
 .FullHeaderComponent {
-    max-width: 1510px;
-    margin: 0 auto;
+  max-width: 1510px;
+  margin: 0 auto;
 }
 
 .FullHeaderComponent__container {
-    margin-left: 40px;
-    margin-right: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 @media (max-width: 600px) {
-    .FullHeaderComponent__container {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+  .FullHeaderComponent__container {
+    margin-left: 10px;
+    margin-right: 10px;
   }
+}

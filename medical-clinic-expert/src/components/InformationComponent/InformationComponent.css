@@ -63,3 +63,9 @@
     margin: 0px 35px;
     color: #424242;
 }
+
+@media (max-width: 600px) {
+    .informationBlock {
+        display: none;
+    }
+}

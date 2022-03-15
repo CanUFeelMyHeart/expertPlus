@@ -1,63 +1,99 @@
 .aboutClinicBlock {
-    width: 270px;
-    min-width: 100px;
-    min-height: 400px;
-    display: flex;
-    margin: 0px 13.5px;
-    margin-bottom: 20px;
-    flex-direction: column;
-    align-items: center;
+  width: 270px;
+  min-width: 100px;
+  min-height: 400px;
+  display: flex;
+  margin: 0px 13.5px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  align-items: center;
 
-    background: linear-gradient(209.51deg, #9fa6e8 0.34%, #3281c9 99.44%);
-    box-shadow: 15px 15px 45px 5px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+  background: linear-gradient(209.51deg, #9fa6e8 0.34%, #3281c9 99.44%);
+  box-shadow: 15px 15px 45px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 
-    cursor: pointer;
-    transition: transform 250ms;
+  cursor: pointer;
+  transition: transform 250ms;
 }
 
 .aboutClinicBlock__img {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 105px;
-    padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 105px;
+  padding: 10px;
 }
 
 .aboutClinicBlock__header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-family: "Roboto";
-    font-style: normal;
-    text-align: left;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: 0.05em;
-    color: #ffffff;
-    padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  text-align: left;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  padding: 10px 20px;
 }
 
 .aboutClinicBlock__description {
-    font-family: "Roboto";
-    font-weight: 300;
-    line-height: 21px;
-    text-align: left;
-    padding: 10px 20px;
-    color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 300;
+  line-height: 21px;
+  text-align: left;
+  padding: 10px 20px;
+  padding-bottom: 20px;
+  color: #ffffff;
 }
 
 .noDots {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .withDots {
-    padding: 0px 20px;
+  padding: 0px 20px;
 }
 
 .aboutClinicBlock:hover {
-    background: linear-gradient(209.51deg, #8791e6 0.34%, #0d69c0 99.44%);
-    transform: scale(1.03);
+  background: linear-gradient(209.51deg, #8791e6 0.34%, #0d69c0 99.44%);
+  transform: scale(1.03);
 }
+
+@media (max-width: 961px) {
+  .aboutClinicBlock {
+    width: 45%;
+    min-width: 100px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    min-height: 120px;
+  }
+}
+
+@media (max-width: 600px) {
+  .aboutClinicBlock {
+    width: 95%;
+    min-width: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+    .aboutClinicBlock__img {
+      display: none;
+    }
+
+    .aboutClinicBlock__header {
+        padding-left: 30px;
+    }
+
+    .aboutClinicBlock__description {
+        padding: 30px;
+        padding-top: 10px;
+    }
+  }

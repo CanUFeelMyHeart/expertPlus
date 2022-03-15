@@ -5,13 +5,13 @@
     line-height: 27px;
     font-size: 16px;
     letter-spacing: 0.05em;
-    min-width: 750px;
 
     color: #3d3d3d;
 }
 
 .InfoQualificationsPage__table {
     border-collapse:collapse;
+    width: 100%;
 }
 
 .InfoQualificationsPage__thead {
@@ -40,4 +40,24 @@ tbody tr:nth-child(odd) {
 
 tbody tr:nth-child(even) {
     background-color: #f9f9f9; /* фон четных строк */
+}
+
+@media (max-width: 600px) {
+
+    .InfoQualificationsPage {
+        min-width: 0;
+    }
+
+    .InfoQualificationsPage__thead {
+        font-size: 12px;
+    }
+    
+    .InfoQualificationsPage__table {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .InfoQualificationsPage__trow_td {
+        padding: 5px 5px;
+    }
 }
