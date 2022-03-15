@@ -70,12 +70,12 @@
 }
 
 .DoctorComponent__info_subdescription {
-    font-family: "Roboto";
+    font-family: 'Roboto Condensed', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
     line-height: 16px;
     margin-top: 10px;
 
-    color: #000000;
+    color: #3d3d3d;
 }
