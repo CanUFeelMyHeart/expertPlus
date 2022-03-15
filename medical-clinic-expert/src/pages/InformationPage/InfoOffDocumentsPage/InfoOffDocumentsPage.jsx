@@ -1,6 +1,7 @@
 import React from "react";
 import { InformationContainerComponent } from "../../../components/InformationContainerComponent/InformationContainerComponent";
-
+import {AboutClinicComponent} from "../../../components/AboutClinicComponent/AboutClinicComponent"
+import {ServicesComponent} from "../../../components/ServicesComponent/ServicesComponent"
 export const InfoOffDocumentsPage = () => {
     return (
         <div className="InfoOffDocumentsPage">
