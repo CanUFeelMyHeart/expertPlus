@@ -1,13 +1,16 @@
 import React from "react";
-import { AboutClinicComponent } from "../../../components/AboutClinicComponent/AboutClinicComponent";
-import { ServicesComponent } from "../../../components/ServicesComponent/ServicesComponent";
+import { InformationContainerComponent } from "../../../components/InformationContainerComponent/InformationContainerComponent";
+import { PriceListComponent } from "../../../components/PriceListComponent/PriceListComponent";
+import { OfertaComponent } from "../../../components/PriceListComponent/OfertaComponent";
+import { priceInfoPsychologist } from "./PriceInfoPsychologist";
 
 export const PsychologistServicePage = () => {
     return (
         <div className="PsychologistServicePage">
-            <h2>Психолог block</h2>
-            <AboutClinicComponent />
-            <ServicesComponent />
+            <InformationContainerComponent header="Психолог">
+                <PriceListComponent priceInfo={priceInfoPsychologist} />
+            </InformationContainerComponent>
+            <OfertaComponent />
         </div>
     );
 };

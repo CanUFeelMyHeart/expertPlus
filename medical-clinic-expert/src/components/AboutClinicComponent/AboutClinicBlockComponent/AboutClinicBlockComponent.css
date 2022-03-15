@@ -1,7 +1,7 @@
 .aboutClinicBlock {
     width: 270px;
     min-width: 100px;
-    height: 400px;
+    min-height: 400px;
     display: flex;
     margin: 0px 13.5px;
     margin-bottom: 20px;
@@ -44,7 +44,6 @@
     font-family: "Roboto";
     font-weight: 300;
     line-height: 21px;
-    letter-spacing: -0.02em;
     text-align: left;
     padding: 10px 20px;
     color: #ffffff;
@@ -55,8 +54,6 @@
 }
 
 .withDots {
-    list-style: inside;
-    list-style-type:circle;
     padding: 0px 20px;
 }
 

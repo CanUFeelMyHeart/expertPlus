@@ -1,13 +1,22 @@
 import React from "react";
-import { AboutClinicComponent } from "../../../components/AboutClinicComponent/AboutClinicComponent";
-import { ServicesComponent } from "../../../components/ServicesComponent/ServicesComponent";
+import { InformationContainerComponent } from "../../../components/InformationContainerComponent/InformationContainerComponent";
+import { PriceListComponent } from "../../../components/PriceListComponent/PriceListComponent";
+import { ServicesSpecialistsComponent } from "../../../components/ServicesSpecialistsComponent/ServicesSpecialistsComponent";
+import { OfertaComponent } from "../../../components/PriceListComponent/OfertaComponent";
+import { ServiceSpecialistsInfoComponent } from "../../../components/ServiceSpecialistsInfoComponent/ServiceSpecialistsInfoComponent";
+import { SpecialistsInfoDermatologist } from "./SpecialistsInfoDermatologist";
+import { priceInfoDermatologist } from "./PriceInfoDermatologist";
 
 export const DermatologistServicePage = () => {
     return (
         <div className="DermatologistServicePage">
-            <h2>Дерматолог block</h2>
-            <AboutClinicComponent />
-            <ServicesComponent />
+            <InformationContainerComponent header="Дерматолог">
+                <ServicesSpecialistsComponent
+                    specialists={SpecialistsInfoDermatologist}
+                />
+                <PriceListComponent priceInfo={priceInfoDermatologist} />
+            </InformationContainerComponent>
+            <OfertaComponent />
         </div>
     );
 };

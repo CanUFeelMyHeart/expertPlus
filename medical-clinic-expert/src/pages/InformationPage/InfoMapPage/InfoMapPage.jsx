@@ -1,14 +1,14 @@
 import React from "react";
-import { AboutClinicComponent } from "../../../components/AboutClinicComponent/AboutClinicComponent";
-import { ServicesComponent } from "../../../components/ServicesComponent/ServicesComponent";
 import { InformationContainerComponent } from "../../../components/InformationContainerComponent/InformationContainerComponent";
+import { InfoMapPageComponent } from "./InfoMapPageComponent";
+import { mapPageInformation } from "./MapPageInformation";
 
 export const InfoMapPage = () => {
     return (
         <div className="InfoMapPage">
-            <InformationContainerComponent header="Карта сайта"></InformationContainerComponent>
-            <AboutClinicComponent />
-            <ServicesComponent />
+            <InformationContainerComponent header="Карта сайта">
+                <InfoMapPageComponent info={mapPageInformation} />
+            </InformationContainerComponent>
         </div>
     );
 };

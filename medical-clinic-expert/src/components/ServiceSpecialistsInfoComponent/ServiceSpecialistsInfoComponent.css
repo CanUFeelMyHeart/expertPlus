@@ -1,0 +1,87 @@
+.ServiceSpecialistsInfoComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 1160px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.ServiceSpecialistsInfoComponent__container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ServiceSpecialistsInfoComponent__header {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+
+    color: #4c4c4c;
+}
+
+.ServiceSpecialistsInfoComponent__mainInfo {
+    width: 100%;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 70px;
+    padding-bottom: 40px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 14px 14px 45px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.services_doctor_info_container {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+
+    color: #494949;
+}
+
+.services_doctor_info_header {
+    color: #3281c9;
+}
+
+.services_doctor_info_description {
+    font-size: 16px;
+    margin: 15px 30px;
+}
+
+.services_doctor_info_img_container {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.services_doctor_info_img {
+    max-width: 450px;
+}
+
+.services_li {
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .ServiceSpecialistsInfoComponent__container {
+      margin: 0;
+    }
+
+    .ServiceSpecialistsInfoComponent__mainInfo {
+        padding: 20px 10px;
+        display: block;
+    }
+
+    .services_doctor_info_img {
+        width: 70vw;
+    }
+  }

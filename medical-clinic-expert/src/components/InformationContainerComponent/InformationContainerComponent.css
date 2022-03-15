@@ -18,7 +18,6 @@
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
-    letter-spacing: 0.05em;
     margin: 10px;
     margin-bottom: 30px;
     margin-top: 20px;
@@ -38,3 +37,12 @@
     box-shadow: 14px 14px 45px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
+
+@media (max-width: 600px) {
+    .InformationContainerComponent__container {
+      margin: 0;
+    }
+    .InformationContainerComponent__mainInfo {
+        padding: 30px 10px ;
+    }
+  }

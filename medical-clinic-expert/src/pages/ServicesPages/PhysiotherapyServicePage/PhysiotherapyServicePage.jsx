@@ -1,13 +1,16 @@
 import React from "react";
-import { AboutClinicComponent } from "../../../components/AboutClinicComponent/AboutClinicComponent";
-import { ServicesComponent } from "../../../components/ServicesComponent/ServicesComponent";
+import { InformationContainerComponent } from "../../../components/InformationContainerComponent/InformationContainerComponent";
+import { PriceListComponent } from "../../../components/PriceListComponent/PriceListComponent";
+import { OfertaComponent } from "../../../components/PriceListComponent/OfertaComponent";
+import { priceInfoPhysiotherapy } from "./PriceInfoPhysiotherapy";
 
 export const PhysiotherapyServicePage = () => {
     return (
         <div className="PhysiotherapyServicePage">
-            <h2>Физиотерапия block</h2>
-            <AboutClinicComponent />
-            <ServicesComponent />
+            <InformationContainerComponent header="Физиотерапия">
+                <PriceListComponent priceInfo={priceInfoPhysiotherapy} />
+            </InformationContainerComponent>
+            <OfertaComponent />
         </div>
     );
 };

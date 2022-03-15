@@ -1,13 +1,22 @@
 import React from "react";
-import { AboutClinicComponent as AboutClinic } from "../../components/AboutClinicComponent/AboutClinicComponent";
-import { ServicesComponent } from "../../components/ServicesComponent/ServicesComponent";
+import { InformationContainerComponent } from "../../components/InformationContainerComponent/InformationContainerComponent";
+import { ContactPageInfoComponent } from "./ContactComponent";
+import { contactPageInformation } from "./ContactInfo";
+import "./ContactsPage.css";
 
 export const ContactsPage = () => {
     return (
-        <>
-            <div>contacts page</div>
-            <AboutClinic />
-            <ServicesComponent />
-        </>
+        <div className="InfoControlOrgPage">
+            <InformationContainerComponent header="Контакты">
+                {contactPageInformation.map((controlInfo, index) => (
+                    <ContactPageInfoComponent
+                        key={index}
+                        header={controlInfo.header}
+                        info={controlInfo.info}
+                        hr_classname={controlInfo.hr_classname}
+                    />
+                ))}
+            </InformationContainerComponent>
+        </div>
     );
 };

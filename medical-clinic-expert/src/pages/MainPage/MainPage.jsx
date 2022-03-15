@@ -17,7 +17,6 @@ export const MainPage = () => {
                 <ServicesComponent />
                 <InformationComponent/>
                 <ReviewsComponent/>
-                <MapComponent/>
             </div>
         </>
     );
