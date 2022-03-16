@@ -3,6 +3,7 @@ import { InformationContainerComponent } from "../../../components/InformationCo
 import "./InfoRegulationsPage.css"
 import {AboutClinicComponent} from "../../../components/AboutClinicComponent/AboutClinicComponent"
 import {ServicesComponent} from "../../../components/ServicesComponent/ServicesComponent"
+
 export const InfoRegulationsPage = () => {
     return (
         <div className="InfoRegulationsPage">
