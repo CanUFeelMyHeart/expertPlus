@@ -2,7 +2,7 @@ import React from "react";
 import { AboutClinicComponent as AboutClinic } from "../../components/AboutClinicComponent/AboutClinicComponent";
 import { ServicesComponent } from '../../components/ServicesComponent/ServicesComponent';
 import { ReviewsComponent } from '../../components/ReviewsComponent/ReviewsComponent';
-import { MapComponent } from "../../components/MapComponent/MapComponent";
+import {SliderComponent} from "../../components/SliderComponent/SliderComponent"
 import { InformationComponent } from "../../components/InformationComponent/InformationComponent";
 
 
@@ -12,7 +12,7 @@ export const MainPage = () => {
         <>
             <div>
           
-                
+                <SliderComponent/>
                 <AboutClinic />
                 <ServicesComponent />
                 <InformationComponent/>
