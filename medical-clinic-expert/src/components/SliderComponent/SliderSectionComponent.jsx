@@ -3,7 +3,7 @@ import "./SliderComponent.css";
 
 export const SliderSectionComponent = (props) => {
     return (
-        <li id={props.id} tabIndex="0" className="carousel__slide">
+        <li id={props.id} tabIndex="0" className="slider__slide">
             <div className="carousel__snapper">
                 <a href={props.href_prev} className="carousel__prev">
                     Go to last slide
@@ -16,7 +16,8 @@ export const SliderSectionComponent = (props) => {
             <div className="carousel__slide_text">
                 <div className="carousel__slide_description">{props.description}</div>
                 <br/>
-                <div className="carousel__slide_name">{props.image}</div>
+                <div className="carousel__slide_name">
+                    <img src={props.image} alt="" /></div>
             </div>
         </li>
     );

@@ -9,8 +9,8 @@ export const SliderComponent = (props) => {
         <div className="sliderComponent__block">
             
             <div className="sectionComponent__block_carousel">
-                <section className="carousel" aria-label="Gallery">
-                    <ol className="carousel__viewport">
+                <section className="slider" aria-label="Gallery">
+                    <ol className="slider__viewport">
                         {comments.map((comment, index) => (
                             <SliderSectionComponent
                                 key={index}
@@ -22,12 +22,12 @@ export const SliderComponent = (props) => {
                             />
                         ))}
                     </ol>
-                    <aside className="carousel__navigation">
-                        <ol className="carousel__navigation-list">
+                    <aside className="slider__navigation">
+                        <ol className="slider__navigation-list">
                             {carousel__navigation.map((nav, index) => (
                                 <li
                                     key={index}
-                                    className="carousel__navigation-item"
+                                    className="slider__navigation-item"
                                 >
                                     <a
                                         href={nav.href}
