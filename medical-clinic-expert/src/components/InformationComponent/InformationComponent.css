@@ -1,5 +1,6 @@
 .informationBlock {
     background-image: url("../../img/bg_fone.png");
+    background-size: 100% 100%;
     padding-top: 20px;
     padding-bottom: 10px;
 }
