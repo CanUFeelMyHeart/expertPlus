@@ -1,4 +1,5 @@
 import MainSliderPic1 from "./img/Carousel.png"
+import MainSliderPic2 from "./img/slide-coronavirus.jpg"
 export const comments = [
     {
         id: "slider__slide1",
