@@ -9,42 +9,42 @@ import pic6 from "../../../assets/images/documents/6.jpg";
 import "./InfoLicencePage.css";
 
 export const InfoLicencePage = () => {
-    return (
-        <div className="InfoLicencePage">
-            <InformationContainerComponent header="Лицензии">
-                <div className="InfoLicencePage__container">
-                    <div className="InfoLicencePage__picture">
-                        <a href={pic1} target="_blank">
-                            <img src={pic1} />
-                        </a>
-                    </div>
-                    <div className="InfoLicencePage__picture">
-                        <a href={pic2} target="_blank">
-                            <img src={pic2} />
-                        </a>
-                    </div>
-                    <div className="InfoLicencePage__picture">
-                        <a href={pic5} target="_blank">
-                            <img src={pic5} />
-                        </a>
-                    </div>
-                    <div className="InfoLicencePage__picture">
-                        <a href={pic6} target="_blank">
-                            <img src={pic6} />
-                        </a>
-                    </div>
-                    <div className="InfoLicencePage__picture">
-                        <a href={pic3} target="_blank">
-                            <img src={pic3} />
-                        </a>
-                    </div>
-                    <div className="InfoLicencePage__picture">
-                        <a href={pic4} target="_blank">
-                            <img src={pic4} />
-                        </a>
-                    </div>
-                </div>
-            </InformationContainerComponent>
+  return (
+    <div className="InfoLicencePage">
+      <InformationContainerComponent header="Лицензии">
+        <div className="InfoLicencePage__container">
+          <div className="InfoLicencePage__picture">
+            <a href={pic1} target="_blank" rel="noreferrer">
+              <img src={pic1} alt="" />
+            </a>
+          </div>
+          <div className="InfoLicencePage__picture">
+            <a href={pic2} target="_blank" rel="noreferrer">
+              <img src={pic2} alt="" />
+            </a>
+          </div>
+          <div className="InfoLicencePage__picture">
+            <a href={pic5} target="_blank" rel="noreferrer">
+              <img src={pic5} alt="" />
+            </a>
+          </div>
+          <div className="InfoLicencePage__picture">
+            <a href={pic6} target="_blank" rel="noreferrer">
+              <img src={pic6} alt="" />
+            </a>
+          </div>
+          <div className="InfoLicencePage__picture">
+            <a href={pic3} target="_blank" rel="noreferrer">
+              <img src={pic3} alt="" />
+            </a>
+          </div>
+          <div className="InfoLicencePage__picture">
+            <a href={pic4} target="_blank" rel="noreferrer">
+              <img src={pic4} alt="" />
+            </a>
+          </div>
         </div>
-    );
+      </InformationContainerComponent>
+    </div>
+  );
 };

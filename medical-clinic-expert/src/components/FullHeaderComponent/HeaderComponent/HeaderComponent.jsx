@@ -15,7 +15,7 @@ export const HeaderComponent = () => {
             onClick={(e) => navigate("/")}
           >
             <h3 className="header__expertLogo">ЭКСПЕРТ</h3>
-            <img className="header__expertButton_logo" src={logo} />
+            <img className="header__expertButton_logo" src={logo} alt="" />
           </button>
           <h4 className="header__expertButton_description">
             ООО «КВАЛИФИЦИРОВАННАЯ МЕДИЦИНСКАЯ ПОМОЩЬ»

@@ -1,0 +1,29 @@
+.AllergistImmunologistServicePage,
+.CardiologistServicePage,
+.CardiovascularSurgeonServicePage,
+.ColoproctologistServicePage,
+.DermatologistServicePage,
+.EndocrinologistServicePage,
+.FunctionalDiagnosticsServicePage,
+.GastroenterologistServicePage,
+.GynecologistServicePage,
+.MassageServicePage,
+.NeurologistServicePage,
+.OncologistServicePage,
+.OtherServicesPage,
+.OtorhinolaryngologistServicePage,
+.PhysiotherapyServicePage,
+.PsychologistServicePage,
+.PulmonologistServicePage,
+.RheumatologistServicePage,
+.SurgeonServicePage,
+.TherapistServicePage,
+.TraumatologistOrthopedistServicePage,
+.TreatmentRoomServicePage,
+.UltrasoundDiagnosticsServicePage,
+.UrologistServicePage {
+    background-image: url("../img/pages-bg.png");
+    background-repeat: no-repeat;
+    background-size: auto auto ;
+    min-height: 900px;
+  }
