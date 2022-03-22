@@ -1,16 +1,11 @@
 .sliderComponent__block {
   height: 33vw;
-  position: relative;
+  position: initial;
 }
 
 .each-slide {
   height: 30vw;
-  position: relative;
-}
-
-.carousel__slide_description,
-.carousel__slide_name {
-  font-weight: 400;
+  position: initial;
 }
 
 .each-slide-img {
@@ -18,7 +13,8 @@
   background-position: center top;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  position: relative;
+  position: initial;
+  z-index: -1;
 }
 
 .indicator {

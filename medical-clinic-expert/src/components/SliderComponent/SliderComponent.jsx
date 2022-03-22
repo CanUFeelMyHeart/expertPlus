@@ -5,12 +5,12 @@ import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import "./SliderComponent.css";
 
-export const SliderComponent = (props) => {
+export const SliderComponent = () => {
   const properties = {
     duration: 3000,
     indicators: true,
     transitionDuration: 1500,
-    indicators: i => (<div className="indicator"></div>)
+    indicators: (i) => <div className="indicator"></div>,
   };
 
   return (
@@ -19,7 +19,6 @@ export const SliderComponent = (props) => {
         <Slide {...properties}>
           {pictures.map((slideImage, index) => (
             <div className="each-slide" key={index}>
-              {/* <img className="each-slide-img" src={slideImage.url} alt="" /> */}
               <div
                 className="each-slide-img"
                 style={{ backgroundImage: `url(${slideImage.url})` }}

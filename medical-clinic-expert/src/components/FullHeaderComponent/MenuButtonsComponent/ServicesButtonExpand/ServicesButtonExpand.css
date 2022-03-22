@@ -1,6 +1,7 @@
 .servicesExpandingList {
   position: absolute;
   width: 520px;
+  z-index: 1;
 }
 
 .servicesExpandingList__container {
