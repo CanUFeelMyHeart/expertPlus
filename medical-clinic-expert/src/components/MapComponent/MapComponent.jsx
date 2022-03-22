@@ -10,6 +10,7 @@ export const MapComponent = () => {
                     width="100%"
                     height="400"
                     frameBorder="0"
+                    title="yandexFrame"
                 ></iframe>
             </div>
         </>

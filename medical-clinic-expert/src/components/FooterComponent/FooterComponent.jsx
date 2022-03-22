@@ -11,8 +11,13 @@ export const FooterComponent = () => {
             <a
               href="https://www.liveinternet.ru/stat/508877.ru/"
               target="_blank"
+              rel="noreferrer"
             >
-              <img src={stat_img} className="footerContainer_statImage" />
+              <img
+                src={stat_img}
+                className="footerContainer_statImage"
+                alt=""
+              />
             </a>
             <h3>2018 © ООО «КМП»</h3>
           </div>

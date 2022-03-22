@@ -48,7 +48,7 @@ export const MenuButtonsPhoneComponent = (props) => {
           onClick={() => setOpenInfoFunction()}
         >
           Информация
-          <img className="menuButton__expandArrow" src={expandArrow} />
+          <img className="menuButton__expandArrow" src={expandArrow} alt="" />
         </button>
         <hr className="header__underline" />
         <InfoButton
@@ -61,7 +61,7 @@ export const MenuButtonsPhoneComponent = (props) => {
           onClick={() => setOpenServicesFunction()}
         >
           Медуслуги
-          <img className="menuButton__expandArrow" src={expandArrow} />
+          <img className="menuButton__expandArrow" src={expandArrow} alt="" />
         </button>
         <hr className="header__underline" />
         <ServicesButton

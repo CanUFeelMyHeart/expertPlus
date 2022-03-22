@@ -41,7 +41,7 @@ export const MenuButtonsComponent = (props) => {
       setInfoDropdown(false);
     } else {
       setInfoDropdown(true);
-      setOpenInfo(true)
+      setOpenInfo(true);
     }
   };
 
@@ -50,7 +50,7 @@ export const MenuButtonsComponent = (props) => {
       setInfoDropdown(false);
     } else {
       setInfoDropdown(false);
-      setOpenInfo(false)
+      setOpenInfo(false);
     }
   };
 
@@ -59,7 +59,7 @@ export const MenuButtonsComponent = (props) => {
       setServicesDropdown(false);
     } else {
       setServicesDropdown(true);
-      setOpenServices(true)
+      setOpenServices(true);
     }
   };
 
@@ -68,7 +68,7 @@ export const MenuButtonsComponent = (props) => {
       setServicesDropdown(false);
     } else {
       setServicesDropdown(false);
-      setOpenServices(false)
+      setOpenServices(false);
     }
   };
 
@@ -78,7 +78,7 @@ export const MenuButtonsComponent = (props) => {
         <div onMouseEnter={onMouseEnterInfo} onMouseLeave={onMouseLeaveInfo}>
           <button className="menuButton" onClick={() => setOpenInfoFunction()}>
             Информация
-            <img className="menuButton__expandArrow" src={expandArrow} />
+            <img className="menuButton__expandArrow" src={expandArrow} alt="" />
           </button>
           {infoDropdown && (
             <InfoButton
@@ -91,10 +91,12 @@ export const MenuButtonsComponent = (props) => {
           onMouseEnter={onMouseEnterServices}
           onMouseLeave={onMouseLeaveServices}
         >
-          <button className="menuButton"
-          onClick={() => setOpenServicesFunction()}>
+          <button
+            className="menuButton"
+            onClick={() => setOpenServicesFunction()}
+          >
             Медуслуги
-            <img className="menuButton__expandArrow" src={expandArrow} />
+            <img className="menuButton__expandArrow" src={expandArrow} alt="" />
           </button>
           {servicesDropdown && (
             <ServicesButton
