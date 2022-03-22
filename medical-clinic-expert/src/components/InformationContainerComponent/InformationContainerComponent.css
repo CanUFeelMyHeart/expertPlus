@@ -4,7 +4,7 @@
   align-items: stretch;
   max-width: 1160px;
   margin: 0 auto;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .InformationContainerComponent__container {
@@ -37,7 +37,6 @@
 }
 
 .InformationContainerComponent__mainInfo {
-  width: 100%;
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;

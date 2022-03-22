@@ -22,7 +22,7 @@ export const NewsPage = () => {
   }
 
   return (
-    <>
+    <div className="newsPageComponent">
       <InformationContainerComponent header="Новости">
         {currentNewsData.map((singleNew, index) => (
           <div className="newsPage__new_component">
@@ -43,6 +43,6 @@ export const NewsPage = () => {
           onPageChange={(page) => setCurrentPage(page)}
         />
       </InformationContainerComponent>
-    </>
+    </div>
   );
 };
