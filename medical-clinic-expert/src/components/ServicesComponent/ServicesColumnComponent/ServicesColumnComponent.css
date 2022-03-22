@@ -22,3 +22,9 @@
 .servicesColumnComponent_arrow {
     margin-right: 20px;
 }
+
+.servicesColumnComponent__service:hover {
+color: #000000;
+transition: .5s;
+transform: scale(1.01);
+}

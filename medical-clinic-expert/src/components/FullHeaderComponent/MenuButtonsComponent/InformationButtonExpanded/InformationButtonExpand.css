@@ -29,6 +29,7 @@
 
 .infoExpandingList__container_button:hover {
   background-color: #f5f5f5;
+  transition: .5s;
 }
 
 .infoExpandingList__container_hr {
