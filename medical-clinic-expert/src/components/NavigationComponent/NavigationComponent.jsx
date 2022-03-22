@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { FullHeaderComponent as Header } from "../FullHeaderComponent/FullHeaderComponent";
 import { FooterComponent } from '../../components/FooterComponent/FooterComponent'
 import { MapComponent } from '../../components/MapComponent/MapComponent'
 import ScrollToTop from './ScrollToTop'
@@ -55,11 +56,11 @@ import { TreatmentRoomServicePage } from '../../pages/ServicesPages/TreatmentRoo
 import { UltrasoundDiagnosticsServicePage } from '../../pages/ServicesPages/UltrasoundDiagnosticsServicePage/UltrasoundDiagnosticsServicePage'
 import { UrologistServicePage } from '../../pages/ServicesPages/UrologistServicePage/UrologistServicePage'
 
-export const NavigationRouter = ({children}) => {
+export const NavigationRouter = () => {
     return (
         <Router>
             <ScrollToTop/>
-            {children}
+            <Header/>
                 <Routes>
                 <Route path="/" exact element={<MainPage />} />
                 <Route path="/doctors" element={<DoctorsPage />} />
