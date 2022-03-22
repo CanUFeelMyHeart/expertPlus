@@ -1,18 +1,12 @@
 import React from "react";
-import { FullHeaderComponent as Header } from "./components/FullHeaderComponent/FullHeaderComponent";
 import { NavigationRouter as Router } from "./components/NavigationComponent/NavigationComponent";
 
-
-
 function App() {
-    return (
-        <div className="App">
-            <Router>
-                <Header />
-               
-            </Router>
-        </div>
-    );
+  return (
+    <div className="App">
+      <Router></Router>
+    </div>
+  );
 }
 
 export default App;

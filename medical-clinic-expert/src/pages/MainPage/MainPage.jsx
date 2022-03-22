@@ -11,7 +11,6 @@ export const MainPage = () => {
     return (
         <>
             <div>
-          
                 <SliderComponent/>
                 <AboutClinic />
                 <ServicesComponent />

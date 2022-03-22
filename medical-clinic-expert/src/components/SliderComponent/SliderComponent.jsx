@@ -1,44 +1,34 @@
 import React from "react";
-import { SliderSectionComponent } from "./SliderSectionComponent";
-import { comments } from "./SliderInfo";
-import { carousel__navigation } from "./SliderNavInfo";
+import { pictures } from "./SliderInfo";
+import SimpleImageSlider from "react-simple-image-slider";
+import { Slide } from "react-slideshow-image";
+import "react-slideshow-image/dist/styles.css";
 import "./SliderComponent.css";
 
 export const SliderComponent = (props) => {
-    return (
-        <div className="sliderComponent__block">
-            
-            <div className="sectionComponent__block_carousel">
-                <section className="slider" aria-label="Gallery">
-                    <ol className="slider__viewport">
-                        {comments.map((comment, index) => (
-                            <SliderSectionComponent
-                                key={index}
-                                name={comment.name}
-                                image={comment.image}
-                                id={comment.id}
-                                href_prev={comment.href_prev}
-                                href_next={comment.href_next}
-                            />
-                        ))}
-                    </ol>
-                    <aside className="slider__navigation">
-                        <ol className="slider__navigation-list">
-                            {carousel__navigation.map((nav, index) => (
-                                <li
-                                    key={index}
-                                    className="slider__navigation-item"
-                                >
-                                    <a
-                                        href={nav.href}
-                                        className="carousel__navigation-button"
-                                    ></a>
-                                </li>
-                            ))}
-                        </ol>
-                    </aside>
-                </section>
+  const properties = {
+    duration: 3000,
+    indicators: true,
+    transitionDuration: 1500,
+    indicators: i => (<div className="indicator"></div>)
+  };
+
+  return (
+    <div className="sliderComponent__block">
+      <div className="sectionComponent__block_carousel">
+        <Slide {...properties}>
+          {pictures.map((slideImage, index) => (
+            <div className="each-slide" key={index}>
+              {/* <img className="each-slide-img" src={slideImage.url} alt="" /> */}
+              <div
+                className="each-slide-img"
+                style={{ backgroundImage: `url(${slideImage.url})` }}
+              ></div>
             </div>
-        </div>
-    );
+          ))}
+        </Slide>
+      </div>
+      <hr className="aboutClinic__hr" />
+    </div>
+  );
 };
