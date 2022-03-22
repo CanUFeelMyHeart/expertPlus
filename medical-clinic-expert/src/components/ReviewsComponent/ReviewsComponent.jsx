@@ -10,11 +10,11 @@ export const ReviewsComponent = (props) => {
       <h2 className="reviewsComponent__block_header">Отзывы клиентов</h2>
       <div className="reviewsComponent__block_carousel">
         <Carousel
-          fullHeightHover={false}
           swipe={false}
+          navButtonsAlwaysInvisible={true}
           indicatorContainerProps={{
             style: {
-              marginTop: "10px", // 5
+              display: "none" 
             },
           }}
         >

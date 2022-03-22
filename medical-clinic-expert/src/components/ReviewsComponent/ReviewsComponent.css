@@ -4,11 +4,6 @@
   height: fit-content;
 }
 
-.css-1f8sh1y {
-  /* height: fit-content !important;
-  block-size: fit-content !important; */
-}
-
 .css-ohwg9z {
   height: 100%;
 }
@@ -37,9 +32,10 @@
 }
 
 .reviewsComponent__block_carousel {
+  margin-top: 40px !important;
   max-width: 850px;
   margin: 0 auto;
-  height: 100%;
+  height: 350px;
   border-width: 20px;
   border-color: #333;
 }
