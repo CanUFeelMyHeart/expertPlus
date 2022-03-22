@@ -7,7 +7,6 @@ import {ServicesComponent} from "../../../components/ServicesComponent/ServicesC
 export const InfoRegulationsPage = () => {
     return (
         <div className="InfoRegulationsPage">
-            <InformationContainerComponent header="Положение о предоставлении платных медицинских услуг"></InformationContainerComponent>
             <InformationContainerComponent header="Положение о предоставлении платных медицинских услуг">
                 <div className="servisesContainer">
 
@@ -261,8 +260,6 @@ export const InfoRegulationsPage = () => {
                 
                 </div>
             </InformationContainerComponent>
-            <AboutClinicComponent />
-            <ServicesComponent />
         </div>
     );
 };

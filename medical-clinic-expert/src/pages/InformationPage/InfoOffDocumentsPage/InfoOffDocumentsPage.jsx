@@ -1,7 +1,5 @@
 import React from "react";
 import { InformationContainerComponent } from "../../../components/InformationContainerComponent/InformationContainerComponent";
-import {AboutClinicComponent} from "../../../components/AboutClinicComponent/AboutClinicComponent"
-import {ServicesComponent} from "../../../components/ServicesComponent/ServicesComponent"
 
 export const InfoOffDocumentsPage = () => {
     return (
@@ -14,9 +12,6 @@ export const InfoOffDocumentsPage = () => {
                 <a href="https://drive.google.com/file/d/1J0MZAKJr73x3md1m8KHy6l0HYAghTa0Q/view?usp=sharing">Постановление Правительства РФ от 04.10.2012 N 1006 </a>
                 <br></br>
             </InformationContainerComponent>
-            
-            <AboutClinicComponent />
-            <ServicesComponent />
         </div>
     );
 };

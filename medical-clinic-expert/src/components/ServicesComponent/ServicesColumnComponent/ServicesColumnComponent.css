@@ -25,6 +25,6 @@
 
 .servicesColumnComponent__service:hover {
 color: #000000;
-transition: .5s;
-transform: scale(1.01);
+transition: .2s;
+transform: scale(1.02);
 }
