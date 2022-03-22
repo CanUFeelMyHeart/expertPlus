@@ -7,6 +7,7 @@ import { OfertaComponent } from "../../../components/PriceListComponent/OfertaCo
 import { ServiceSpecialistsInfoComponent } from "../../../components/ServiceSpecialistsInfoComponent/ServiceSpecialistsInfoComponent";
 import { priceInfoAllergist } from "./PriceInfoAllergist";
 import allergist from "../../../assets/images/services/allergolog1.jpg";
+import '../../PagesBackgroundStyles.css'
 
 export const AllergistImmunologistServicePage = () => {
   return (

@@ -6,6 +6,7 @@ import { OfertaComponent } from "../../../components/PriceListComponent/OfertaCo
 import { ServiceSpecialistsInfoComponent } from "../../../components/ServiceSpecialistsInfoComponent/ServiceSpecialistsInfoComponent";
 import { SpecialistsInfoCardiologist } from "./SpecialistsInfoCardiologist";
 import { priceInfoCardiologist } from "./PriceInfoCardiologist";
+import '../../PagesBackgroundStyles.css'
 
 export const CardiologistServicePage = () => {
     return (
