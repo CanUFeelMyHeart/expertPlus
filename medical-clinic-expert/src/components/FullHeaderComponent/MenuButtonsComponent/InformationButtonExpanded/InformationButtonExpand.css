@@ -1,6 +1,7 @@
 .infoExpandingList {
   position: absolute;
   width: 520px;
+  transition:opacity 1s linear;
 }
 
 .infoExpandingList__container {
