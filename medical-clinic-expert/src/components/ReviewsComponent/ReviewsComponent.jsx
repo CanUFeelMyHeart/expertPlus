@@ -7,14 +7,17 @@ import Carousel from "react-material-ui-carousel";
 export const ReviewsComponent = (props) => {
   return (
     <div className="reviewsComponent__block">
-      <h2 className="reviewsComponent__block_header">Отзывы клиентов</h2>
+      <div className="reviewsComponent__block_header">
+        <h2 className="reviewsComponent__block_header_inner">Отзывы клиентов</h2>
+      </div>
       <div className="reviewsComponent__block_carousel">
         <Carousel
           swipe={false}
           navButtonsAlwaysInvisible={true}
+          interval={6000}
           indicatorContainerProps={{
             style: {
-              display: "none" 
+              display: "none",
             },
           }}
         >
