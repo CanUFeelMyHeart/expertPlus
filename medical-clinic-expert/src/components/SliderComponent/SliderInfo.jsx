@@ -1,4 +1,4 @@
-import MainSliderPic1 from "./img/Carousel.png";
+import MainSliderPic1 from "./img/test_carousel.png";
 import MainSliderPic2 from "./img/slide-coronavirus.jpg";
 export const pictures = [
   {

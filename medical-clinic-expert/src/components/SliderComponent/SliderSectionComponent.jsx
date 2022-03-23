@@ -15,8 +15,8 @@ export const SliderSectionComponent = (props) => {
             </div>
             <div className="carousel__slide_text">
                 <div className="carousel__slide_description">{props.description}</div>
-                <br/>
-                <div className="carousel__slide_name">{props.image}</div>
+                
+                <div className="carousel__slide_name"><img src={props.image} alt="" /></div>
             </div>
         </li>
     );
