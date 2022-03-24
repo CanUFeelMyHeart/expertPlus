@@ -53,6 +53,36 @@
 }
 
 @media (max-width: 1500px) {
+  .AllergistImmunologistServicePage,
+  .CardiologistServicePage,
+  .CardiovascularSurgeonServicePage,
+  .ColoproctologistServicePage,
+  .DermatologistServicePage,
+  .EndocrinologistServicePage,
+  .FunctionalDiagnosticsServicePage,
+  .GastroenterologistServicePage,
+  .GynecologistServicePage,
+  .MassageServicePage,
+  .NeurologistServicePage,
+  .OncologistServicePage,
+  .OtherServicesPage,
+  .OtorhinolaryngologistServicePage,
+  .PhysiotherapyServicePage,
+  .PsychologistServicePage,
+  .PulmonologistServicePage,
+  .RheumatologistServicePage,
+  .SurgeonServicePage,
+  .TherapistServicePage,
+  .TraumatologistOrthopedistServicePage,
+  .TreatmentRoomServicePage,
+  .UltrasoundDiagnosticsServicePage,
+  .UrologistServicePage,
+  .InfoQualificationsPage,
+  .InfoRegulationsPage,
+  .InfoMapPage {
+    background-size: 1500px 100%;
+  }
+
   .newsPageComponent,
   .ContactsPageComponent,
   .InfoAboutPage,
