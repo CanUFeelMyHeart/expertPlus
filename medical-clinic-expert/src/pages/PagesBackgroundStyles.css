@@ -27,8 +27,8 @@
 .InfoMapPage {
   background-image: url("../img/pages-bg.png");
   background-repeat: no-repeat;
-  background-size: auto auto;
-  min-height: 900px;
+  min-height: 1100px;
+  background-size: 100% 1100px;
 }
 
 .newsPageComponent,
