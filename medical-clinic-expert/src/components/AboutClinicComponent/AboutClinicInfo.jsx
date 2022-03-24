@@ -1,7 +1,7 @@
-import aboutClinicPic1 from "../../img/testIcon1.svg";
-import aboutClinicPic2 from "../../img/testIcon2.svg";
-import aboutClinicPic3 from "../../img/testIcon3.svg";
-import aboutClinicPic4 from "../../img/testIcon4.svg";
+import aboutClinicPic1 from "../../img/aboutClinic/clinicIcon1.svg";
+import aboutClinicPic2 from "../../img/aboutClinic/clinicIcon2.svg";
+import aboutClinicPic3 from "../../img/aboutClinic/clinicIcon3.svg";
+import aboutClinicPic4 from "../../img/aboutClinic/clinicIcon4.svg";
 
 export const aboutClinicInfo = [
     {
