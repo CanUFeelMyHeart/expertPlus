@@ -13,13 +13,18 @@ export const ReviewsComponent = (props) => {
       <div className="reviewsComponent__block_carousel">
         <Carousel
           swipe={false}
-          navButtonsAlwaysInvisible={true}
+          navButtonsAlwaysVisible={true}
           interval={6000}
           indicatorContainerProps={{
             style: {
               display: "none",
             },
           }}
+          navButtonsProps={{          // Change the colors and radius of the actual buttons. THIS STYLES BOTH BUTTONS
+            style: {
+                backgroundColor: '#a7a7a7',
+            }
+        }} 
         >
           {comments.map((comment, index) => (
             <CarouselSectionComponent

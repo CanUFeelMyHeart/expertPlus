@@ -21,9 +21,50 @@
 .TraumatologistOrthopedistServicePage,
 .TreatmentRoomServicePage,
 .UltrasoundDiagnosticsServicePage,
-.UrologistServicePage {
-    background-image: url("../img/pages-bg.png");
-    background-repeat: no-repeat;
-    background-size: auto auto ;
-    min-height: 900px;
+.UrologistServicePage,
+.InfoQualificationsPage,
+.InfoRegulationsPage,
+.InfoMapPage {
+  background-image: url("../img/pages-bg.png");
+  background-repeat: no-repeat;
+  min-height: 1100px;
+  background-size: 100% 1100px;
+}
+
+.newsPageComponent,
+.ContactsPageComponent,
+.InfoAboutPage,
+.InfoVacanciesPage,
+.InfoControlOrgPage {
+  background-image: url("../img/img-bg5.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 900px;
+}
+
+.InfoLicencePage,
+.InfoVacanciesPage,
+.DmsPage,
+.InfoOffDocumentsPage {
+  background-image: url("../img/img-bg-5-4.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 900px;
+}
+
+@media (max-width: 1500px) {
+  .newsPageComponent,
+  .ContactsPageComponent,
+  .InfoAboutPage,
+  .InfoVacanciesPage,
+  .InfoControlOrgPage {
+    background-size: 1500px 100%;
   }
+
+  .InfoLicencePage,
+  .InfoVacanciesPage,
+  .DmsPage,
+  .InfoOffDocumentsPage {
+    background-size: 1500px 100%;
+  }
+}
