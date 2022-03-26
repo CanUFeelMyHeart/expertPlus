@@ -3,11 +3,13 @@ import { InformationContainerComponent } from "../../../components/InformationCo
 
 export const New8 = () => {
   return (
-    <InformationContainerComponent header="В клинике Эксперт плюс проводится медикаментозное прерывание беременности на ранних сроках">
-      <div className="NewPage__text">
-        В клинике Эксперт плюс проводится медикаментозное прерывание
-        беременности на ранних сроках
-      </div>
-    </InformationContainerComponent>
+    <div className="specific_new_page">
+      <InformationContainerComponent header="В клинике Эксперт плюс проводится медикаментозное прерывание беременности на ранних сроках">
+        <div className="NewPage__text">
+          В клинике Эксперт плюс проводится медикаментозное прерывание
+          беременности на ранних сроках
+        </div>
+      </InformationContainerComponent>
+    </div>
   );
 };

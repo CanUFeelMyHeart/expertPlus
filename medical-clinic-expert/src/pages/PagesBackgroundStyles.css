@@ -46,7 +46,8 @@
 .InfoVacanciesPage,
 .DmsPage,
 .InfoOffDocumentsPage,
-.InfoLegFramPage {
+.InfoLegFramPage,
+.specific_new_page {
   background-image: url("../img/img-bg-5-4.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -96,7 +97,8 @@
   .InfoVacanciesPage,
   .DmsPage,
   .InfoOffDocumentsPage,
-  .InfoLegFramPage {
+  .InfoLegFramPage,
+  .specific_new_page {
     background-size: 1500px 100%;
   }
 }

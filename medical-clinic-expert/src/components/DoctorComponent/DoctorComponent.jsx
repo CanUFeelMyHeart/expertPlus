@@ -9,7 +9,6 @@ export const DoctorComponent = (props) => {
           <div className="DoctorComponent__image">
             <img
               src={props.image}
-              className="DoctorComponent__doctorImage"
               alt=""
             />
           </div>
