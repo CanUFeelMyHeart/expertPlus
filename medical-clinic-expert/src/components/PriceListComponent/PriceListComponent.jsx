@@ -17,10 +17,26 @@ export const PriceListComponent = (props) => {
           {props.priceInfo.map((info, index) => (
             <>
               <tr key={index} className="PriceListComponent__trow">
-                <td className="PriceListComponent__trow_td name">
+                <td
+                  className="PriceListComponent__trow_td name"
+                  style={
+                    info.price
+                      ? { fontWeight: "normal" }
+                      : { fontWeight: "bold" }
+                  }
+                >
                   {info.code}
                 </td>
-                <td className="PriceListComponent__trow_td">{info.name}</td>
+                <td
+                  className="PriceListComponent__trow_td"
+                  style={
+                    info.price
+                      ? { fontWeight: "normal" }
+                      : { fontWeight: "bold" }
+                  }
+                >
+                  {info.name}
+                </td>
                 <td className="PriceListComponent__trow_td">{info.price}</td>
               </tr>
             </>
