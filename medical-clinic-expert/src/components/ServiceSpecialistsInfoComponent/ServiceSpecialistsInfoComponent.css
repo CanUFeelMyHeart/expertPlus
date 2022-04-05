@@ -26,7 +26,6 @@
 }
 
 .ServiceSpecialistsInfoComponent__mainInfo {
-    width: 100%;
     padding-bottom: 30px;
     display: flex;
     flex-direction: column;

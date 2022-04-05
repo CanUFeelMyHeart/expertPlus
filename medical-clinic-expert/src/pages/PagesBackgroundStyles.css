@@ -21,9 +21,84 @@
 .TraumatologistOrthopedistServicePage,
 .TreatmentRoomServicePage,
 .UltrasoundDiagnosticsServicePage,
-.UrologistServicePage {
-    background-image: url("../img/pages-bg.png");
-    background-repeat: no-repeat;
-    background-size: auto auto ;
-    min-height: 900px;
+.UrologistServicePage,
+.InfoQualificationsPage,
+.InfoRegulationsPage,
+.InfoMapPage {
+  background-image: url("../img/pages-bg.png");
+  background-repeat: no-repeat;
+  min-height: 1100px;
+  background-size: 100% 1100px;
+}
+
+.newsPageComponent,
+.ContactsPageComponent,
+.InfoAboutPage,
+.InfoVacanciesPage,
+.InfoControlOrgPage {
+  background-image: url("../img/img-bg5.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 900px;
+}
+
+.InfoLicencePage,
+.InfoVacanciesPage,
+.DmsPage,
+.InfoOffDocumentsPage,
+.InfoLegFramPage,
+.specific_new_page {
+  background-image: url("../img/img-bg-5-4.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 900px;
+}
+
+@media (max-width: 1500px) {
+  .AllergistImmunologistServicePage,
+  .CardiologistServicePage,
+  .CardiovascularSurgeonServicePage,
+  .ColoproctologistServicePage,
+  .DermatologistServicePage,
+  .EndocrinologistServicePage,
+  .FunctionalDiagnosticsServicePage,
+  .GastroenterologistServicePage,
+  .GynecologistServicePage,
+  .MassageServicePage,
+  .NeurologistServicePage,
+  .OncologistServicePage,
+  .OtherServicesPage,
+  .OtorhinolaryngologistServicePage,
+  .PhysiotherapyServicePage,
+  .PsychologistServicePage,
+  .PulmonologistServicePage,
+  .RheumatologistServicePage,
+  .SurgeonServicePage,
+  .TherapistServicePage,
+  .TraumatologistOrthopedistServicePage,
+  .TreatmentRoomServicePage,
+  .UltrasoundDiagnosticsServicePage,
+  .UrologistServicePage,
+  .InfoQualificationsPage,
+  .InfoRegulationsPage,
+  .InfoMapPage {
+    background-size: 1500px 100%;
   }
+
+  .newsPageComponent,
+  .ContactsPageComponent,
+  .InfoAboutPage,
+  .InfoVacanciesPage,
+  .InfoControlOrgPage {
+    background-size: 1500px 100%;
+  }
+
+  .InfoLicencePage,
+  .InfoVacanciesPage,
+  .DmsPage,
+  .InfoOffDocumentsPage,
+  .InfoLegFramPage,
+  .specific_new_page {
+    background-size: 1500px 100%;
+  }
+}
