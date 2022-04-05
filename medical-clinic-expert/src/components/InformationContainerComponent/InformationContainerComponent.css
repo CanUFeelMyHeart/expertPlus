@@ -20,7 +20,6 @@
   border-bottom-right-radius: 15px;
   padding-top: 5px;
   margin-bottom: 20px;
-
 }
 
 .InformationContainerComponent__header_inner {
@@ -39,8 +38,6 @@
 .InformationContainerComponent__mainInfo {
   padding-bottom: 30px;
   display: flex;
-  font-size: 27px;
-  margin: 7px;
   flex-direction: column;
   align-items: flex-start;
   padding: 30px 70px;
@@ -65,6 +62,12 @@
   }
 
   .InformationContainerComponent__header {
+    background-color: rgba(255, 255, 255, 0.561);
+    width: fit-content;
+    padding: 0px 0px;
+  }
+
+  .InformationContainerComponent__header_inner {
     font-size: 24px;
     line-height: 32px;
   }

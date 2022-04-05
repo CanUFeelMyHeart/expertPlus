@@ -53,12 +53,12 @@ tbody tr:nth-child(even) {
   }
 
   .InfoQualificationsPage__thead {
-    /* font-size: 12px; */
+    font-size: 12px;
   }
 
   .InfoQualificationsPage__table {
     width: 100%;
-    /* font-size: 12px; */
+    font-size: 12px;
   }
 
   .InfoQualificationsPage__trow_td {

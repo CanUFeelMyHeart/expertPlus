@@ -10,10 +10,10 @@ export const FullHeaderComponent = () => {
       <div className="FullHeaderComponent">
         <div className="FullHeaderComponent__container">
           <HeaderComponent />
-          <UnderHeaderMenuComponent />
           <UnderHeaderPhoneMenuComponent />
         </div>
       </div>
+      <UnderHeaderMenuComponent />
     </>
   );
 };
