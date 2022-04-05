@@ -4,13 +4,14 @@
     grid-gap: 26px;
     width: 575px;
     border-width: 10px;
+    
 }
 
 .menuButton {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 300;
-    color: #484848;
+    color: #FFFFFF;
     font-size: 18px;
     display: flex;
     flex-direction: row;

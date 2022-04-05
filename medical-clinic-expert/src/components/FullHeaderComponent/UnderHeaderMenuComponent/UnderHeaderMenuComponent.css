@@ -1,8 +1,11 @@
 .menuButtonsAll {
+ 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
   margin: 0 auto;
+  background-color: rgba(87, 114, 255, 0.77);
+  
 }
 
 .menuButtonsAll__makeAnAppointmentButton {
@@ -13,7 +16,7 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
-  color: #484848;
+  color: #FFFFFF;
 }
 
 @media (max-width: 961px) {
