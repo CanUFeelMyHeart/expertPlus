@@ -1,5 +1,7 @@
 .UnderHeaderPhoneMenuComponent {
   display: none;
+  width: 1080px;
+
 }
 
 .menuButtonsPhone {
@@ -14,7 +16,7 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
-  color: #484848;
+  color: #FFFFFF;
 }
 
 .menuButtonsPhone__menu {
