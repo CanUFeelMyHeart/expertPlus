@@ -1,6 +1,5 @@
 import React from "react";
 import { pictures } from "./SliderInfo";
-import SimpleImageSlider from "react-simple-image-slider";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import "./SliderComponent.css";
@@ -27,7 +26,7 @@ export const SliderComponent = () => {
           ))}
         </Slide>
       </div>
-      <hr className="aboutClinic__hr" />
+      <hr className="aboutClinic__hr" /> 
     </div>
   );
 };

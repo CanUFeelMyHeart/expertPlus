@@ -12,17 +12,17 @@ export const InfoLegFramPage = () => {
         <div className="InfoLegFramPage__container">
           <div className="InfoLegFramPage__picture">
             <a href={ogrn} target="_blank" rel="noreferrer">
-              <img src={ogrn} alt="" />
+              <img src={ogrn} alt="ogrn" />
             </a>
           </div>
           <div className="InfoLegFramPage__picture">
             <a href={ustav2} target="_blank" rel="noreferrer">
-              <img src={ustav2} alt="" />
+              <img src={ustav2} alt="ustav2" />
             </a>
           </div>
           <div className="InfoLegFramPage__picture">
             <a href={ustav3} target="_blank" rel="noreferrer">
-              <img src={ustav3} alt="" />
+              <img src={ustav3} alt="ustav3" />
             </a>
           </div>
         </div>

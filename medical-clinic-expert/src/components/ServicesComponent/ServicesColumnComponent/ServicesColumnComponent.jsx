@@ -21,7 +21,7 @@ export const ServicesColumnComponent = (props) => {
                     <img
                         src={availableServiceArrow}
                         className="servicesColumnComponent_arrow"
-                        alt=""
+                        alt="servicesColumnComponent_arrow"
                     ></img>
                     <h3 className="servicesColumnComponent__service">{service.name}</h3>
                 </button>

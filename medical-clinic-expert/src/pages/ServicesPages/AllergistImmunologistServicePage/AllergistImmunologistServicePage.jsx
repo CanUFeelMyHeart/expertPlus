@@ -48,7 +48,7 @@ export const AllergistImmunologistServicePage = () => {
             чихания.
           </h3>
           <div className="services_doctor_info_img_container">
-            <img className="services_doctor_info_img" src={allergist} alt="" />
+            <img className="services_doctor_info_img" src={allergist} alt="allergologist" />
           </div>
           <h3 className="services_doctor_info_description">
             Такие приступы начинаются внезапно, на фоне полного благополучия и

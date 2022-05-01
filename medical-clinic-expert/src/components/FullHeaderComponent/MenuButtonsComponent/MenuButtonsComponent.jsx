@@ -78,7 +78,7 @@ export const MenuButtonsComponent = (props) => {
         <div onMouseEnter={onMouseEnterInfo} onMouseLeave={onMouseLeaveInfo}>
           <button className="menuButton" onClick={() => setOpenInfoFunction()}>
             Информация
-            <img className="menuButton__expandArrow" src={expandArrow} alt="" />
+            <img className="menuButton__expandArrow" src={expandArrow} alt="expand_arrow" />
           </button>
           {infoDropdown && (
             <InfoButton
@@ -96,7 +96,7 @@ export const MenuButtonsComponent = (props) => {
             onClick={() => setOpenServicesFunction()}
           >
             Медуслуги
-            <img className="menuButton__expandArrow" src={expandArrow} alt="" />
+            <img className="menuButton__expandArrow" src={expandArrow} alt="expand_arrow" />
           </button>
           {servicesDropdown && (
             <ServicesButton

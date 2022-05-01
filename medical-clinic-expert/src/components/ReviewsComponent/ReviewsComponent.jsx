@@ -31,7 +31,7 @@ export const ReviewsComponent = (props) => {
               key={index}
               name={comment.name}
               description={comment.description}
-            />
+            /> 
           ))}
         </Carousel>
       </div>
