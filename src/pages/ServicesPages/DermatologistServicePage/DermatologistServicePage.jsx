@@ -4,7 +4,7 @@ import { PriceListComponent } from "../../../components/PriceListComponent/Price
 import { ServicesSpecialistsComponent } from "../../../components/ServicesSpecialistsComponent/ServicesSpecialistsComponent";
 import { OfertaComponent } from "../../../components/PriceListComponent/OfertaComponent";
 import { SpecialistsInfoDermatologist } from "./SpecialistsInfoDermatologist";
-import { priceInfoDermatologist } from "./PriceInfoDermatologist";
+import priceInfoDermatologist from "./PriceInfoDermatologist";
 
 export const DermatologistServicePage = () => {
     return (

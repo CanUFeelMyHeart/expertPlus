@@ -3,7 +3,7 @@ import { InformationContainerComponent } from "../../../components/InformationCo
 import { PriceListComponent } from "../../../components/PriceListComponent/PriceListComponent";
 import { OfertaComponent } from "../../../components/PriceListComponent/OfertaComponent";
 import { ServiceSpecialistsInfoComponent } from "../../../components/ServiceSpecialistsInfoComponent/ServiceSpecialistsInfoComponent";
-import { priceInfoTreatmentRoom } from "./PriceInfoTreatmentRoom";
+import priceInfoTreatmentRoom from "./PriceInfoTreatmentRoom";
 
 export const TreatmentRoomServicePage = () => {
     return (

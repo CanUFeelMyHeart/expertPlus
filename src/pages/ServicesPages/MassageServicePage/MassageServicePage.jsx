@@ -4,7 +4,7 @@ import { PriceListComponent } from "../../../components/PriceListComponent/Price
 import { ServicesSpecialistsComponent } from "../../../components/ServicesSpecialistsComponent/ServicesSpecialistsComponent";
 import { OfertaComponent } from "../../../components/PriceListComponent/OfertaComponent";
 import { SpecialistsInfoMassage } from "./SpecialistsInfoMassage";
-import { priceInfoMassage } from "./PriceInfoMassage";
+import priceInfoMassage from "./PriceInfoMassage";
 
 export const MassageServicePage = () => {
     return (
