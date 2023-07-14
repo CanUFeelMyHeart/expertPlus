@@ -50,6 +50,7 @@ import { PsychologistServicePage } from '../../pages/ServicesPages/PsychologistS
 import { PulmonologistServicePage } from '../../pages/ServicesPages/PulmonologistServicePage/PulmonologistServicePage'
 import { RheumatologistServicePage } from '../../pages/ServicesPages/RheumatologistServicePage/RheumatologistServicePage'
 import { SurgeonServicePage } from '../../pages/ServicesPages/SurgeonServicePage/SurgeonServicePage'
+import { SpeechTherapistServicePage } from '../../pages/ServicesPages/SpeechTherapistServicePage/SpeechTherapistServicePage'
 import { TherapistServicePage } from '../../pages/ServicesPages/TherapistServicePage/TherapistServicePage'
 import { TraumatologistOrthopedistServicePage } from '../../pages/ServicesPages/TraumatologistOrthopedistServicePage/TraumatologistOrthopedistServicePage'
 import { TreatmentRoomServicePage } from '../../pages/ServicesPages/TreatmentRoomServicePage/TreatmentRoomServicePage'
@@ -88,7 +89,6 @@ export const NavigationRouter = () => {
                 <Route path="/info/svedeniya-o-kvalifikaczii-mediczinskix-rabotnikov" element={<InfoQualificationsPage />} />
                 <Route path="/info/polozhenie-o-predostavlenii-platnyix-mediczinskix-uslug" element={<InfoRegulationsPage />} />
                 <Route path="/info/jobs" element={<InfoVacanciesPage />} />
-
                 <Route path="/services/allergolog-immunolog" element={<AllergistImmunologistServicePage />} />
                 <Route path="/services/kardiolog" element={<CardiologistServicePage />} />
                 <Route path="/services/serdechno-sosudistiy-hirurg" element={<CardiovascularSurgeonServicePage />} />
@@ -101,8 +101,8 @@ export const NavigationRouter = () => {
                 <Route path="/services/massage" element={<MassageServicePage />} />
                 <Route path="/services/nevrolog" element={<NeurologistServicePage />} />
                 <Route path="/services/onkolog" element={<OncologistServicePage />} />
-                <Route path="/services/prochie-uslugi" element={<OtherServicesPage />} />
                 <Route path="/services/otorinolaringolog" element={<OtorhinolaryngologistServicePage />} />
+                <Route path="/services/prochie-uslugi" element={<OtherServicesPage />} />
                 <Route path="/services/fizioterapiya" element={<PhysiotherapyServicePage />} />
                 <Route path="/services/psikholog" element={<PsychologistServicePage />} />
                 <Route path="/services/pulmonolog" element={<PulmonologistServicePage />} />
@@ -113,6 +113,7 @@ export const NavigationRouter = () => {
                 <Route path="/services/proczedurnyij-kabinet" element={<TreatmentRoomServicePage />} />
                 <Route path="/services/ultrazvukovaya-diagnostika" element={<UltrasoundDiagnosticsServicePage />} />
                 <Route path="/services/urolog" element={<UrologistServicePage />} />
+                <Route path="/services/speechtherapist" element={<SpeechTherapistServicePage />} />
             </Routes>
             <MapComponent/>
             <FooterComponent/>

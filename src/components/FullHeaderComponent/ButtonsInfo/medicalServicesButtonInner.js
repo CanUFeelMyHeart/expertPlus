@@ -5,6 +5,7 @@ export const medicalServicesButton = [
     { name: "Дерматолог", ref: "/services/dermatolog" },
     { name: "Кардиолог", ref: "/services/kardiolog" },
     { name: "Колопроктолог", ref: "/services/koloproktolog" },
+    { name: "Логопед", ref: "/services/speechtherapist" },
     { name: "Массаж", ref: "/services/massage" },
     { name: "Невролог", ref: "/services/nevrolog" },
     { name: "Онколог", ref: "/services/onkolog" },
