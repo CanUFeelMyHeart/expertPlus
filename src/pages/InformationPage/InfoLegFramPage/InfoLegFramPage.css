@@ -1,0 +1,9 @@
+.InfoLegFramPage__picture {
+    max-width: 300px;
+    float: left;
+    margin: 10px;
+}
+
+.InfoLegFramPage__picture img {
+    width: 100%;
+}

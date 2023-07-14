@@ -1,0 +1,15 @@
+.DmsPage__header,
+.DmsPage_list {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+
+    color: #3d3d3d;
+}
+
+.DmsPage_list li {
+    list-style: inside;
+}

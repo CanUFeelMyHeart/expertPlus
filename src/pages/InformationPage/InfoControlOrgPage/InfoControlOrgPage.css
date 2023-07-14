@@ -1,0 +1,26 @@
+.InfoControlOrgPage__info {
+    margin: 20px 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    font-size: 18px;
+
+    color: #2c2c2c;
+}
+
+.InfoControlOrgPage__info_header {
+    margin-bottom: 15px;
+    color: #006bcf;
+}
+
+.InfoControlOrgPage__info_desc {
+    font-size: 16px;
+}
+
+.controlOrgInformation__hr_visible {
+    border-top: 1px solid #d8d8d8;
+    width: 100%;
+}
+
