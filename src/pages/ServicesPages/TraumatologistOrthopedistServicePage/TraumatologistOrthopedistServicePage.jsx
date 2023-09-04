@@ -66,11 +66,6 @@ export const TraumatologistOrthopedistServicePage = () => {
                                 оказать помощь в Красноармейском районе
                                 Волгограда.
                             </li>
-                            <li>
-                                Наши специалисты помогут в лечении плоскостопия
-                                и исправления неправильной осанки у детей в
-                                Красноармейском районе.
-                            </li>
                         </ul>
                     </h3>
                     <h2 className="services_doctor_info_header" v>
