@@ -30,7 +30,7 @@ export const HeaderComponent = () => {
               50-88-77, 50-87-87
             </h1>
             <h4 className="header__informationContainer_timetable">
-              Пн.–Пт.: 7:00–20:00, Сб., Вс.: 8:00–18:00
+              Пн.–Пт.: 7:00–20:00, Сб., Вс.: 8:00–15:00
             </h4>
           </div>
         </div>
