@@ -47,8 +47,8 @@ export const mapPageInformation = [
                 name: "Процедурный кабинет",
                 ref: "/services/proczedurnyij-kabinet",
             },
-            { name: "Психолог", ref: "/services/psikholog" },
-            { name: "Пульмонолог", ref: "/services/pulmonolog" },
+            // { name: "Психолог", ref: "/services/psikholog" },
+            // { name: "Пульмонолог", ref: "/services/pulmonolog" },
             { name: "Ревматолог", ref: "/services/revmatolog" },
             {
                 name: "Сердечно-сосудистый хирург",

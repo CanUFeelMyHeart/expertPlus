@@ -104,8 +104,8 @@ export const NavigationRouter = () => {
                 <Route path="/services/otorinolaringolog" element={<OtorhinolaryngologistServicePage />} />
                 <Route path="/services/prochie-uslugi" element={<OtherServicesPage />} />
                 <Route path="/services/fizioterapiya" element={<PhysiotherapyServicePage />} />
-                <Route path="/services/psikholog" element={<PsychologistServicePage />} />
-                <Route path="/services/pulmonolog" element={<PulmonologistServicePage />} />
+                {/* <Route path="/services/psikholog" element={<PsychologistServicePage />} /> */}
+                {/* <Route path="/services/pulmonolog" element={<PulmonologistServicePage />} /> */}
                 <Route path="/services/revmatolog" element={<RheumatologistServicePage />} />
                 <Route path="/services/xirurg" element={<SurgeonServicePage />} />
                 <Route path="/services/terapevt" element={<TherapistServicePage />} />

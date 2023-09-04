@@ -41,11 +41,6 @@ export const InfoAboutPage = () => {
                     ветеранам и инвалидам ( при предъявлении подтверждающего
                     документа).
                 </h3>
-                <br />
-                <h3 className="InfoAboutPage_text">
-                    Ежемесячно в клинике проводятся различные акции и
-                    запускаются бонусные программы.
-                </h3>
             </InformationContainerComponent>
         </div>
     );
