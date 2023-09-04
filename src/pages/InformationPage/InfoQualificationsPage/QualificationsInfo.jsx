@@ -84,7 +84,7 @@ export const qualificationsInfo = [
         time: "5 лет",
     },
     {
-        name: "Павлова Анна Эдуардовна",
+        name: "Меркушова Анна Эдуардовна",
         speciality: "врач узд	",
         yearSity: "2020, Екатеринбург",
         time: "5 лет",
