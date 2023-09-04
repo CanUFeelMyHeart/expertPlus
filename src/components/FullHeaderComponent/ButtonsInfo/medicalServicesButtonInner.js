@@ -16,7 +16,7 @@ export const medicalServicesButton = [
     { name: "Ревматолог", ref: "/services/revmatolog" },
     { name: "Сердечно-сосудистый хирург", ref: "/services/serdechno-sosudistiy-hirurg" },
     { name: "Терапевт", ref: "/services/terapevt" },
-    { name: "Травматолог-ортопед", ref: "/services/travmatolog-ortoped" },
+    // { name: "Травматолог-ортопед", ref: "/services/travmatolog-ortoped" },
     { name: "Ультразвуковая диагностика (УЗИ)", ref: "/services/ultrazvukovaya-diagnostika" },
     { name: "Уролог", ref: "/services/urolog" },
     { name: "Физиотерапия", ref: "/services/fizioterapiya" },

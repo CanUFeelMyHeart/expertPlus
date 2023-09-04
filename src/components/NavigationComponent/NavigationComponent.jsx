@@ -109,7 +109,7 @@ export const NavigationRouter = () => {
                 <Route path="/services/revmatolog" element={<RheumatologistServicePage />} />
                 <Route path="/services/xirurg" element={<SurgeonServicePage />} />
                 <Route path="/services/terapevt" element={<TherapistServicePage />} />
-                <Route path="/services/travmatolog-ortoped" element={<TraumatologistOrthopedistServicePage />} />
+                {/* <Route path="/services/travmatolog-ortoped" element={<TraumatologistOrthopedistServicePage />} /> */}
                 <Route path="/services/proczedurnyij-kabinet" element={<TreatmentRoomServicePage />} />
                 <Route path="/services/ultrazvukovaya-diagnostika" element={<UltrasoundDiagnosticsServicePage />} />
                 <Route path="/services/urolog" element={<UrologistServicePage />} />

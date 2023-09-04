@@ -1,8 +1,8 @@
 export const services3 = [
-    {
-        name: "Травматолог-ортопед",
-        ref: "/services/travmatolog-ortoped",
-    },
+    // {
+    //     name: "Травматолог-ортопед",
+    //     ref: "/services/travmatolog-ortoped",
+    // },
     {
         name: "Ультразвуковая диагностика (УЗИ)",
         ref: "/services/ultrazvukovaya-diagnostika",

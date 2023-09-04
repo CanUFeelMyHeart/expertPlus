@@ -27,8 +27,4 @@ export const services1 = [
         name: "Массаж",
         ref: "/services/massage",
     },
-    {
-        name: "Невролог",
-        ref: "/services/nevrolog",
-    },
 ];

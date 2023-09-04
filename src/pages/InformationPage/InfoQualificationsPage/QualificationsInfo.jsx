@@ -49,7 +49,7 @@ export const qualificationsInfo = [
     },
     {
         name: "Медведева Е. В.",
-        speciality: "",
+        speciality: "врач узд",
         yearSity: "2020, Саратов",
         time: "5 лет",
     },

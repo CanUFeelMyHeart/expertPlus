@@ -1,5 +1,9 @@
 export const services2 = [
     {
+        name: "Невролог",
+        ref: "/services/nevrolog",
+    },
+    {
         name: "Онколог",
         ref: "/services/onkolog",
     },
