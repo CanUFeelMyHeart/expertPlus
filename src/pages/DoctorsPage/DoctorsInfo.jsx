@@ -1,32 +1,32 @@
-import alkhaphar from '../../assets/images/doctors/alkhaphar.jpg'
 import aseeva from '../../assets/images/doctors/aseeva.jpg'
 import bezverhiy from '../../assets/images/doctors/bezverhiy.jpg'
+import berdnikovEA from '../../assets/images/doctors/berdnikovEA.jpg'
 import biryukova from '../../assets/images/doctors/biryukova.jpg'
+import bondarenkoSU from '../../assets/images/doctors/bondarenkoSU.jpg'
 import chupryna from '../../assets/images/doctors/chupryna.jpg'
-import noName from '../../assets/images/doctors/noName.jpg'
+import dorofeevAA from '../../assets/images/doctors/dorofeevAA.jpg'
 import filippova from '../../assets/images/doctors/filippova.jpg'
-import gaivoronskayu from '../../assets/images/doctors/gaivoronskayu.jpg'
 import grigorieva from '../../assets/images/doctors/grigorieva.jpg'
+import inozemtsevAV from '../../assets/images/doctors/inozemtsevAV.jpg'
 import isaeva from '../../assets/images/doctors/isaeva.jpg'
-import kuznetsovael from '../../assets/images/doctors/kuznetsovael.jpg'
-import letunovskaya from '../../assets/images/doctors/letunovskaya.jpg'
 import litvinenko from '../../assets/images/doctors/litvinenko.jpg'
 import matrosov from '../../assets/images/doctors/matrosov.jpg'
+import medvedevaEV from '../../assets/images/doctors/medvedevaEV.jpg'
 import nazarova from '../../assets/images/doctors/nazarova.jpg'
 import nazaruk from '../../assets/images/doctors/nazaruk.jpg'
 import naumenko from '../../assets/images/doctors/naumenko.jpg'
 import noginaNV from '../../assets/images/doctors/noginaNV.jpg'
-import ostryanina from '../../assets/images/doctors/ostryanina.jpg'
-import pavlova from '../../assets/images/doctors/pavlova.jpg'
 import petruhina from '../../assets/images/doctors/petruhina.jpg'
-import savushkin from '../../assets/images/doctors/savushkin.jpg'
+import pleshakovAV from '../../assets/images/doctors/pleshakovAV.jpg'
+import pochivalovaEE from '../../assets/images/doctors/pochivalovaEE.jpg'
 import shaposhnikova from '../../assets/images/doctors/shaposhnikova.jpg'
+import simonovaMG from '../../assets/images/doctors/simonovaMG.jpg'
+import sizovaIV from '../../assets/images/doctors/sizovaIV.jpg'
 import subbotina from '../../assets/images/doctors/subbotina.jpg'
-import titovskaya from '../../assets/images/doctors/titovskaya.jpg'
 import tolkunova from '../../assets/images/doctors/tolkunova.jpg'
 import tvorogova from '../../assets/images/doctors/tvorogova.jpg'
 import melnik from '../../assets/images/doctors/melnik.jpg'
-import oreshina from '../../assets/images/doctors/oreshina.jpg'
+
 export const doctors = [
     {
         image: aseeva,
@@ -122,7 +122,7 @@ export const doctors = [
         ],
     },
     {
-        image: "",
+        image: berdnikovEA,
         name: "Бердников Евгений Александрович",
         speciality: "Врач ультразвуковой диагностики",
         doctorInfo: [
@@ -180,7 +180,7 @@ export const doctors = [
         ],
     },
     {
-        image: "",
+        image: bondarenkoSU,
         name: "Бондаренко Светлана Юрьевна",
         speciality: "Врач-акушер-гинеколог",
         doctorInfo: [
@@ -238,7 +238,7 @@ export const doctors = [
         ],
     },
     {
-        image: "",
+        image: dorofeevAA,
         name: "Дорофеев Алексей Александрович",
         speciality: "Врач-невролог",
         doctorInfo: [
@@ -303,7 +303,7 @@ export const doctors = [
         ],
     },
     {
-        image: "",
+        image: inozemtsevAV,
         name: "Иноземцев Алексей Владимирович",
         speciality: "Врач-дерматовенеролог",
         doctorInfo: [
@@ -425,7 +425,7 @@ export const doctors = [
         ],
     },
     {
-        image: "",
+        image: medvedevaEV,
         name: "Медведева Елена Владимировна",
         speciality: "Врач ультразвуковой диагностики",
         doctorInfo: [
@@ -602,7 +602,7 @@ export const doctors = [
         ],
     },
     {
-        image: "",
+        image: pleshakovAV,
         name: "Плешаков Александр Викторович",
         speciality: "Врач травматолог-ортопед",
         doctorInfo: [
@@ -707,7 +707,7 @@ export const doctors = [
         ],
     },
     {
-        image: "",
+        image: pochivalovaEE,
         name: "Почивалова Екатерина Евгеньевна",
         speciality: "Врач-эндокринолог",
         doctorInfo: [
@@ -726,7 +726,7 @@ export const doctors = [
         ],
     },
     {
-        image: "",
+        image: sizovaIV,
         name: "Сизова Ирина Валентиновна",
         speciality: "Врач ультразвуковой диагностики, врач-акушер-гинеколог",
         doctorInfo: [
@@ -756,7 +756,7 @@ export const doctors = [
         ],
     },
     {
-        image: noName,
+        image: simonovaMG,
         name: "Симонова Марина Геннадьевна",
         speciality: "Врач функциональной диагностики",
         doctorInfo: [
