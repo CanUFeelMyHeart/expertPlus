@@ -14,6 +14,9 @@ export const InfoVacanciesPage = () => {
                     <li>Врач эндокринолог</li>
                     <li>Врач ревматолог</li>
                     <li>Врач аллерголог пульмонолог</li>
+                    <li>Врач - гинеколог</li>
+                    <li>Кардиолог</li>
+                    <li>Терапевт и медсестра</li>
                 </ul>
             </InformationContainerComponent>
         </div>

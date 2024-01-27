@@ -11,36 +11,20 @@ export const contactPageInformation = [
   },
   {
     header: "График работы",
-    info: ["Пн.–Пт.: 7:00–20:00", "Сб., Вс.: 8:00–18:00"],
+    info: ["Пн.–Пт.: 7:00–20:00", "Сб., Вс.: 8:00–15:00"],
     hr_classname: "ContactPageInformation__hr_visible",
   },
   {
     header: "Эл. почта",
-    info: ["Регистратура:", "reg@508877.ru"],
+    info: ["Регистратура:", "reg@kmpexpert.online"],
     hr_classname: "ContactPageInformation__hr_visible",
   },
   {
     header: "",
     info: [
       "Отзывы, обращения и предложения по качеству услуг и сервису клиники:",
-      "service@508877.ru",
-    ],
-    hr_classname: "ContactPageInformation__hr_visible",
-  },
-  {
-    header: "",
-    info: [
-      "Медицинская сестра, Летуновская Вера Владимировна:",
-      "glsister@508877.ru",
-    ],
-    hr_classname: "ContactPageInformation__hr_visible",
-  },
-  {
-    header: "",
-    info: [
-      "Администрация клиники (эл.почта для организаций):",
-      "kmp@508877.ru",
+      "administrator@kmpexpert.online",
     ],
     hr_classname: "ContactPageInformation__hr_invisible",
-  },
+  }
 ];
