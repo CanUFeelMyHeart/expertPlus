@@ -19,7 +19,7 @@ export const FooterComponent = () => {
                 alt=""
               />
             </a>
-            <h3>2018 © ООО «КМП»</h3>
+            <h3>2024 © ООО «КМП»</h3>
           </div>
           <h4 className="footerContainer_info">
             Лицензия №ЛО-34-01-003669 от 07 марта 2018 г. выдана Комитетом
