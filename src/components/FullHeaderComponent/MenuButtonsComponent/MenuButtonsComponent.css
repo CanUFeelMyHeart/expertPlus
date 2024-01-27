@@ -19,6 +19,7 @@
     padding: 20px 10px;
     cursor: pointer;
     background-color: transparent;
+    transition: .1s all ease-in;
 }
 
 .menuButton__expandArrow {
