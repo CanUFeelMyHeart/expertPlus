@@ -3,6 +3,8 @@ import stat_img from "../../img/footer_statistics.png";
 import "./FooterComponent.css";
 
 export const FooterComponent = () => {
+  const currentYear = new Date(). getFullYear();
+
   return (
     <div className="footerBlock">
       <div className="footerContainer">
@@ -19,7 +21,7 @@ export const FooterComponent = () => {
                 alt=""
               />
             </a>
-            <h3>2024 © ООО «КМП»</h3>
+            <h3>{currentYear} © ООО «КМП»</h3>
           </div>
           <h4 className="footerContainer_info">
             Лицензия №ЛО-34-01-003669 от 07 марта 2018 г. выдана Комитетом
