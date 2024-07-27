@@ -39,7 +39,7 @@
   width: 100%;
 }
 
-@media (max-width: 961px) {
+@media (max-width: 992px) {
   .ContactsPageComponent__container {
     flex-direction: column;
   }

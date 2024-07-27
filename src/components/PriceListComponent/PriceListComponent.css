@@ -88,7 +88,7 @@ tbody tr:nth-child(even) {
     letter-spacing: 0.05em;
 }
 
-@media (max-width: 961px) {
+@media (max-width: 992px) {
     .PriceListComponent__thead_td_price {
         min-width: 0;
     }

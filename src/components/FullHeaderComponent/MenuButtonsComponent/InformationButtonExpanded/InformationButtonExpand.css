@@ -39,7 +39,7 @@
   width: 478px;
 }
 
-@media (max-width: 961px) {
+@media (max-width: 992px) {
   .infoExpandingList {
     position: relative;
     margin-top: 0px;

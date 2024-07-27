@@ -93,7 +93,7 @@
   margin: 0 auto;
 }
 
-@media (max-width: 961px) {
+@media (max-width: 992px) {
   .header {
     display: flex;
     flex-direction: column;
@@ -108,7 +108,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   .header__expertLogo {
     font-size: 36px;
   }

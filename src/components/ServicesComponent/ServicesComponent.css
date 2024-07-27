@@ -34,7 +34,7 @@
   margin-left: 20px;
 }
 
-@media (max-width: 961px) {
+@media (max-width: 992px) {
   .servicesBlock {
     display: none;
   }

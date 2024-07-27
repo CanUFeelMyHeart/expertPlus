@@ -67,7 +67,7 @@
     color: #424242;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
     .informationBlock {
         display: none;
     }

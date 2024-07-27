@@ -8,9 +8,9 @@ export const ContactPageInfoComponent = (props) => {
         <h3 className="InfoContactPage__info_header">{props.header}</h3>
         <h3 className="InfoContactPage__info_desc">
           {props.info.map((descritpion, index) => (
-            <h3 key={index} className="InfoContactPage__info_desc">
+            <h4 key={index} className="InfoContactPage__info_desc">
               {descritpion}
-            </h3>
+            </h4>
           ))}
         </h3>
       </div>
