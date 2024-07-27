@@ -47,6 +47,25 @@ body {
    margin-block: 40px;
 }
 
+.text {
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 400;
+   color: #494949;
+   font-size: 12px;
+   margin-bottom: 20px;
+   line-height: 20px;
+}
+
+.block-header {
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   color: #3281c9;
+   margin-bottom: 20px;
+}
+
 code {
    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
       monospace;
@@ -59,6 +78,17 @@ code {
 
    .section {
       margin-block: 50px;
+   }
+
+   .text {
+      font-size: 14px;
+      line-height: 24px;
+      margin-bottom: 25px;
+   }
+
+   .block-header {
+      font-size: 20px;
+      margin-bottom: 25px;
    }
 
    h2,
@@ -76,6 +106,17 @@ code {
       margin-block: 60px;
    }
 
+   .text {
+      font-size: 16px;
+      line-height: 26px;
+      margin-bottom: 30px;
+   }
+
+   .block-header {
+      font-size: 24px;
+      margin-bottom: 30px;
+   }
+
    h2,
    .h2 {
       font-size: 42px;
@@ -84,9 +125,25 @@ code {
 }
 
 @media (min-width: 1280px) {
+   .block-header {
+      font-size: 28px;
+   }
 
    h2,
    .h2 {
       font-size: 48px;
    }
+}
+
+
+.bold {
+   font-weight: bold;
+}
+
+.no-mb {
+   margin-bottom: 5px;
+}
+
+.black {
+   color: black;
 }

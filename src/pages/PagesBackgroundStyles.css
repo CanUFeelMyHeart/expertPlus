@@ -1,34 +1,14 @@
-.AllergistImmunologistServicePage,
-.CardiologistServicePage,
-.CardiovascularSurgeonServicePage,
-.ColoproctologistServicePage,
-.DermatologistServicePage,
-.EndocrinologistServicePage,
-.FunctionalDiagnosticsServicePage,
-.GastroenterologistServicePage,
-.GynecologistServicePage,
-.MassageServicePage,
-.NeurologistServicePage,
-.OncologistServicePage,
-.OtherServicesPage,
-.OtorhinolaryngologistServicePage,
-.PhysiotherapyServicePage,
-.PsychologistServicePage,
-.PulmonologistServicePage,
-.RheumatologistServicePage,
-.SurgeonServicePage,
-.TherapistServicePage,
-.TraumatologistOrthopedistServicePage,
-.TreatmentRoomServicePage,
-.UltrasoundDiagnosticsServicePage,
-.UrologistServicePage,
+.service-page {
+   padding-bottom: 120px;
+}
+
+.service-page,
 .InfoQualificationsPage,
 .InfoRegulationsPage,
 .InfoMapPage {
-  background-image: url("../img/pages-bg.png");
-  background-repeat: no-repeat;
-  min-height: 1100px;
-  background-size: 100% 1100px;
+   background-image: url("../img/pages-bg.png");
+   background-repeat: no-repeat;
+   background-size: 100%;
 }
 
 .newsPageComponent,
@@ -36,10 +16,10 @@
 .InfoAboutPage,
 .InfoVacanciesPage,
 .InfoControlOrgPage {
-  background-image: url("../img/img-bg5.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  min-height: 900px;
+   background-image: url("../img/img-bg5.png");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   min-height: 900px;
 }
 
 .InfoLicencePage,
@@ -48,57 +28,37 @@
 .InfoOffDocumentsPage,
 .InfoLegFramPage,
 .specific_new_page {
-  background-image: url("../img/img-bg-5-4.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  min-height: 900px;
+   background-image: url("../img/img-bg-5-4.png");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   min-height: 900px;
 }
 
-@media (max-width: 1500px) {
-  .AllergistImmunologistServicePage,
-  .CardiologistServicePage,
-  .CardiovascularSurgeonServicePage,
-  .ColoproctologistServicePage,
-  .DermatologistServicePage,
-  .EndocrinologistServicePage,
-  .FunctionalDiagnosticsServicePage,
-  .GastroenterologistServicePage,
-  .GynecologistServicePage,
-  .MassageServicePage,
-  .NeurologistServicePage,
-  .OncologistServicePage,
-  .OtherServicesPage,
-  .OtorhinolaryngologistServicePage,
-  .PhysiotherapyServicePage,
-  .PsychologistServicePage,
-  .PulmonologistServicePage,
-  .RheumatologistServicePage,
-  .SurgeonServicePage,
-  .TherapistServicePage,
-  .TraumatologistOrthopedistServicePage,
-  .TreatmentRoomServicePage,
-  .UltrasoundDiagnosticsServicePage,
-  .UrologistServicePage,
-  .InfoQualificationsPage,
-  .InfoRegulationsPage,
-  .InfoMapPage {
-    background-size: 1500px 100%;
-  }
+@media (min-width: 992px) {
+   .service-page,
+   .InfoQualificationsPage,
+   .InfoRegulationsPage,
+   .InfoMapPage {
+      min-height: 1000px;
+      background-size: 100% 1050px;
+   }
+}
 
-  .newsPageComponent,
-  .ContactsPageComponent,
-  .InfoAboutPage,
-  .InfoVacanciesPage,
-  .InfoControlOrgPage {
-    background-size: 1500px 100%;
-  }
+@media (max-width: 1280px) {
+   .newsPageComponent,
+   .ContactsPageComponent,
+   .InfoAboutPage,
+   .InfoVacanciesPage,
+   .InfoControlOrgPage {
+      background-size: 1500px 100%;
+   }
 
-  .InfoLicencePage,
-  .InfoVacanciesPage,
-  .DmsPage,
-  .InfoOffDocumentsPage,
-  .InfoLegFramPage,
-  .specific_new_page {
-    background-size: 1500px 100%;
-  }
+   .InfoLicencePage,
+   .InfoVacanciesPage,
+   .DmsPage,
+   .InfoOffDocumentsPage,
+   .InfoLegFramPage,
+   .specific_new_page {
+      background-size: 1500px 100%;
+   }
 }

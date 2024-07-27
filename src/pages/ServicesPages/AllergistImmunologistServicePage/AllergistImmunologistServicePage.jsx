@@ -1,30 +1,28 @@
 import React from "react";
-import { InformationContainerComponent } from "../../../components/InformationContainerComponent/InformationContainerComponent";
-import { PriceListComponent } from "../../../components/PriceListComponent/PriceListComponent";
-import { ServicesSpecialistsComponent } from "../../../components/ServicesSpecialistsComponent/ServicesSpecialistsComponent";
+import { InformationContainerComponent } from "components/InformationContainerComponent/InformationContainerComponent";
+import { PriceListComponent } from "components/PriceListComponent/PriceListComponent";
+import { ServicesSpecialistsComponent } from "components/ServicesSpecialistsComponent/ServicesSpecialistsComponent";
 import { SpecialistsInfoAllergist } from "./SpecialistsInfoAllergist";
-import { OfertaComponent } from "../../../components/PriceListComponent/OfertaComponent";
-import { ServiceSpecialistsInfoComponent } from "../../../components/ServiceSpecialistsInfoComponent/ServiceSpecialistsInfoComponent";
+import { OfertaComponent } from "components/PriceListComponent/OfertaComponent";
+import { CardComponent } from "components/CardComponent/CardComponent";
 import priceInfoAllergist from "./PriceInfoAllergist";
-import allergist from "../../../assets/images/services/allergolog1.jpg";
+import allergist from "assets/images/services/allergolog1.jpg";
 import "../../PagesBackgroundStyles.css";
 
 export const AllergistImmunologistServicePage = () => {
    return (
-      <div className="AllergistImmunologistServicePage">
-         <InformationContainerComponent header="Аллерголог-иммунолог">
-            <ServicesSpecialistsComponent
-               specialists={SpecialistsInfoAllergist}
-            />
-            <PriceListComponent priceInfo={priceInfoAllergist} />
-         </InformationContainerComponent>
-         <OfertaComponent />
-         <ServiceSpecialistsInfoComponent>
-            <div className="services_doctor_info_container">
-               <div className="services_doctor_info_header">
-                  Уважаемые пациенты !
-               </div>
-               <div className="services_doctor_info_description">
+      <div className="service-page">
+         <div className="container">
+            <InformationContainerComponent header="Аллерголог-иммунолог">
+               <ServicesSpecialistsComponent
+                  specialists={SpecialistsInfoAllergist}
+               />
+               <PriceListComponent priceInfo={priceInfoAllergist} />
+            </InformationContainerComponent>
+            <OfertaComponent />
+            <CardComponent>
+               <div className="block-header">Уважаемые пациенты !</div>
+               <div className="text">
                   Если в сезон активного цветения вас мучает неприятный зуд в
                   носу или насморк, то до наступления теплых весенних дней мы
                   рекомендуем вам обратиться за консультацией к опытному врачу
@@ -34,33 +32,31 @@ export const AllergistImmunologistServicePage = () => {
                   неприятные симптомы или даже полностью избежать проявлений
                   сезонной аллергии.
                </div>
-               <div className="services_doctor_info_description">
+               <div className="text">
                   Одним из частых видов сезонной аллергии является поллиноз –
                   это повышение чувствительности слизистой оболочки глаз и
                   дыхательных путей под действием пыльцевых аллергенов.
                </div>
-               <div className="services_doctor_info_description">
+               <div className="text">
                   Повышенное содержание пыльцы в воздухе в весенний период, а
                   также постоянное попадание ее в дыхательные пути, вызывает
-                  состояние, которое называют сенсибилизацией
-                  организма.
+                  состояние, которое называют сенсибилизацией организма.
                </div>
-               <div className="services_doctor_info_header" v>
+               <div className="block-header" v>
                   Симптомы поллиноза
                </div>
-               <div className="services_doctor_info_description">
+               <div className="text">
                   Начинать бить тревогу нужно, почувствовав зуд в носоглотке,
                   при сильном слезотечении, насморке «в три ручья» и частых
                   приступах чихания.
                </div>
-               <div className="services_doctor_info_img_container">
+               <div className="card__img">
                   <img
-                     className="services_doctor_info_img"
                      src={allergist}
                      alt="allergologist"
                   />
                </div>
-               <div className="services_doctor_info_description">
+               <div className="text">
                   Такие приступы начинаются внезапно, на фоне полного
                   благополучия и крепкого здоровья. Если вовремя не обратиться к
                   врачу аллергологу, то начальные симптомы могут перейти в
@@ -70,8 +66,8 @@ export const AllergistImmunologistServicePage = () => {
                   голос, снижается слух, возможно затруднение дыхания, приступы
                   одышки, а также обострения аллергических дерматитов.
                </div>
-            </div>
-         </ServiceSpecialistsInfoComponent>
+            </CardComponent>
+         </div>
       </div>
    );
 };

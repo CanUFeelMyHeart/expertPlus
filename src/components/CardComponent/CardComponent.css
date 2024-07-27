@@ -1,0 +1,43 @@
+.card {
+   padding-bottom: 30px;
+   padding-bottom: 40px;
+   background: rgba(255, 255, 255, 0.9);
+   box-shadow: 14px 14px 45px rgba(0, 0, 0, 0.2);
+   border-radius: 10px;
+   padding: 40px;
+}
+
+.card__img {
+   max-width: 300px;
+   max-height: 300px;
+   margin-inline: auto;
+   margin-block: 30px;
+
+   img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+   }
+}
+
+@media (min-width: 720px) {
+   .card {
+      padding: 40px 50px;
+   }
+
+   .card__img {
+      max-width: 400px;
+      max-height: 400px;
+   }
+}
+
+@media (min-width: 992px) {
+   .card {
+      padding: 40px 70px;
+   }
+
+   .card__img {
+      max-width: 500px;
+      max-height: 500px;
+   }
+}
