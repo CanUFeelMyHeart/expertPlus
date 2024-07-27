@@ -1,7 +1,9 @@
 import React from "react";
 import { InformationContainerComponent } from "../../../components/InformationContainerComponent/InformationContainerComponent";
-import { qualificationsInfo } from "./QualificationsInfo";
+import qualificationsInfoData from "../../../data/qualificationsInfo.json"
 import "./InfoQualificationsPage.css";
+
+const qualificationsInfo = qualificationsInfoData;
 
 export const InfoQualificationsPage = () => {
   return (
