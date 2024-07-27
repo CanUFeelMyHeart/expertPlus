@@ -13,7 +13,7 @@ export const SliderComponent = () => {
   };
 
   return (
-    <div className="sliderComponent__block">
+    <div className="sliderComponent__block container">
       <div className="sectionComponent__block_carousel">
         <Slide {...properties}>
           {pictures.map((slideImage, index) => (
