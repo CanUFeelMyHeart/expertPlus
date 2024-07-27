@@ -10,7 +10,7 @@ import priceInfoTraumatologistOrthopedist from "./PriceInfoTraumatologistOrthope
 export const TraumatologistOrthopedistServicePage = () => {
    return (
       <div className="service-page">
-         <div className="container">
+         <div className="container service-page__container">
             <InformationContainerComponent header="Травматолог-ортопед">
                <ServicesSpecialistsComponent
                   specialists={SpecialistsInfoTraumatologistOrthopedist}
@@ -24,13 +24,13 @@ export const TraumatologistOrthopedistServicePage = () => {
                <div className="block-header">
                   Травматолог-ортопед в Волгограде
                </div>
-               <div className="text">
+               <div className="text p">
                   Врач травматолог-ортопед в Волгограде может помочь вам не
                   только при лечении различного рода травм (от ушибов и вывихов,
                   до сложных переломов и их последствий), но и в устранении
                   врожденных дефектов опорно-двигательного аппарата.
                </div>
-               <div className="text">
+               <div className="text p">
                   Если вам нужен травматолог-ортопед в Красноармейском районе
                   Волгограда, то самым лучшим решением станет выбор специалистов
                   медицинской клиники «Эксперт Плюс».
@@ -38,7 +38,7 @@ export const TraumatologistOrthopedistServicePage = () => {
                <div className="block-header">
                   Достоинства врачей травматологов, клиники «Эксперт Плюс»
                </div>
-               <div className="text">
+               <div className="text p">
                   <ul>
                      <li>
                         Наши практикующие врачи травматологи-ортопеды отличаются
@@ -69,17 +69,17 @@ export const TraumatologistOrthopedistServicePage = () => {
                <div className="block-header" v>
                   В каких случаях необходимо обращаться к травматологу-ортопеду
                </div>
-               <div className="text">
+               <div className="text p">
                   Если вы получили сложный перелом и срастание костей происходит
                   очень долго, с большими болями и дискомфортом, то это повод
                   обратиться к нашему врачу в Красноармейском районе.
                </div>
-               <div className="text">
+               <div className="text p">
                   Для получения правильного курса лечения после перенесенного
                   полиомиелита необходима консультация у травматолога-ортопеда,
                   рекомендуем клинику «Эксперт Плюс».
                </div>
-               <div className="text">
+               <div className="text p">
                   При острой, хронической или сильной боли в суставах и
                   позвоночнике рекомендуется обратиться к специалисту в этой
                   области медицины и лучше всего, к травматологу-ортопеду
@@ -91,7 +91,7 @@ export const TraumatologistOrthopedistServicePage = () => {
                <div className="block-header" v>
                   Где получить помощь
                </div>
-               <div className="text">
+               <div className="text p">
                   Вся подробная информация о предоставляемых услугах врачами
                   медицинской клиники «Эксперт Плюс» находится на сайте, более
                   конкретные данные вы можете узнать, воспользовавшись нашими

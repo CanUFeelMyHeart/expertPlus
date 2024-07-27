@@ -8,14 +8,14 @@ import priceInfoTreatmentRoom from "./PriceInfoTreatmentRoom";
 export const TreatmentRoomServicePage = () => {
    return (
       <div className="service-page">
-         <div className="container">
+         <div className="container service-page__container">
             <InformationContainerComponent header="Процедурный кабинет">
                <PriceListComponent priceInfo={priceInfoTreatmentRoom} />
             </InformationContainerComponent>
             <OfertaComponent />
             <CardComponent>
                <div className="block-header">Процедурный кабинет</div>
-               <div className="text">
+               <div className="text p">
                   Процедурный кабинет в медицинской клинике «Эксперт Плюс» может
                   предложить вам самые разнообразные процедуры, выполняемые
                   специалистами высокой квалификации и с большим опытом работы,
@@ -26,7 +26,7 @@ export const TreatmentRoomServicePage = () => {
                   В функциональные обязанности медицинского персонала
                   процедурного кабинета входят:
                </div>
-               <div className="text">
+               <div className="text p">
                   <ul>
                      <li>
                         первичное (перед приемом к врачу) и профилактическое
@@ -52,7 +52,7 @@ export const TreatmentRoomServicePage = () => {
                      </li>
                   </ul>
                </div>
-               <div className="text">
+               <div className="text p">
                   Кроме того, в функции процедурного кабинета включена услуга
                   "Врач на дом" - запись на прием в Волгограде производится в
                   любое время, без перерыва и выходных, что позволит вызвать
@@ -62,13 +62,13 @@ export const TreatmentRoomServicePage = () => {
                <div className="block-header" v>
                   Достоинства процедурного кабинета нашей клиники
                </div>
-               <div className="text">
+               <div className="text p">
                   Наш медицинский персонал, в процедурном кабинете клиники
                   Красноармейского района, качественно и профессионально, по
                   возможности без боли, обеспечит отбор необходимых
                   биологических материалов, для дальнейшего их исследования.
                </div>
-               <div className="text">
+               <div className="text p">
                   Если вы решили, что есть необходимость сделать вызов платного
                   врача на дом, то специалисты нашей клиники в Красноармейском
                   районе прибудут в кратчайшие сроки и окажут необходимую,

@@ -5,18 +5,20 @@ import { ControlOrgComponent } from "./ControlOrgComponent";
 import "./InfoControlOrgPage.css";
 
 export const InfoControlOrgPage = () => {
-    return (
-        <div className="InfoControlOrgPage">
+   return (
+      <div className="InfoControlOrgPage">
+         <div className="container">
             <InformationContainerComponent header="Контролирующие организации">
-                {controlOrgInformation.map((controlInfo, index) => (
-                    <ControlOrgComponent
-                        key={index}
-                        header={controlInfo.header}
-                        info={controlInfo.info}
-                        hr_classname={controlInfo.hr_classname}
-                    />
-                ))}
+               {controlOrgInformation.map((controlInfo, index) => (
+                  <ControlOrgComponent
+                     key={index}
+                     header={controlInfo.header}
+                     info={controlInfo.info}
+                     hr_classname={controlInfo.hr_classname}
+                  />
+               ))}
             </InformationContainerComponent>
-        </div>
-    );
+         </div>
+      </div>
+   );
 };

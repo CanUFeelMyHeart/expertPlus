@@ -10,7 +10,7 @@ import priceInfoSurgeon from "./PriceInfoSurgeon";
 export const SurgeonServicePage = () => {
    return (
       <div className="service-page">
-         <div className="container">
+         <div className="container service-page__container">
             <InformationContainerComponent header="Хирург">
                <ServicesSpecialistsComponent
                   specialists={SpecialistsInfoSurgeon}
@@ -21,7 +21,7 @@ export const SurgeonServicePage = () => {
             <CardComponent>
                <div className="services_doctor_info_container">
                   <div className="block-header">Врач-хирург в Волгограде</div>
-                  <div className="text">
+                  <div className="text p">
                      В медицинской клинике «Эксперт Плюс» лучшие хирурги
                      Волгограда произведут осмотр, поставят диагноз и определят
                      вид заболевания, проведут операбельное вмешательство,
@@ -31,7 +31,7 @@ export const SurgeonServicePage = () => {
                      Хирург в медицинской клинике «Эксперт Плюс»
                      (Красноармейский район):
                   </div>
-                  <div className="text">
+                  <div className="text p">
                      <ul>
                         <li>
                            при первичном приеме произведет осмотр пациента и
@@ -65,7 +65,7 @@ export const SurgeonServicePage = () => {
                      Случаи, когда необходимо срочно обратиться в клинику
                      «Эксперт Плюс»
                   </div>
-                  <div className="text">
+                  <div className="text p">
                      <ul>
                         <li>
                            При получении травмы хирургического характера, в
@@ -98,12 +98,12 @@ export const SurgeonServicePage = () => {
                      </ul>
                   </div>
                   <div className="block-header">Наши преимущества</div>
-                  <div className="text">
+                  <div className="text p">
                      Хирурги, практикующие в клинике, имеют большой и успешный
                      опыт в диагностировании болезней и операбельного их
                      лечения, в не зависимости от сложности проводимого лечения.
                   </div>
-                  <div className="text">
+                  <div className="text p">
                      В услугах клиники предусмотрена возможность оказания помощи
                      больным с выездом на дом, в Красноармейском районе, что
                      особенно актуально при резком обострении хронических

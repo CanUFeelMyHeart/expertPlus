@@ -10,7 +10,7 @@ import priceInfoUltrasoundDiagnostics from "./PriceInfoUltrasoundDiagnostics";
 export const UltrasoundDiagnosticsServicePage = () => {
    return (
       <div className="service-page">
-         <div className="container">
+         <div className="container service-page__container">
             <InformationContainerComponent header="Ультразвуковая диагностика (УЗИ)">
                <ServicesSpecialistsComponent
                   specialists={SpecialistsInfoUltrasoundDiagnostics}
@@ -20,23 +20,23 @@ export const UltrasoundDiagnosticsServicePage = () => {
             <OfertaComponent />
             <CardComponent>
                <div className="block-header">Ультразвуковая диагностика</div>
-               <div className="text">
+               <div className="text p">
                   Ультразвуковая диагностика в Волгограде получила самое большое
                   распространение и применяется как в городских больницах, так и
                   в частных клиниках.
                </div>
-               <div className="text">
+               <div className="text p">
                   Такой вид обследования дает очень хорошие результаты при
                   диагностировании различных заболеваний внутренних органов и
                   широко используется специалистами медицинской клиники «Эксперт
                   Плюс».
                </div>
                <div className="block-header">Возможности</div>
-               <div className="text">
+               <div className="text p">
                   С помощью ультразвуковой диагностики в Красноармейском районе
                   стало доступным:
                </div>
-               <div className="text">
+               <div className="text p">
                   <ul>
                      <li>
                         наблюдение за течением беременности на всех сроках;
@@ -64,7 +64,7 @@ export const UltrasoundDiagnosticsServicePage = () => {
                <div className="block-header" v>
                   Достоинства
                </div>
-               <div className="text">
+               <div className="text p">
                   Используя ультразвуковую диагностику в Красноармейском районе,
                   стало возможным не только выявление камней и различных
                   объемных образований в органах, но и наблюдение за течением
@@ -72,13 +72,13 @@ export const UltrasoundDiagnosticsServicePage = () => {
                   повреждений мягких тканей, выявление воспалительных процессов
                   в различных органах.
                </div>
-               <div className="text">
+               <div className="text p">
                   Пройти УЗИ в Красноармейском районе вы можете,
                   воспользовавшись услугами медицинской клиники «Эксперт Плюс»,
                   как по направлению врачей практикующих в клинике, так и по
                   назначению врачей из других больниц и поликлиник.
                </div>
-               <div className="text">
+               <div className="text p">
                   Более подробную информацию о видах ультразвуковой диагностики
                   в Красноармейском районе и ценах на услуги, вы можете узнать
                   на сайте, а также воспользовавшись контактными телефонами.

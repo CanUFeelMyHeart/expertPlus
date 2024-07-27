@@ -7,7 +7,7 @@ import priceInfoPsychologist from "./PriceInfoPsychologist";
 export const PsychologistServicePage = () => {
    return (
       <div className="service-page">
-         <div className="container">
+         <div className="container service-page__container">
             <InformationContainerComponent header="Психолог">
                <PriceListComponent priceInfo={priceInfoPsychologist} />
             </InformationContainerComponent>

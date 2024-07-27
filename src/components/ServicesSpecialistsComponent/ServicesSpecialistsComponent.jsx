@@ -4,11 +4,11 @@ import "./ServicesSpecialistsComponent.css";
 export const ServicesSpecialistsComponent = (props) => {
     return (
         <div className="ServicesSpecialistsComponent">
-            <h2 className="ServicesSpecialistsComponent_header">Специалисты</h2>
+            <div className="block-header">Специалисты</div>
             <ul className="ServicesSpecialistsComponent__ul">
                 {props.specialists.map((specialist, index) => (
                     <li key={index}>
-                        <h3 className="ServicesSpecialistsComponent__li">{specialist}</h3>
+                        <span className="text">{specialist}</span>
                     </li>
                 ))}
             </ul>

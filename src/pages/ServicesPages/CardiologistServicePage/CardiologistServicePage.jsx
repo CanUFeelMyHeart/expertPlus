@@ -11,7 +11,7 @@ import "../../PagesBackgroundStyles.css";
 export const CardiologistServicePage = () => {
    return (
       <div className="service-page">
-         <div className="container">
+         <div className="container service-page__container">
             <InformationContainerComponent header="Кардиолог">
                <ServicesSpecialistsComponent
                   specialists={SpecialistsInfoCardiologist}
@@ -21,7 +21,7 @@ export const CardiologistServicePage = () => {
             <OfertaComponent />
             <CardComponent>
                <div className="block-header">Врач-кардиолог в Волгограде</div>
-               <div className="text">
+               <div className="text p">
                   Для лечения и реабилитации, после различных болезней сердца,
                   необходимо постоянно консультироваться у врача. Кардиолог в
                   Волгограде ведет прием, как в муниципальных больницах, так и в
@@ -32,7 +32,7 @@ export const CardiologistServicePage = () => {
                   Здесь вы можете получить необходимую помощь в лечении
                   заболеваний:
                </div>
-               <div className="text">
+               <div className="text p">
                   <ul>
                      <li>ИБС (ишемическая болезнь сердца);</li>
                      <li>пороки сердца (приобретенные и врожденные);</li>
@@ -45,7 +45,7 @@ export const CardiologistServicePage = () => {
                      </li>
                   </ul>
                </div>
-               <div className="text">
+               <div className="text p">
                   Понять, что вам нужна консультация кардиолога можно по
                   основным симптомам и ощущениям: боли в области грудной клетки,
                   а особенно в левой ее части, головокружение и слабость, одышка
@@ -54,7 +54,7 @@ export const CardiologistServicePage = () => {
                   минимальном удалении от места проживания, например, кардиолога
                   в Красноармейском районе, в нашей клинике.
                </div>
-               <div className="text">
+               <div className="text p">
                   Кроме того, необходимость записаться на прием врача кардиолога
                   в красноармейском районе возникает в случае диагностирования
                   сахарного диабета (любой степени, даже очень легкой) и
@@ -65,19 +65,19 @@ export const CardiologistServicePage = () => {
                   работников.
                </div>
                <div className="block-header">Наши преимущества</div>
-               <div className="text">
+               <div className="text p">
                   - При острых сердечных болях у пациентов, в медицинской
                   клинике «Эксперт Плюс» предусмотрена услуга выезда кардиолога
                   в Красноармейском районе на дом, наш врач окажет скорую помощь
                   и произведет предварительную диагностику заболевания.
                </div>
-               <div className="text">
+               <div className="text p">
                   - Для диагностирования и лечения заболеваний сердца наши
                   кардиологи применяют оборудование, разработанное с применением
                   инновационных технологий, и новейшие методы лечения, изученные
                   на международных конференциях кардиологов.
                </div>
-               <div className="text">
+               <div className="text p">
                   - Комфортабельная обстановка, отсутствие очередей,
                   уважительное и доброжелательное отношение персонала, в
                   медицинской клинике «Эксперт Плюс», позволит людям с болезнями
@@ -85,7 +85,7 @@ export const CardiologistServicePage = () => {
                   максимально оградить свое сердце от лишних нагрузок и
                   отрицательных переживаний.
                </div>
-               <div className="text">
+               <div className="text p">
                   Если вы уже решили воспользоваться услугами нашей клиники
                   «Эксперт Плюс», находящейся в Красноармейском районе
                   Волгограда, то стоимость консультации врача кардиолога можно

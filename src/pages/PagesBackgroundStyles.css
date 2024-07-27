@@ -1,5 +1,8 @@
-.service-page {
-   padding-bottom: 120px;
+.service-page__container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 30px;
 }
 
 .service-page,
@@ -9,19 +12,14 @@
    background-image: url("../img/pages-bg.png");
    background-repeat: no-repeat;
    background-size: 100%;
+   padding-bottom: 120px;
 }
 
 .newsPageComponent,
 .ContactsPageComponent,
 .InfoAboutPage,
 .InfoVacanciesPage,
-.InfoControlOrgPage {
-   background-image: url("../img/img-bg5.png");
-   background-repeat: no-repeat;
-   background-size: 100% 100%;
-   min-height: 900px;
-}
-
+.InfoControlOrgPage,
 .InfoLicencePage,
 .InfoVacanciesPage,
 .DmsPage,
@@ -30,8 +28,14 @@
 .specific_new_page {
    background-image: url("../img/img-bg-5-4.png");
    background-repeat: no-repeat;
-   background-size: 100% 100%;
-   min-height: 900px;
+   background-size: 100%;
+   padding-bottom: 120px;
+}
+
+@media (min-width: 720px) {
+   .service-page__container {
+      gap: 50px;
+   }
 }
 
 @media (min-width: 992px) {
@@ -42,23 +46,23 @@
       min-height: 1000px;
       background-size: 100% 1050px;
    }
-}
 
-@media (max-width: 1280px) {
    .newsPageComponent,
    .ContactsPageComponent,
    .InfoAboutPage,
    .InfoVacanciesPage,
-   .InfoControlOrgPage {
-      background-size: 1500px 100%;
-   }
-
+   .InfoControlOrgPage,
    .InfoLicencePage,
    .InfoVacanciesPage,
    .DmsPage,
    .InfoOffDocumentsPage,
    .InfoLegFramPage,
    .specific_new_page {
-      background-size: 1500px 100%;
+      min-height: 900px;
+      background-size: 100% 950px;
+   }
+
+   .service-page__container {
+      gap: 70px;
    }
 }

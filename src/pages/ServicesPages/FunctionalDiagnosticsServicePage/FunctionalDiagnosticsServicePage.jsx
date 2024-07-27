@@ -10,7 +10,7 @@ import priceInfoFunctionalDiagnostics from "./PriceInfoFunctionalDiagnostics";
 export const FunctionalDiagnosticsServicePage = () => {
    return (
       <div className="service-page">
-         <div className="container">
+         <div className="container service-page__container">
             <InformationContainerComponent header="Функциональная диагностика">
                <ServicesSpecialistsComponent
                   specialists={SpecialistsInfoFunctionalDiagnostics}
@@ -20,7 +20,7 @@ export const FunctionalDiagnosticsServicePage = () => {
             <OfertaComponent />
             <CardComponent>
                <div className="block-header">Функциональная диагностика</div>
-               <div className="text">
+               <div className="text p">
                   Функциональная диагностика в Красноармейском районе поставлена
                   на высоком профессиональном уровне в медицинской клинике
                   «Эксперт Плюс». Диагностика этого вида позволяет исследовать
@@ -31,7 +31,7 @@ export const FunctionalDiagnosticsServicePage = () => {
                <div className="text bold no-mb black">
                   <li>Снятие электрокардиограммы</li>
                </div>
-               <div className="text">
+               <div className="text p">
                   Этот способ исследования сердечной активности получил широкое
                   распространение и является основным методом, используемым при
                   диагностике и лечении заболеваний сердца. Врач функциональной
@@ -43,7 +43,7 @@ export const FunctionalDiagnosticsServicePage = () => {
                <div className="text bold no-mb black">
                   <li>Спирометрия</li>
                </div>
-               <div className="text">
+               <div className="text p">
                   Этот вид исследования позволяет оценить состояние дыхательной
                   системы путем измерения жизненной емкости легких, объемной
                   скорости воздушного потока и других параметров системы. Врач
@@ -54,7 +54,7 @@ export const FunctionalDiagnosticsServicePage = () => {
                <div className="text bold no-mb black">
                   <li>Суточное мониторирование артериального давления</li>
                </div>
-               <div className="text">
+               <div className="text p">
                   Для правильного и эффективного лечения гипертонии, в различных
                   ее проявлениях, не достаточно простого измерения давления два
                   или три раза в день. Необходимо контролировать изменение
@@ -65,19 +65,19 @@ export const FunctionalDiagnosticsServicePage = () => {
                   мониторинг (контроль) артериального давления в течении суток.
                </div>
                <div className="block-header">Преимущества</div>
-               <div className="text">
+               <div className="text p">
                   Воспользовавшись услугами, предоставляемыми медицинской
                   клиникой «Эксперт Плюс», вы получите качественное и
                   уважительное обслуживание, без очередей и в комфортной
                   обстановке.
                </div>
-               <div className="text">
+               <div className="text p">
                   Врачи функциональной диагностики Красноармейского района
                   отличаются высокой квалификацией и имеют огромный опыт работы
                   в расшифровке показаний медицинских приборов и оборудования,
                   диагностировании заболеваний по этим данным.
                </div>
-               <div className="text">
+               <div className="text p">
                   Все оборудование для проведения функциональной диагностики
                   является аппаратурой последнего поколения, находится в
                   идеальном состоянии и откалибровано в соответствии с

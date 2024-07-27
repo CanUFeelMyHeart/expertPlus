@@ -7,7 +7,7 @@ import priceInfoPhysiotherapy from "./PriceInfoPhysiotherapy";
 export const PhysiotherapyServicePage = () => {
    return (
       <div className="service-page">
-         <div className="container">
+         <div className="container service-page__container">
             <InformationContainerComponent header="Физиотерапия">
                <PriceListComponent priceInfo={priceInfoPhysiotherapy} />
             </InformationContainerComponent>

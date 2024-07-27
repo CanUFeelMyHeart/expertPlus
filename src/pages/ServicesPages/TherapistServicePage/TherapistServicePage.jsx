@@ -10,7 +10,7 @@ import priceInfoTherapist from "./PriceInfoTherapist";
 export const TherapistServicePage = () => {
    return (
       <div className="service-page">
-         <div className="container">
+         <div className="container service-page__container">
             <InformationContainerComponent header="Терапевт">
                <ServicesSpecialistsComponent
                   specialists={SpecialistsInfoTherapist}
@@ -20,7 +20,7 @@ export const TherapistServicePage = () => {
             <OfertaComponent />
             <CardComponent>
                <div className="block-header">Врач-терапевт в Волгограде</div>
-               <div className="text">
+               <div className="text p">
                   В нашей повседневной жизни, самым универсальным и
                   востребованным доктором является врач терапевт. Если вам нужен
                   хороший терапевт в Волгограде, то в медицинской клинике
@@ -31,7 +31,7 @@ export const TherapistServicePage = () => {
                   Несколько причин записаться на прием терапевта или позвонить в
                   нашу клинику:
                </div>
-               <div className="text">
+               <div className="text p">
                   <ul>
                      <li>
                         уважительное и доверительное отношение врач/пациент, в
@@ -62,12 +62,12 @@ export const TherapistServicePage = () => {
                <div className="block-header" v>
                   Когда необходимо срочно обратиться к терапевту
                </div>
-               <div className="text">
+               <div className="text p">
                   Бывают случаи, когда просто необходимо посетить терапевта в
                   Красноармейском районе, не откладывая в «долгий ящик», и не
                   затягивая посещение:
                </div>
-               <div className="text">
+               <div className="text p">
                   <ul>
                      <li>
                         заболевания ОРЗ и грипп, провоцирующие большие
@@ -95,7 +95,7 @@ export const TherapistServicePage = () => {
                <div className="block-header" v>
                   Как получить помощь
                </div>
-               <div className="text">
+               <div className="text p">
                   Медицинская клиника «Эксперт Плюс» делает все, для того чтобы
                   оказывать своевременную помощь населению в Красноармейском
                   районе с максимальной оперативностью. Мы работаем без выходных

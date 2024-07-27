@@ -9,7 +9,7 @@ import priceInfoUrologist from "./PriceInfoUrologist";
 export const UrologistServicePage = () => {
    return (
       <div className="service-page">
-         <div className="container">
+         <div className="container service-page__container">
             <InformationContainerComponent header="Уролог">
                <ServicesSpecialistsComponent
                   specialists={SpecialistsInfoUrologist}

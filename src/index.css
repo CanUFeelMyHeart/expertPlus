@@ -11,6 +11,8 @@
    padding: 0;
 }
 
+h1,
+.h1,
 h2,
 .h2 {
    font-family: "Roboto";
@@ -53,8 +55,11 @@ body {
    font-weight: 400;
    color: #494949;
    font-size: 12px;
-   margin-bottom: 20px;
    line-height: 20px;
+}
+
+.p {
+   margin-bottom: 20px;
 }
 
 .block-header {
@@ -83,6 +88,9 @@ code {
    .text {
       font-size: 14px;
       line-height: 24px;
+   }
+
+   .p {
       margin-bottom: 25px;
    }
 
@@ -91,6 +99,8 @@ code {
       margin-bottom: 25px;
    }
 
+   h1,
+   .h1,
    h2,
    .h2 {
       font-size: 38px;
@@ -109,6 +119,9 @@ code {
    .text {
       font-size: 16px;
       line-height: 26px;
+   }
+
+   .p {
       margin-bottom: 30px;
    }
 
@@ -117,6 +130,8 @@ code {
       margin-bottom: 30px;
    }
 
+   h1,
+   .h1,
    h2,
    .h2 {
       font-size: 42px;
@@ -129,12 +144,13 @@ code {
       font-size: 28px;
    }
 
+   h1,
+   .h1,
    h2,
    .h2 {
       font-size: 48px;
    }
 }
-
 
 .bold {
    font-weight: bold;

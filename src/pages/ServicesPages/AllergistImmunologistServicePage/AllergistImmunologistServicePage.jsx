@@ -12,7 +12,7 @@ import "../../PagesBackgroundStyles.css";
 export const AllergistImmunologistServicePage = () => {
    return (
       <div className="service-page">
-         <div className="container">
+         <div className="container service-page__container">
             <InformationContainerComponent header="Аллерголог-иммунолог">
                <ServicesSpecialistsComponent
                   specialists={SpecialistsInfoAllergist}
@@ -22,7 +22,7 @@ export const AllergistImmunologistServicePage = () => {
             <OfertaComponent />
             <CardComponent>
                <div className="block-header">Уважаемые пациенты !</div>
-               <div className="text">
+               <div className="text p">
                   Если в сезон активного цветения вас мучает неприятный зуд в
                   носу или насморк, то до наступления теплых весенних дней мы
                   рекомендуем вам обратиться за консультацией к опытному врачу
@@ -32,12 +32,12 @@ export const AllergistImmunologistServicePage = () => {
                   неприятные симптомы или даже полностью избежать проявлений
                   сезонной аллергии.
                </div>
-               <div className="text">
+               <div className="text p">
                   Одним из частых видов сезонной аллергии является поллиноз –
                   это повышение чувствительности слизистой оболочки глаз и
                   дыхательных путей под действием пыльцевых аллергенов.
                </div>
-               <div className="text">
+               <div className="text p">
                   Повышенное содержание пыльцы в воздухе в весенний период, а
                   также постоянное попадание ее в дыхательные пути, вызывает
                   состояние, которое называют сенсибилизацией организма.
@@ -45,7 +45,7 @@ export const AllergistImmunologistServicePage = () => {
                <div className="block-header" v>
                   Симптомы поллиноза
                </div>
-               <div className="text">
+               <div className="text p">
                   Начинать бить тревогу нужно, почувствовав зуд в носоглотке,
                   при сильном слезотечении, насморке «в три ручья» и частых
                   приступах чихания.
@@ -56,7 +56,7 @@ export const AllergistImmunologistServicePage = () => {
                      alt="allergologist"
                   />
                </div>
-               <div className="text">
+               <div className="text p">
                   Такие приступы начинаются внезапно, на фоне полного
                   благополучия и крепкого здоровья. Если вовремя не обратиться к
                   врачу аллергологу, то начальные симптомы могут перейти в

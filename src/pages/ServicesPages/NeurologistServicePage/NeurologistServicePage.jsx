@@ -10,7 +10,7 @@ import priceInfoNeurologist from "./PriceInfoNeurologist";
 export const NeurologistServicePage = () => {
    return (
       <div className="service-page">
-         <div className="container">
+         <div className="container service-page__container">
             <InformationContainerComponent header="Невролог">
                <ServicesSpecialistsComponent
                   specialists={SpecialistsInfoNeurologist}
@@ -20,7 +20,7 @@ export const NeurologistServicePage = () => {
             <OfertaComponent />
             <CardComponent>
                <div className="block-header">Врач-невролог в Волгограде</div>
-               <div className="text">
+               <div className="text p">
                   Записаться на прием к хорошему неврологу в Волгограде вы
                   можете, обратившись в частную клинику «Эксперт Плюс». В этом
                   медицинском учреждении практикуют врачи неврологи,
@@ -30,10 +30,10 @@ export const NeurologistServicePage = () => {
                <div className="block-header">
                   Консультация врача невролога настоятельно рекомендуется
                </div>
-               <div className="text">
+               <div className="text p">
                   пациентам, испытывающим следующие недомогания:
                </div>
-               <div className="text">
+               <div className="text p">
                   <ul>
                      <li>
                         непрекращающиеся головные боли, сильные и частые,
@@ -68,19 +68,19 @@ export const NeurologistServicePage = () => {
                <div className="block-header" v>
                   Что предлагает клиника «Эксперт Плюс»
                </div>
-               <div className="text">
+               <div className="text p">
                   При первичной консультации будет произведен осмотр пациента и
                   сбор анамнеза, позволяющего определиться с предварительным
                   диагнозом или назначением дополнительного обследования (МРТ,
                   комплекс анализов).
                </div>
-               <div className="text">
+               <div className="text p">
                   Во время повторного визита к врачу неврологу в Красноармейском
                   районе, пациенту назначат необходимые процедуры и препараты, в
                   соответствии с поставленным диагнозом и составленной личной
                   картой (планом) лечения.
                </div>
-               <div className="text">
+               <div className="text p">
                   В услуги нашей клиники входит возможность вызова специалиста
                   невролога в Красноармейском районе, если у ребенка приступ
                   эпилепсии, бессонница, ДЦП, неконтролируемая возбудимость, а у
@@ -88,7 +88,7 @@ export const NeurologistServicePage = () => {
                   черепно-мозговая травма, сильное головокружение, остеохондроз
                   или радикулит.
                </div>
-               <div className="text">
+               <div className="text p">
                   Обо всех услугах, которые предоставляет клиника «Эксперт
                   Плюс», расположенная в Красноармейском районе Волгограда,
                   можно узнать непосредственно на нашем сайте или по контактным

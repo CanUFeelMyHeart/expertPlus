@@ -10,7 +10,7 @@ import priceInfoOtorhinolaryngologist from "./PriceInfoOtorhinolaryngologist";
 export const OtorhinolaryngologistServicePage = () => {
    return (
       <div className="service-page">
-         <div className="container">
+         <div className="container service-page__container">
             <InformationContainerComponent header="Оториноларинголог (ЛОР)">
                <ServicesSpecialistsComponent
                   specialists={SpecialistsInfoOtorhinolaryngologist}
@@ -22,7 +22,7 @@ export const OtorhinolaryngologistServicePage = () => {
                <div className="block-header">
                   Оториноларинголог (врач ЛОР) в Волгограде
                </div>
-               <div className="text">
+               <div className="text p">
                   Отоларингологи (ЛОР врачи) являются самыми востребованными
                   докторами в любое время года, в независимости от жаркого лета
                   или холодной зимы. Если вы ищете, где принимают ЛОР врачи в
@@ -33,7 +33,7 @@ export const OtorhinolaryngologistServicePage = () => {
                <div className="block-header">
                   Поводом немедленно прийти на прием врача ЛОРа могут быть:
                </div>
-               <div className="text">
+               <div className="text p">
                   <ul>
                      <li>
                         заложенность и сильные боли в ухе, отдающие в горло,
@@ -57,18 +57,18 @@ export const OtorhinolaryngologistServicePage = () => {
                <div className="block-header" v>
                   Услуги ЛОРа в нашей клинике:
                </div>
-               <div className="text">
+               <div className="text p">
                   ЛОР в нашей клинике, в Красноармейском районе, очень
                   внимательно и тщательно вас осмотрит, назначит необходимые
                   анализы и исследования, поставит правильный диагноз и
                   предложит курс соответствующего лечения.
                </div>
-               <div className="text">
+               <div className="text p">
                   Мы предлагаем высококвалифицированную помощь платного ЛОРа,
                   предоставляющего широкий спектр медицинских услуг в
                   Красноармейском районе:
                </div>
-               <div className="text">
+               <div className="text p">
                   <ul>
                      <li>
                         врач произведет, при необходимости, вскрытие
@@ -97,7 +97,7 @@ export const OtorhinolaryngologistServicePage = () => {
                      </li>
                   </ul>
                </div>
-               <div className="text">
+               <div className="text p">
                   Полный список услуг отоларингологов медицинской клиники
                   «Эксперт Плюс», расположенной в Красноармейском районе
                   Волгограда, вы можете узнать на сайте, или воспользовавшись
