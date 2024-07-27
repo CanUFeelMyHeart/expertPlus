@@ -21,10 +21,10 @@ export const AllergistImmunologistServicePage = () => {
          <OfertaComponent />
          <ServiceSpecialistsInfoComponent>
             <div className="services_doctor_info_container">
-               <h2 className="services_doctor_info_header">
+               <div className="services_doctor_info_header">
                   Уважаемые пациенты !
-               </h2>
-               <h3 className="services_doctor_info_description">
+               </div>
+               <div className="services_doctor_info_description">
                   Если в сезон активного цветения вас мучает неприятный зуд в
                   носу или насморк, то до наступления теплых весенних дней мы
                   рекомендуем вам обратиться за консультацией к опытному врачу
@@ -33,26 +33,26 @@ export const AllergistImmunologistServicePage = () => {
                   профилактическая терапия, которая поможет вам облегчить
                   неприятные симптомы или даже полностью избежать проявлений
                   сезонной аллергии.
-               </h3>
-               <h3 className="services_doctor_info_description">
+               </div>
+               <div className="services_doctor_info_description">
                   Одним из частых видов сезонной аллергии является поллиноз –
                   это повышение чувствительности слизистой оболочки глаз и
                   дыхательных путей под действием пыльцевых аллергенов.
-               </h3>
-               <h3 className="services_doctor_info_description">
+               </div>
+               <div className="services_doctor_info_description">
                   Повышенное содержание пыльцы в воздухе в весенний период, а
                   также постоянное попадание ее в дыхательные пути, вызывает
                   состояние, которое называют сенсибилизацией
                   организма.
-               </h3>
-               <h2 className="services_doctor_info_header" v>
+               </div>
+               <div className="services_doctor_info_header" v>
                   Симптомы поллиноза
-               </h2>
-               <h3 className="services_doctor_info_description">
+               </div>
+               <div className="services_doctor_info_description">
                   Начинать бить тревогу нужно, почувствовав зуд в носоглотке,
                   при сильном слезотечении, насморке «в три ручья» и частых
                   приступах чихания.
-               </h3>
+               </div>
                <div className="services_doctor_info_img_container">
                   <img
                      className="services_doctor_info_img"
@@ -60,7 +60,7 @@ export const AllergistImmunologistServicePage = () => {
                      alt="allergologist"
                   />
                </div>
-               <h3 className="services_doctor_info_description">
+               <div className="services_doctor_info_description">
                   Такие приступы начинаются внезапно, на фоне полного
                   благополучия и крепкого здоровья. Если вовремя не обратиться к
                   врачу аллергологу, то начальные симптомы могут перейти в
@@ -69,7 +69,7 @@ export const AllergistImmunologistServicePage = () => {
                   голосовые связки, в результате чего у больного изменяется
                   голос, снижается слух, возможно затруднение дыхания, приступы
                   одышки, а также обострения аллергических дерматитов.
-               </h3>
+               </div>
             </div>
          </ServiceSpecialistsInfoComponent>
       </div>

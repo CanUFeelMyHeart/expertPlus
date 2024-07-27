@@ -21,26 +21,26 @@ export const UltrasoundDiagnosticsServicePage = () => {
             <OfertaComponent />
             <ServiceSpecialistsInfoComponent>
                 <div className="services_doctor_info_container">
-                    <h2 className="services_doctor_info_header">
+                    <div className="services_doctor_info_header">
                         Ультразвуковая диагностика
-                    </h2>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         Ультразвуковая диагностика в Волгограде получила самое
                         большое распространение и применяется как в городских
                         больницах, так и в частных клиниках.
-                    </h3>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         Такой вид обследования дает очень хорошие результаты при
                         диагностировании различных заболеваний внутренних
                         органов и широко используется специалистами медицинской
                         клиники «Эксперт Плюс».
-                    </h3>
-                    <h2 className="services_doctor_info_header">Возможности</h2>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_header">Возможности</div>
+                    <div className="services_doctor_info_description">
                         С помощью ультразвуковой диагностики в Красноармейском
                         районе стало доступным:
-                    </h3>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         <ul>
                             <li>
                                 наблюдение за течением беременности на всех
@@ -67,31 +67,31 @@ export const UltrasoundDiagnosticsServicePage = () => {
                             <li>обследование коленных суставов;</li>
                             <li>другие виды исследований.</li>
                         </ul>
-                    </h3>
-                    <h2 className="services_doctor_info_header" v>
+                    </div>
+                    <div className="services_doctor_info_header" v>
                         Достоинства
-                    </h2>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         Используя ультразвуковую диагностику в Красноармейском
                         районе, стало возможным не только выявление камней и
                         различных объемных образований в органах, но и
                         наблюдение за течением хронических заболеваний,
                         определение травматических повреждений мягких тканей,
                         выявление воспалительных процессов в различных органах.
-                    </h3>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         Пройти УЗИ в Красноармейском районе вы можете,
                         воспользовавшись услугами медицинской клиники «Эксперт
                         Плюс», как по направлению врачей практикующих в клинике,
                         так и по назначению врачей из других больниц и
                         поликлиник.
-                    </h3>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         Более подробную информацию о видах ультразвуковой
                         диагностики в Красноармейском районе и ценах на услуги,
                         вы можете узнать на сайте, а также воспользовавшись
                         контактными телефонами.
-                    </h3>
+                    </div>
                 </div>
             </ServiceSpecialistsInfoComponent>
         </div>

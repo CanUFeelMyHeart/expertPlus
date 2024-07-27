@@ -19,21 +19,21 @@ export const TherapistServicePage = () => {
             <OfertaComponent />
             <ServiceSpecialistsInfoComponent>
                 <div className="services_doctor_info_container">
-                    <h2 className="services_doctor_info_header">
+                    <div className="services_doctor_info_header">
                         Врач-терапевт в Волгограде
-                    </h2>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         В нашей повседневной жизни, самым универсальным и
                         востребованным доктором является врач терапевт. Если вам
                         нужен хороший терапевт в Волгограде, то в медицинской
                         клинике «Эксперт Плюс» практикуют специалисты, в этой
                         области, самого высокого уровня квалификации.
-                    </h3>
-                    <h2 className="services_doctor_info_header">
+                    </div>
+                    <div className="services_doctor_info_header">
                         Несколько причин записаться на прием терапевта или
                         позвонить в нашу клинику:
-                    </h2>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         <ul>
                             <li>
                                 уважительное и доверительное отношение
@@ -63,16 +63,16 @@ export const TherapistServicePage = () => {
                                 окажет скорую медицинскую помощь.
                             </li>
                         </ul>
-                    </h3>
-                    <h2 className="services_doctor_info_header" v>
+                    </div>
+                    <div className="services_doctor_info_header" v>
                         Когда необходимо срочно обратиться к терапевту
-                    </h2>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         Бывают случаи, когда просто необходимо посетить
                         терапевта в Красноармейском районе, не откладывая в
                         «долгий ящик», и не затягивая посещение:
-                    </h3>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         <ul>
                             <li>
                                 заболевания ОРЗ и грипп, провоцирующие большие
@@ -96,18 +96,18 @@ export const TherapistServicePage = () => {
                                 вас, для лечения, к нужному специалисту.
                             </li>
                         </ul>
-                    </h3>
-                    <h2 className="services_doctor_info_header" v>
+                    </div>
+                    <div className="services_doctor_info_header" v>
                         Как получить помощь
-                    </h2>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         Медицинская клиника «Эксперт Плюс» делает все, для того
                         чтобы оказывать своевременную помощь населению в
                         Красноармейском районе с максимальной оперативностью. Мы
                         работаем без выходных и перерыва, достаточно позвонить
                         нам по контактным телефонам или написать по электронной
                         почте.
-                    </h3>
+                    </div>
                 </div>
             </ServiceSpecialistsInfoComponent>
         </div>

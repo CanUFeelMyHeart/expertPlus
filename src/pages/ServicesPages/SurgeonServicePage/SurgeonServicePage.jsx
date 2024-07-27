@@ -21,20 +21,20 @@ export const SurgeonServicePage = () => {
             <OfertaComponent />
             <ServiceSpecialistsInfoComponent>
                 <div className="services_doctor_info_container">
-                    <h2 className="services_doctor_info_header">
+                    <div className="services_doctor_info_header">
                         Врач-хирург в Волгограде
-                    </h2>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         В медицинской клинике «Эксперт Плюс» лучшие хирурги
                         Волгограда произведут осмотр, поставят диагноз и
                         определят вид заболевания, проведут операбельное
                         вмешательство, устраняющее причину недомогания.
-                    </h3>
-                    <h2 className="services_doctor_info_header">
+                    </div>
+                    <div className="services_doctor_info_header">
                         Хирург в медицинской клинике «Эксперт Плюс»
                         (Красноармейский район):
-                    </h2>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         <ul>
                             <li>
                                 при первичном приеме произведет осмотр пациента
@@ -65,12 +65,12 @@ export const SurgeonServicePage = () => {
                                 пораженного органа;
                             </li>
                         </ul>
-                    </h3>
-                    <h2 className="services_doctor_info_header">
+                    </div>
+                    <div className="services_doctor_info_header">
                         Случаи, когда необходимо срочно обратиться в клинику
                         «Эксперт Плюс»
-                    </h2>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         <ul>
                             <li>
                                 При получении травмы хирургического характера, в
@@ -102,23 +102,23 @@ export const SurgeonServicePage = () => {
                                 серьезным последствиям.
                             </li>
                         </ul>
-                    </h3>
-                    <h2 className="services_doctor_info_header">
+                    </div>
+                    <div className="services_doctor_info_header">
                         Наши преимущества
-                    </h2>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         Хирурги, практикующие в клинике, имеют большой и
                         успешный опыт в диагностировании болезней и
                         операбельного их лечения, в не зависимости от сложности
                         проводимого лечения.
-                    </h3>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         В услугах клиники предусмотрена возможность оказания
                         помощи больным с выездом на дом, в Красноармейском
                         районе, что особенно актуально при резком обострении
                         хронических заболеваний или остром приступе, когда идет
                         неуправляемый воспалительный процесс внутренних органов.
-                    </h3>
+                    </div>
                 </div>
             </ServiceSpecialistsInfoComponent>
         </div>

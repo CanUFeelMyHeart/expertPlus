@@ -19,20 +19,20 @@ export const OtorhinolaryngologistServicePage = () => {
       <OfertaComponent />
       <ServiceSpecialistsInfoComponent>
         <div className="services_doctor_info_container">
-          <h2 className="services_doctor_info_header">
+          <div className="services_doctor_info_header">
             Оториноларинголог (врач ЛОР) в Волгограде
-          </h2>
-          <h3 className="services_doctor_info_description">
+          </div>
+          <div className="services_doctor_info_description">
             Отоларингологи (ЛОР врачи) являются самыми востребованными докторами
             в любое время года, в независимости от жаркого лета или холодной
             зимы. Если вы ищете, где принимают ЛОР врачи в Волгограде, то наша
             медицинская клиника «Эксперт Плюс», в Красноармейском районе, станет
             наилучшим и оптимальным выбором.
-          </h3>
-          <h2 className="services_doctor_info_header">
+          </div>
+          <div className="services_doctor_info_header">
             Поводом немедленно прийти на прием врача ЛОРа могут быть:
-          </h2>
-          <h3 className="services_doctor_info_description">
+          </div>
+          <div className="services_doctor_info_description">
             <ul>
               <li>
                 заложенность и сильные боли в ухе, отдающие в горло, зубы и даже
@@ -51,22 +51,22 @@ export const OtorhinolaryngologistServicePage = () => {
                 (характерно для гайморита).{" "}
               </li>
             </ul>
-          </h3>
-          <h2 className="services_doctor_info_header" v>
+          </div>
+          <div className="services_doctor_info_header" v>
             Услуги ЛОРа в нашей клинике:
-          </h2>
-          <h3 className="services_doctor_info_description">
+          </div>
+          <div className="services_doctor_info_description">
             ЛОР в нашей клинике, в Красноармейском районе, очень внимательно и
             тщательно вас осмотрит, назначит необходимые анализы и исследования,
             поставит правильный диагноз и предложит курс соответствующего
             лечения.
-          </h3>
-          <h3 className="services_doctor_info_description">
+          </div>
+          <div className="services_doctor_info_description">
             Мы предлагаем высококвалифицированную помощь платного ЛОРа,
             предоставляющего широкий спектр медицинских услуг в Красноармейском
             районе:
-          </h3>
-          <h3 className="services_doctor_info_description">
+          </div>
+          <div className="services_doctor_info_description">
             <ul>
               <li>
                 врач произведет, при необходимости, вскрытие паратонзиллярного
@@ -91,12 +91,12 @@ export const OtorhinolaryngologistServicePage = () => {
                 другие оперативные и профилактические медицинские манипуляции.
               </li>
             </ul>
-          </h3>
-          <h3 className="services_doctor_info_description">
+          </div>
+          <div className="services_doctor_info_description">
             Полный список услуг отоларингологов медицинской клиники «Эксперт
             Плюс», расположенной в Красноармейском районе Волгограда, вы можете
             узнать на сайте, или воспользовавшись нашими контактными телефонами.
-          </h3>
+          </div>
         </div>
       </ServiceSpecialistsInfoComponent>
     </div>

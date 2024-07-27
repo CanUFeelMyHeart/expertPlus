@@ -19,24 +19,24 @@ export const NeurologistServicePage = () => {
             <OfertaComponent />
             <ServiceSpecialistsInfoComponent>
                 <div className="services_doctor_info_container">
-                    <h2 className="services_doctor_info_header">
+                    <div className="services_doctor_info_header">
                         Врач-невролог в Волгограде
-                    </h2>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         Записаться на прием к хорошему неврологу в Волгограде вы
                         можете, обратившись в частную клинику «Эксперт Плюс». В
                         этом медицинском учреждении практикуют врачи
                         неврологи, оказывающие, в первую очередь,
                         срочную и необходимую помощь пациентам
                         Красноармейского района.
-                    </h3>
-                    <h2 className="services_doctor_info_header">
+                    </div>
+                    <div className="services_doctor_info_header">
                         Консультация врача невролога настоятельно рекомендуется
-                    </h2>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         пациентам, испытывающим следующие недомогания:
-                    </h3>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         <ul>
                             <li>
                                 непрекращающиеся головные боли, сильные и
@@ -70,23 +70,23 @@ export const NeurologistServicePage = () => {
                                 психическими заболеваниями.
                             </li>
                         </ul>
-                    </h3>
-                    <h2 className="services_doctor_info_header" v>
+                    </div>
+                    <div className="services_doctor_info_header" v>
                         Что предлагает клиника «Эксперт Плюс»
-                    </h2>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         При первичной консультации будет произведен осмотр
                         пациента и сбор анамнеза, позволяющего определиться с
                         предварительным диагнозом или назначением
                         дополнительного обследования (МРТ, комплекс анализов).
-                    </h3>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         Во время повторного визита к врачу неврологу в
                         Красноармейском районе, пациенту назначат необходимые
                         процедуры и препараты, в соответствии с поставленным
                         диагнозом и составленной личной картой (планом) лечения.
-                    </h3>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         В услуги нашей клиники входит возможность вызова
                         специалиста невролога в Красноармейском районе, если у
                         ребенка приступ эпилепсии, бессонница, ДЦП,
@@ -94,13 +94,13 @@ export const NeurologistServicePage = () => {
                         признаки перенесенного инсульта, черепно-мозговая
                         травма, сильное головокружение, остеохондроз или
                         радикулит.
-                    </h3>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         Обо всех услугах, которые предоставляет клиника «Эксперт
                         Плюс», расположенная в Красноармейском районе
                         Волгограда, можно узнать непосредственно на нашем сайте
                         или по контактным телефонам, указанным выше.
-                    </h3>
+                    </div>
                 </div>
             </ServiceSpecialistsInfoComponent>
         </div>

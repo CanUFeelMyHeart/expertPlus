@@ -19,10 +19,10 @@ export const GastroenterologistServicePage = () => {
             <OfertaComponent />
             <ServiceSpecialistsInfoComponent>
                 <div className="services_doctor_info_container">
-                    <h2 className="services_doctor_info_header">
+                    <div className="services_doctor_info_header">
                         Врач-гастроэнтеролог в Волгограде
-                    </h2>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         В последнее время проблемы с желудочно-кишечным трактом
                         возникают у большинства населения не только нашей
                         страны, но и всего мира. Не будем анализировать причины
@@ -32,11 +32,11 @@ export const GastroenterologistServicePage = () => {
                         Красноармейском районе или другой части Волгограда, то
                         имейте в виду, что в медицинской клинике «Эксперт Плюс»
                         практикуют лучшие гастроэнтерологи города.
-                    </h3>
-                    <h2 className="services_doctor_info_header">
+                    </div>
+                    <div className="services_doctor_info_header">
                         Мы поможем в лечении следующих заболеваний:
-                    </h2>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         <ul>
                             <li>Гастриты и дуодениты;</li>
                             <li>
@@ -57,40 +57,40 @@ export const GastroenterologistServicePage = () => {
                                 Другие заболевания желудочно-кишечного тракта.
                             </li>
                         </ul>
-                    </h3>
-                    <h2 className="services_doctor_info_header" v>
+                    </div>
+                    <div className="services_doctor_info_header" v>
                         Достоинства клиники «Эксперт Плюс»
-                    </h2>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         - В распоряжении гастроэнтерологов в Красноармейском
                         районе (клиника «Эксперт Плюс») находится все
                         необходимое современное оборудование для диагностики
                         заболеваний органов ЖКТ, приборы ультразвукового
                         исследования.
-                    </h3>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         - Коллектив врачей-гастроэнтерологов тщательно
                         подбирался и уровень их подготовки соответствует самым
                         высоким стандартам, а внимательное отношение к жалобам
                         пациентов в процессе диагностики, сопутствует правильной
                         постановке диагноза и эффективности лечения.
-                    </h3>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         - При острых желудочных коликах и невозможности посетить
                         гастроэнтеролога для снятия болезненных симптомов, в
                         нашей клинике предусмотрен вызов врача-гастроэнтеролога
                         в Красноармейском районе Волгограда на дом.
-                    </h3>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         - Учитывая занятость и загруженность проблемами обычного
                         человека, наша клиника работает без перерыва и выходных.
-                    </h3>
-                    <h3 className="services_doctor_info_description">
+                    </div>
+                    <div className="services_doctor_info_description">
                         Все подробности о записи на прием, стоимости
                         консультации гастроэнтеролога, других услугах клиники –
                         вы можете узнать непосредственно на нашем сайте или
                         позвонить по нашим контактным телефонам.
-                    </h3>
+                    </div>
                 </div>
             </ServiceSpecialistsInfoComponent>
         </div>
