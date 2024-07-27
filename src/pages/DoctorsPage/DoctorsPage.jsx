@@ -1,6 +1,6 @@
 import React from "react";
 import { DoctorComponent } from "../../components/DoctorComponent/DoctorComponent";
-import { doctors } from "./DoctorsInfo";
+import { doctors } from "./DoctorsData";
 import "./DoctorsPage.css";
 
 export const DoctorsPage = () => {
