@@ -5,9 +5,9 @@ import "./AboutClinicComponent.css";
 
 export const AboutClinicComponent = (props) => {
   return (
-    <div className="aboutClinic">
+    <div className="aboutClinic container section">
       <div className="aboutClinic__text">
-        <h2 className="aboutClinic__header">О клинике</h2>
+        <h2 className="h2">О клинике</h2>
         <h3 className="aboutClinic__description">
           Клиника «Эксперт плюс» находится в самом центре Красноармейского
           района и готова оказать профессиональную, доступную для всех категорий

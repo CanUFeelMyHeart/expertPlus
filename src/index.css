@@ -1,35 +1,91 @@
 * {
-  font-family: inherit; /* все элементы наследуют от своего родителя гарнитуру шрифта */
-  font-style: inherit; /* наследуют начертание */
-  font-weight: inherit; /* наследуют жирность */
-  vertical-align: baseline; /* вертикальное выравнивание по базовой линии */
-  font-size: 100%; /* размер шрифта 100% */
-  /* background: transparent; /* фон всех элементов прозрачный */
-  border: 0; /* убираем рамки */
-  outline: 0; /* убираем контуры */
-  margin: 0; /* убираем поля */
-  padding: 0; 
+   font-family: inherit; /* все элементы наследуют от своего родителя гарнитуру шрифта */
+   font-style: inherit; /* наследуют начертание */
+   font-weight: inherit; /* наследуют жирность */
+   vertical-align: baseline; /* вертикальное выравнивание по базовой линии */
+   font-size: 100%; /* размер шрифта 100% */
+   /* background: transparent; /* фон всех элементов прозрачный */
+   border: 0; /* убираем рамки */
+   outline: 0; /* убираем контуры */
+   margin: 0; /* убираем поля */
+   padding: 0;
 }
 
-h2, .h2 {
-  font-size: 24px; 
- }
+h2,
+.h2 {
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 500;
+   text-align: center;
+   color: #383838;
+   font-size: 32px;
+   margin-bottom: 40px;
+}
 
- h3, .h3 {
-  font-size: 18px; 
- }
+h3,
+.h3 {
+   font-size: 18px;
+}
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+   margin: 0;
+   padding: 0;
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+   max-width: 1280px;
+   margin-inline: auto;
+   padding-inline: 15px;
+}
+
+.section {
+   margin-block: 40px;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+}
+
+@media (min-width: 720px) {
+   .container {
+      padding-inline: 20px;
+   }
+
+   .section {
+      margin-block: 50px;
+   }
+
+   h2,
+   .h2 {
+      font-size: 38px;
+   }
+}
+
+@media (min-width: 992px) {
+   .container {
+      padding-inline: 40px;
+   }
+
+   .section {
+      margin-block: 60px;
+   }
+
+   h2,
+   .h2 {
+      font-size: 42px;
+   }
+}
+
+@media (min-width: 1280px) {
+
+   h2,
+   .h2 {
+      font-size: 48px;
+   }
 }
