@@ -7,10 +7,10 @@ export const InfoRegulationsPage = () => {
          <div className="container">
             <InformationContainerComponent header="Положение о предоставлении платных медицинских услуг">
                <div className="servisesContainer">
-                  <h3 className="servisesHeading">
+                  <div className="servisesHeading">
                      {" "}
                      Глава 1. ОБЩИЕ ПОЛОЖЕНИЯ{" "}
-                  </h3>
+                  </div>
 
                   <div className="servisesText">
                      {" "}
@@ -76,10 +76,10 @@ export const InfoRegulationsPage = () => {
                      пациента и здоровью окружающих.
                   </div>
 
-                  <h3 className="servisesHeading">
+                  <div className="servisesHeading">
                      {" "}
                      Глава 2. ПОРЯДОК ОБРАЩЕНИЯ ПАЦИЕНТА В КЛИНИКУ{" "}
-                  </h3>
+                  </div>
 
                   <div className="servisesText">
                      {" "}
@@ -161,10 +161,10 @@ export const InfoRegulationsPage = () => {
                      диагноза.
                   </div>
 
-                  <h3 className="servisesHeading">
+                  <div className="servisesHeading">
                      {" "}
                      ПЕРВИЧНЫМ ПРИЕМОМ врача любой специальности считается:{" "}
-                  </h3>
+                  </div>
 
                   <div className="servisesText">
                      - первое обращение в клинику;
@@ -175,10 +175,10 @@ export const InfoRegulationsPage = () => {
                      сроков обращения.{" "}
                   </div>
 
-                  <h3 className="servisesHeading">
+                  <div className="servisesHeading">
                      {" "}
                      ПОВТОРНЫМ (последующим) ПРИЕМОМ считается:{" "}
-                  </h3>
+                  </div>
                   <div className="servisesText">
                      - обращение по одному и тому же диагнозу в течении 3-х
                      месяцев;
@@ -190,11 +190,11 @@ export const InfoRegulationsPage = () => {
                      первичного приема и обследования.{" "}
                   </div>
 
-                  <h3 className="servisesHeading">
+                  <div className="servisesHeading">
                      {" "}
                      Глава 3. ПРАВИЛА ПРЕБЫВАНИЯ В УЧРЕЖДЕНИИ ПАЦИЕНТОВ И
                      РОДСТВЕННИКОВ{" "}
-                  </h3>
+                  </div>
 
                   <div className="servisesText">
                      3.1. При первичном посещении клиники необходимо прийти за
@@ -274,10 +274,10 @@ export const InfoRegulationsPage = () => {
                      в помещениях клиники.{" "}
                   </div>
 
-                  <h3 className="servisesHeading">
+                  <div className="servisesHeading">
                      {" "}
                      Глава 4. ПРАВА И ОБЯЗАННОСТИ ПАЦИЕНТА{" "}
-                  </h3>
+                  </div>
 
                   <div className="servisesText">
                      4.1. При обращении за медицинской помощью и ее получении
@@ -394,10 +394,10 @@ export const InfoRegulationsPage = () => {
                      4.2.9. Бережно относиться к имуществу клиники.{" "}
                   </div>
 
-                  <h3 className="servisesHeading">
+                  <div className="servisesHeading">
                      {" "}
                      Глава 5. РЕЖИМ РАБОТЫ КЛИНИКИ{" "}
-                  </h3>
+                  </div>
 
                   <div className="servisesText">
                      Понедельник: с 8.00 до 20.00 <br></br>
@@ -425,10 +425,10 @@ export const InfoRegulationsPage = () => {
                      клиники.{" "}
                   </div>
 
-                  <h3 className="servisesHeading">
+                  <div className="servisesHeading">
                      {" "}
                      Глава 6. ПОРЯДОК РАЗРЕШЕНИЯ КОНФЛИКТНЫХ СИТУАЦИЙ{" "}
-                  </h3>
+                  </div>
 
                   <div className="servisesText">
                      6.1. В случае нарушения прав пациента, он (его законный
@@ -445,10 +445,10 @@ export const InfoRegulationsPage = () => {
                      области.{" "}
                   </div>
 
-                  <h3 className="servisesHeading">
+                  <div className="servisesHeading">
                      {" "}
                      Глава 7. ПРЕДОСТАВЛЕНИЕ СВЕДЕНИЙ{" "}
-                  </h3>
+                  </div>
 
                   <div className="servisesText">
                      7.1. Сведения о состоянии здоровья пациентов

@@ -7,10 +7,10 @@ export const DmsPage = () => {
       <div className="DmsPage">
          <div className="container">
             <InformationContainerComponent header="Добровольное медицинское страхование">
-               <h3 className="DmsPage__header">
+               <div className="DmsPage__header">
                   Клиника «Эксперт Плюс» ведет прием клиентов по полисам ДМС
                   следующих страховых компаний:
-               </h3>
+               </div>
                <br />
                <ul className="DmsPage_list">
                   <li>СОАО «ВСК»</li>

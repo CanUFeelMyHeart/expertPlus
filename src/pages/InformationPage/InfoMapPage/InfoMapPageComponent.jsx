@@ -18,9 +18,9 @@ export const InfoMapPageComponent = (props) => {
                         className="infoMapPageButton"
                         onClick={(e) => handleClick(information.ref)}
                     >
-                        <h3 className="infoMapPageButton__h3">
+                        <div className="infoMapPageButton__div">
                             {information.name}
-                        </h3>
+                        </div>
                     </button>
                     <ul className="infoMapPageButton__ul">
                         {information.innerInfo.map((innerInfo, index) => (
@@ -29,9 +29,9 @@ export const InfoMapPageComponent = (props) => {
                                     className="infoMapPageButton"
                                     onClick={(e) => handleClick(innerInfo.ref)}
                                 >
-                                    <h3 className="infoMapPageButton__h3">
+                                    <div className="infoMapPageButton__div">
                                         {innerInfo.name}
-                                    </h3>
+                                    </div>
                                 </button>
                             </li>
                         ))}

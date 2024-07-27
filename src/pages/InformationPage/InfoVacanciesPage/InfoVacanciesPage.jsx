@@ -7,9 +7,9 @@ export const InfoVacanciesPage = () => {
       <div className="InfoVacanciesPage">
          <div className="container">
             <InformationContainerComponent header="Вакансии">
-               <h3 className="InfoVacanciesPage__header">
+               <div className="InfoVacanciesPage__header">
                   На данный момент в клинике открыты вакансии:
-               </h3>
+               </div>
                <br />
                <ul className="InfoVacanciesPage_list">
                   <li>Врач эндокринолог</li>

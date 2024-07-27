@@ -33,9 +33,9 @@ export const NewsPage = () => {
                      >
                         {singleNew.header}
                      </button>
-                     <h3 className="newsPage__new_description">
+                     <div className="newsPage__new_description">
                         {singleNew.description}
-                     </h3>
+                     </div>
                   </div>
                ))}
                <Pagination

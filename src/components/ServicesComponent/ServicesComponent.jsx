@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import availableServiceArrow from "img/availableServiceArrow.svg";
-import mainPageServicesData from "data/servicesData.json"
+import mainPageServicesData from "data/servicesData.json";
 import "./ServicesComponent.css";
 
 export const ServicesComponent = () => {
@@ -24,11 +24,11 @@ export const ServicesComponent = () => {
    return (
       <div className="servicesBlock container section">
          <h2 className="servicesBlock__header">Оказываемые услуги</h2>
-         <h3 className="servicesBlock__description">
+         <div className="servicesBlock__description">
             В клинике практикуют высококвалифицированные специалисты в области
             гинекологии, неврологии, эндокринологии, терапии, хирургии, врачи с
             большим опытом УЗИ и функциональной (ЭЭГ, Холтер) диагностики.
-         </h3>
+         </div>
 
          <div className="servicesBlock__availableServices">
             {mainPageServicesData.map((service, index) => (
@@ -43,9 +43,9 @@ export const ServicesComponent = () => {
                      className="servicesColumnComponent_arrow"
                      alt="servicesColumnComponent_arrow"
                   ></img>
-                  <h3 className="servicesColumnComponent__service">
+                  <div className="servicesColumnComponent__service">
                      {service.name}
-                  </h3>
+                  </div>
                </button>
             ))}
          </div>

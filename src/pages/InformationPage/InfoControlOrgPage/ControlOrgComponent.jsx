@@ -5,19 +5,19 @@ export const ControlOrgComponent = (props) => {
     return (
         <>
             <div className="InfoControlOrgPage__info">
-                <h3 className="InfoControlOrgPage__info_header">
+                <div className="InfoControlOrgPage__info_header">
                     {props.header}
-                </h3>
-                <h3 className="InfoControlOrgPage__info_desc">
+                </div>
+                <div className="InfoControlOrgPage__info_desc">
                     {props.info.map((descritpion, index) => (
-                        <h3
+                        <div
                             key={index}
                             className="InfoControlOrgPage__info_desc"
                         >
                             {descritpion}
-                        </h3>
+                        </div>
                     ))}
-                </h3>
+                </div>
             </div>
             <hr className={props.hr_classname} />
         </>
