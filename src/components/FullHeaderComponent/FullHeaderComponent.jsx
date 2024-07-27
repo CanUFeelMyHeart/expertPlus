@@ -5,15 +5,13 @@ import { UnderHeaderPhoneMenuComponent } from "./UnderHeaderPhoneMenuComponent/U
 import "./FullHeaderComponent.css";
 
 export const FullHeaderComponent = () => {
-  return (
-    <>
-      <div className="FullHeaderComponent">
-        <div className="FullHeaderComponent__container">
-          <HeaderComponent />
-          <UnderHeaderPhoneMenuComponent />
-        </div>
-      </div>
-      <UnderHeaderMenuComponent />
-    </>
-  );
+   return (
+      <>
+         <div className="FullHeaderComponent container">
+            <HeaderComponent />
+            <UnderHeaderPhoneMenuComponent />
+         </div>
+         <UnderHeaderMenuComponent />
+      </>
+   );
 };

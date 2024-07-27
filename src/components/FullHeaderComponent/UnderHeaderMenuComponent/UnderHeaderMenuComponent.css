@@ -2,16 +2,6 @@
   background-color: rgba(87, 114, 255, 0.77);
 }
 
-.UnderHeaderMenuComponent__inner {
-  max-width: 1510px;
-  margin: 0 auto;
-}
-
-.UnderHeaderMenuComponent__inner_second {
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
 .menuButtonsAll {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

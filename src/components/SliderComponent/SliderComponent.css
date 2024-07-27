@@ -56,7 +56,7 @@
    }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1360px) {
    .sectionComponent__block_carousel {
       margin-inline: calc((100vw - 1300px) / -2);
    }
