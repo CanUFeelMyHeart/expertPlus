@@ -8,7 +8,7 @@ export const ReviewsComponent = (props) => {
   return (
     <div className="reviewsComponent__block">
       <div className="reviewsComponent__block_header">
-        <h2 className="reviewsComponent__block_header_inner">Отзывы клиентов</h2>
+        <h2>Отзывы клиентов</h2>
       </div>
       <div className="reviewsComponent__block_carousel">
         <Carousel

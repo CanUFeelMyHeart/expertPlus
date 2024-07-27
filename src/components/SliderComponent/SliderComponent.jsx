@@ -5,28 +5,30 @@ import "react-slideshow-image/dist/styles.css";
 import "./SliderComponent.css";
 
 export const SliderComponent = () => {
-  const properties = {
-    duration: 3000,
-    indicators: true,
-    transitionDuration: 1500,
-    indicators: (i) => <div className="indicator"></div>,
-  };
+   const properties = {
+      duration: 3000,
+      indicators: true,
+      transitionDuration: 1500,
+      indicators: (i) => <div className="indicator"></div>,
+   };
 
-  return (
-    <div className="sliderComponent__block container">
-      <div className="sectionComponent__block_carousel">
-        <Slide {...properties}>
-          {pictures.map((slideImage, index) => (
-            <div className="each-slide" key={index}>
-              <div
-                className="each-slide-img"
-                style={{ backgroundImage: `url(${slideImage.url})` }}
-              ></div>
+   return (
+      <div className="sliderComponent">
+         <div className="sliderComponent__block container">
+            <div className="sectionComponent__block_carousel">
+               <Slide {...properties}>
+                  {pictures.map((slideImage, index) => (
+                     <div className="each-slide" key={index}>
+                        <div
+                           className="each-slide-img"
+                           style={{ backgroundImage: `url(${slideImage.url})` }}
+                        ></div>
+                     </div>
+                  ))}
+               </Slide>
             </div>
-          ))}
-        </Slide>
+            <hr className="aboutClinic__hr" />
+         </div>
       </div>
-      <hr className="aboutClinic__hr" /> 
-    </div>
-  );
+   );
 };

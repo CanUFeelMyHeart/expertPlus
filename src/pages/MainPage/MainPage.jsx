@@ -6,15 +6,13 @@ import { SliderComponent } from "../../components/SliderComponent/SliderComponen
 import { InformationComponent } from "../../components/InformationComponent/InformationComponent";
 
 export const MainPage = () => {
-  return (
-    <>
+   return (
       <div>
-        <SliderComponent />
-        <AboutClinic />
-        <ServicesComponent />
-        <InformationComponent />
-        <ReviewsComponent />
+         <SliderComponent />
+         <AboutClinic />
+         <ServicesComponent />
+         <InformationComponent />
+         <ReviewsComponent />
       </div>
-    </>
-  );
+   );
 };
