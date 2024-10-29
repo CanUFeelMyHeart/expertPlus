@@ -15,7 +15,18 @@
    --f-montserrat: "Montserrat", sans-serif;
    --f-base: var(--f-montserrat);
 
+   --c-primary: #ff5b5b;
    --c-white: white;
+   --c-grey-10: #f7f7f7;
+   --c-grey-20: #ebebeb;
+   --c-grey-30: #d6d6d6;
+   --c-grey-40: #c2c2c2;
+   --c-grey-50: #adadad;
+   --c-grey-60: #868686;
+   --c-grey-70: #707070;
+   --c-grey-80: #5c5c5c;
+   --c-grey-90: #474747;
+   --c-grey-100: #212121;
    --pi-container-xs: 15px;
    --pi-container-md: 20px;
    --pi-container-lg: 40px;

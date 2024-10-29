@@ -50,7 +50,7 @@
 }
 
 .header__titleName {
-   color: #ff5b5b;
+   color: var(--c-primary);
    font-size: 3rem;
    letter-spacing: 0.14em;
    font-family: var(--f-base);
@@ -131,7 +131,7 @@
    font-weight: bold;
    font-size: 36px;
    line-height: 41px;
-   color: #ff5b5b;
+   color: var(--c-primary);
    margin-top: 7px;
 }
 
@@ -213,7 +213,7 @@
 
    span {
       position: absolute;
-      background-color: black;
+      background-color: var(--c-grey-90);
       border-radius: var(--b-radius);
       width: 26px;
       height: 3px;
