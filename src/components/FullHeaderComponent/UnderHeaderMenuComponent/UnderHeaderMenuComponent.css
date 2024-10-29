@@ -1,5 +1,8 @@
 .UnderHeaderMenuComponent {
-  background-color: rgba(87, 114, 255, 0.77);
+  background-color: #6385db;
+  position: sticky;
+  top: var(--h-header-lg);
+  z-index: 5000;
 }
 
 .menuButtonsAll {

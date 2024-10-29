@@ -41,52 +41,63 @@ export const HeaderComponent = () => {
    }, [location]);
 
    const setOpenMobileNav = () => {
-      document.body.classList.toggle('body--fixed');
+      document.body.classList.toggle("body--fixed");
       setMobileNavActive(!mobileNavActive);
    };
 
    return (
       <>
-         <header className="header container">
-            <div className="header__title">
-               <button className="header__logo" onClick={(e) => navigate("/")}>
-                  <div className="header__titleName">ЭКСПЕРТ</div>
-                  <div className="header__logoIcon">
-                     <img src={logo} alt="" />
+         <header className="header">
+            <div className="header__inner container">
+               <div className="header__title">
+                  <button
+                     className="header__logo"
+                     onClick={(e) => navigate("/")}
+                  >
+                     <div className="header__titleName">ЭКСПЕРТ</div>
+                     <div className="header__logoIcon">
+                        <img src={logo} alt="" />
+                     </div>
+                  </button>
+                  <div className="header__underlogo">
+                     ООО «КВАЛИФИЦИРОВАННАЯ МЕДИЦИНСКАЯ ПОМОЩЬ»
                   </div>
+               </div>
+               <button
+                  className={`menu-btn ${
+                     mobileNavActive ? "menu-btn--active" : ""
+                  }`}
+                  onClick={() => setOpenMobileNav()}
+               >
+                  <span></span>
+                  <span></span>
+                  <span></span>
                </button>
-               <div className="header__underlogo">
-                  ООО «КВАЛИФИЦИРОВАННАЯ МЕДИЦИНСКАЯ ПОМОЩЬ»
+               <div
+                  className={`header__mobile-nav ${
+                     mobileNavActive ? "header__mobile-nav--active" : ""
+                  }`}
+               >
+                  <div className="header__contacts header__contacts--sm">
+                     <div className="header__contacts_address">
+                        400026 г. Волгоград, пр-кт Героев Сталинграда, д. 44а,
+                        пом. XXV
+                     </div>
+                     <div className="header__contacts_phoneNumber">
+                        50-88-77, 50-87-87
+                     </div>
+                     <div className="header__contacts_timetable">
+                        Пн.–Пт.: 7:00–20:00, Сб., Вс.: 8:00–15:00
+                     </div>
+                  </div>
+                  <MenuButtonsPhoneComponent
+                     informationButton={informationButton}
+                     servicesButton={medicalServicesButton}
+                     buttons={buttons}
+                     openInfo={mobileNavActive}
+                  />
                </div>
-            </div>
-            <div className="header__contacts header__contacts--lg">
-               <div className="header__contacts_address">
-                  400026 г. Волгоград, пр-кт Героев Сталинграда, д. 44а, пом.
-                  XXV
-               </div>
-               <div className="header__contacts_phoneNumber">
-                  50-88-77, 50-87-87
-               </div>
-               <div className="header__contacts_timetable">
-                  Пн.–Пт.: 7:00–20:00, Сб., Вс.: 8:00–15:00
-               </div>
-            </div>
-            <button
-               className={`menu-btn ${
-                  mobileNavActive ? "menu-btn--active" : ""
-               }`}
-               onClick={() => setOpenMobileNav()}
-            >
-               <span></span>
-               <span></span>
-               <span></span>
-            </button>
-            <div
-               className={`header__mobile-nav ${
-                  mobileNavActive ? "header__mobile-nav--active" : ""
-               }`}
-            >
-               <div className="header__contacts">
+               <div className="header__contacts header__contacts--lg">
                   <div className="header__contacts_address">
                      400026 г. Волгоград, пр-кт Героев Сталинграда, д. 44а, пом.
                      XXV
@@ -98,15 +109,8 @@ export const HeaderComponent = () => {
                      Пн.–Пт.: 7:00–20:00, Сб., Вс.: 8:00–15:00
                   </div>
                </div>
-               <MenuButtonsPhoneComponent
-                  informationButton={informationButton}
-                  servicesButton={medicalServicesButton}
-                  buttons={buttons}
-                  openInfo={mobileNavActive}
-               />
             </div>
          </header>
-
          <div className="UnderHeaderMenuComponent">
             <div className="UnderHeaderMenuComponent__inner container">
                <div className="UnderHeaderMenuComponent__inner_second">

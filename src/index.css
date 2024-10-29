@@ -22,6 +22,7 @@
 
    --h-header-sm: 62px;
    --h-header-md: 87px;
+   --h-header-lg: 112px;
 }
 
 h1,
@@ -50,14 +51,6 @@ body {
       "Helvetica Neue", sans-serif;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
-
-   @media (max-width: 992px) {
-      margin-top: calc(var(--h-header-md) + 15px);
-   }
-
-   @media (max-width: 720px) {
-      margin-top: calc(var(--h-header-sm) + 15px);
-   }
 }
 
 .body--fixed {
