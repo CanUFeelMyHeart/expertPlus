@@ -13,7 +13,9 @@
 
 :root {
    --f-montserrat: "Montserrat", sans-serif;
-   --f-base: var(--f-montserrat);
+   --f-roboto: "Roboto", sans-serif;
+   --f-base: var(--f-roboto);
+   --f-headings: var(--f-montserrat);
 
    --c-primary: #ff5b5b;
    --c-white: white;
@@ -27,6 +29,7 @@
    --c-grey-80: #5c5c5c;
    --c-grey-90: #474747;
    --c-grey-100: #212121;
+   
    --pi-container-xs: 15px;
    --pi-container-md: 20px;
    --pi-container-lg: 40px;

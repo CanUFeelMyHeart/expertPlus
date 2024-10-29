@@ -53,7 +53,7 @@
    color: var(--c-primary);
    font-size: 3rem;
    letter-spacing: 0.14em;
-   font-family: var(--f-base);
+   font-family: var(--f-headings);
    font-weight: 600;
    font-weight: bold;
 
@@ -85,7 +85,7 @@
 }
 
 .header__underlogo {
-   font-family: "Montserrat", sans-serif;
+   font-family: var(--f-headings);
    font-style: normal;
    font-weight: bold;
    font-size: 0.625rem;
@@ -116,7 +116,7 @@
 }
 
 .header__contacts_address {
-   font-family: "Roboto";
+   font-family: var(--f-base);
    font-style: normal;
    font-weight: 300;
    font-size: 12px;
@@ -126,7 +126,7 @@
 }
 
 .header__contacts_phoneNumber {
-   font-family: "Roboto";
+   font-family: var(--f-base);
    font-style: normal;
    font-weight: bold;
    font-size: 36px;
@@ -136,7 +136,7 @@
 }
 
 .header__contacts_timetable {
-   font-family: Roboto;
+   font-family: var(--f-base);
    font-style: normal;
    font-weight: 300;
    font-size: 12px;
@@ -174,14 +174,14 @@
    justify-self: end;
    cursor: pointer;
    background-color: transparent;
-   font-family: "Roboto";
+   font-family: var(--f-base);
    font-style: normal;
    font-weight: 300;
    color: #ffffff;
 }
 
 .menuButtonsPhone__menu {
-   font-family: "Roboto";
+   font-family: var(--f-base);
    font-style: normal;
    font-weight: 300;
    color: #484848;

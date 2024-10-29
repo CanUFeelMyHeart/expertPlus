@@ -125,7 +125,6 @@ export const HeaderComponent = () => {
                      </button>
                   </div>
                </div>
-               {/* <hr className="header__underline" /> */}
             </div>
          </div>
       </>

@@ -19,19 +19,15 @@ export const ServicesButtonExpand = (props) => {
             }}
             onClick={props.onClick}
          >
-            <div className="servicesExpandingList__container">
-               {props.servicesButton.map((button, index) => (
-                  <div key={index}>
-                     <button
-                        className="servicesExpandingList__container_button"
-                        onClick={() => handleClick(button.ref)}
-                     >
-                        <div>{button.name}</div>
-                     </button>
-                     <hr className="servicesExpandingList__container_hr" />
-                  </div>
-               ))}
-            </div>
+            {props.servicesButton.map((button, index) => (
+               <button
+                  className="servicesExpandingList__container_button"
+                  onClick={() => handleClick(button.ref)}
+                  key={index}
+               >
+                  <div>{button.name}</div>
+               </button>
+            ))}
          </div>
       </>
    );
