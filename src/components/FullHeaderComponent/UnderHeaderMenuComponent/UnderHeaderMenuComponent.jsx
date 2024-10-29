@@ -30,21 +30,7 @@ const buttons = [
 export const UnderHeaderMenuComponent = () => {
    return (
       <div className="UnderHeaderMenuComponent">
-         <div className="UnderHeaderMenuComponent__inner container">
-            <div className="UnderHeaderMenuComponent__inner_second">
-               <div className="menuButtonsAll">
-                  <MenuButtonsComponent
-                     informationButton={informationButton}
-                     servicesButton={medicalServicesButton}
-                     buttons={buttons}
-                  />
-                  <button className="menuButtonsAll__makeAnAppointmentButton">
-                     <div>Записаться на прием</div>
-                  </button>
-               </div>
-            </div>
-            {/* <hr className="header__underline" /> */}
-         </div>
+        
       </div>
    );
 };

@@ -1,45 +1,128 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
+import { MenuButtonsPhoneComponent } from "./MenuButtonsPhoneComponent/MenuButtonsPhoneComponent";
+import { MenuButtonsComponent } from "../MenuButtonsComponent/MenuButtonsComponent";
+import { informationButton } from "../ButtonsInfo/informationButtonInner";
+import { medicalServicesButton } from "../ButtonsInfo/medicalServicesButtonInner";
 import "./HeaderComponent.css";
 import logo from "../../../img/logo.svg";
+
+const buttons = [
+   {
+      name: "Сотрудники",
+      expandArrow: "",
+      ref: "/doctors",
+   },
+   {
+      name: "ДМС",
+      expandArrow: "",
+      ref: "/dms",
+   },
+   {
+      name: "Контакты",
+      expandArrow: "",
+      ref: "/contacts",
+   },
+   {
+      name: "Новости",
+      expandArrow: "",
+      ref: "/news",
+   },
+];
 
 export const HeaderComponent = () => {
    const navigate = useNavigate();
 
+   const [mobileNavActive, setMobileNavActive] = React.useState(false);
+   const location = useLocation();
+
+   React.useEffect(() => {
+      setMobileNavActive(false);
+   }, [location]);
+
+   const setOpenMobileNav = () => {
+      document.body.classList.toggle('body--fixed');
+      setMobileNavActive(!mobileNavActive);
+   };
+
    return (
       <>
-         <div className="mainHeaderComponent">
-            <div className="header">
-               <div className="header__mainButtonContainer">
-                  <button
-                     className="header__expertButton"
-                     onClick={(e) => navigate("/")}
-                  >
-                     <div className="header__expertLogo">ЭКСПЕРТ</div>
-                     <img
-                        className="header__expertButton_logo"
-                        src={logo}
-                        alt=""
-                     />
-                  </button>
-                  <div className="header__expertButton_description">
-                     ООО «КВАЛИФИЦИРОВАННАЯ МЕДИЦИНСКАЯ ПОМОЩЬ»
+         <header className="header container">
+            <div className="header__title">
+               <button className="header__logo" onClick={(e) => navigate("/")}>
+                  <div className="header__titleName">ЭКСПЕРТ</div>
+                  <div className="header__logoIcon">
+                     <img src={logo} alt="" />
                   </div>
+               </button>
+               <div className="header__underlogo">
+                  ООО «КВАЛИФИЦИРОВАННАЯ МЕДИЦИНСКАЯ ПОМОЩЬ»
                </div>
-               <div className="header__informationContainer">
-                  <div className="header__informationContainer_address">
+            </div>
+            <div className="header__contacts header__contacts--lg">
+               <div className="header__contacts_address">
+                  400026 г. Волгоград, пр-кт Героев Сталинграда, д. 44а, пом.
+                  XXV
+               </div>
+               <div className="header__contacts_phoneNumber">
+                  50-88-77, 50-87-87
+               </div>
+               <div className="header__contacts_timetable">
+                  Пн.–Пт.: 7:00–20:00, Сб., Вс.: 8:00–15:00
+               </div>
+            </div>
+            <button
+               className={`menu-btn ${
+                  mobileNavActive ? "menu-btn--active" : ""
+               }`}
+               onClick={() => setOpenMobileNav()}
+            >
+               <span></span>
+               <span></span>
+               <span></span>
+            </button>
+            <div
+               className={`header__mobile-nav ${
+                  mobileNavActive ? "header__mobile-nav--active" : ""
+               }`}
+            >
+               <div className="header__contacts">
+                  <div className="header__contacts_address">
                      400026 г. Волгоград, пр-кт Героев Сталинграда, д. 44а, пом.
                      XXV
                   </div>
-                  <div className="header__informationContainer_phoneNumber">
+                  <div className="header__contacts_phoneNumber">
                      50-88-77, 50-87-87
                   </div>
-                  <div className="header__informationContainer_timetable">
+                  <div className="header__contacts_timetable">
                      Пн.–Пт.: 7:00–20:00, Сб., Вс.: 8:00–15:00
                   </div>
                </div>
+               <MenuButtonsPhoneComponent
+                  informationButton={informationButton}
+                  servicesButton={medicalServicesButton}
+                  buttons={buttons}
+                  openInfo={mobileNavActive}
+               />
             </div>
-            <hr className="header__underline" />
+         </header>
+
+         <div className="UnderHeaderMenuComponent">
+            <div className="UnderHeaderMenuComponent__inner container">
+               <div className="UnderHeaderMenuComponent__inner_second">
+                  <div className="menuButtonsAll">
+                     <MenuButtonsComponent
+                        informationButton={informationButton}
+                        servicesButton={medicalServicesButton}
+                        buttons={buttons}
+                     />
+                     <button className="menuButtonsAll__makeAnAppointmentButton">
+                        <div>Записаться на прием</div>
+                     </button>
+                  </div>
+               </div>
+               {/* <hr className="header__underline" /> */}
+            </div>
          </div>
       </>
    );

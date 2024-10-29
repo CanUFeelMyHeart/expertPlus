@@ -11,6 +11,19 @@
    padding: 0;
 }
 
+:root {
+   --f-montserrat: "Montserrat", sans-serif;
+   --f-base: var(--f-montserrat);
+
+   --c-white: white;
+   --pi-container-xs: 15px;
+   --pi-container-md: 20px;
+   --pi-container-lg: 40px;
+
+   --h-header-sm: 62px;
+   --h-header-md: 87px;
+}
+
 h1,
 .h1,
 h2,
@@ -37,12 +50,24 @@ body {
       "Helvetica Neue", sans-serif;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
+
+   @media (max-width: 992px) {
+      margin-top: calc(var(--h-header-md) + 15px);
+   }
+
+   @media (max-width: 720px) {
+      margin-top: calc(var(--h-header-sm) + 15px);
+   }
+}
+
+.body--fixed {
+   overflow: hidden;
 }
 
 .container {
    max-width: 1280px;
    margin-inline: auto;
-   padding-inline: 15px;
+   padding-inline: var(--pi-container-xs);
 }
 
 .section {
@@ -76,9 +101,9 @@ code {
       monospace;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 721px) {
    .container {
-      padding-inline: 20px;
+      padding-inline: var( --pi-container-md);
    }
 
    .section {
@@ -107,9 +132,9 @@ code {
    }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 993px) {
    .container {
-      padding-inline: 40px;
+      padding-inline: var( --pi-container-lg);
    }
 
    .section {
@@ -139,7 +164,7 @@ code {
    }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1281px) {
    .block-header {
       font-size: 28px;
    }

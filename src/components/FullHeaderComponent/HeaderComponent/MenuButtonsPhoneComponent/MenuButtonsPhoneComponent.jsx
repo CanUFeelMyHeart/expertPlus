@@ -15,7 +15,6 @@ export const MenuButtonsPhoneComponent = (props) => {
    React.useEffect(() => {
       setOpenInfo(false);
       setOpenServices(false);
-      //console.log('handle route change here', location)
    }, [location]);
 
    const setOpenInfoFunction = () => {
