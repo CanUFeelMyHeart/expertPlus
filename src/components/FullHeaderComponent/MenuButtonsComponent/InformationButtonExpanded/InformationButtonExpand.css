@@ -49,6 +49,7 @@
       margin-top: 0px;
       width: 100%;
       padding-inline: unset;
+      max-height: unset;
       box-shadow: unset;
       border-radius: unset;
    }
