@@ -1,11 +1,11 @@
-import aboutClinicPic1 from "../../img/aboutClinic/clinicIcon1.svg";
-import aboutClinicPic2 from "../../img/aboutClinic/clinicIcon2.svg";
-import aboutClinicPic3 from "../../img/aboutClinic/clinicIcon3.svg";
-import aboutClinicPic4 from "../../img/aboutClinic/clinicIcon4.svg";
+import DoctorIcon from "../../img/aboutClinic/doctor.svg";
+import EquipmentIcon from "../../img/aboutClinic/medpack.svg";
+import DiscountIcon from "../../img/aboutClinic/discount.svg";
+import Scheduleicon from "../../img/aboutClinic/calendar.svg";
 
 export const aboutClinicInfo = [
     {
-        image: aboutClinicPic1,
+        image: DoctorIcon,
         header: "Специалисты узкого профиля",
         description: [
             "Онколог-маммолог",
@@ -19,7 +19,7 @@ export const aboutClinicInfo = [
         ref: "/doctors",
     },
     {
-        image: aboutClinicPic2,
+        image: EquipmentIcon,
         header: "Новейшее оборудование",
         description: [
             "Наша клиника оснащена самым современным медицинским оборудованием, что обеспечивает максимальную точность диагностики.",
@@ -28,7 +28,7 @@ export const aboutClinicInfo = [
         ref: "/info/about",
     },
     {
-        image: aboutClinicPic3,
+        image: DiscountIcon,
         header: "Социальная система скидок",
         description: [
             "Скидка 5% на все услуги клиники: медработникам, пенсионерам, ветеранам и инвалидам (при предъявлении подтверждающего документа).",
@@ -37,7 +37,7 @@ export const aboutClinicInfo = [
         ref: "/info/about",
     },
     {
-        image: aboutClinicPic4,
+        image: Scheduleicon,
         header: "Без перерывов и выходных",
         description: [
             "Наша клиника открыта для наших пациентов ежедневно, без перерыва и выходных —",
