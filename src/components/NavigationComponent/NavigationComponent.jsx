@@ -1,13 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { FullHeaderComponent as Header } from "../FullHeaderComponent/FullHeaderComponent";
-import { FooterComponent } from '../../components/FooterComponent/FooterComponent'
-import { MapComponent } from '../../components/MapComponent/MapComponent'
+import { FooterComponent } from '../FooterComponent/FooterComponent'
+import { MapComponent } from '../MapComponent/MapComponent'
 import ScrollToTop from './ScrollToTop'
 
 import { ContactsPage } from "../../pages/ContactsPage/ContactsPage"
 import { DmsPage } from "../../pages/DmsPage/DmsPage";
 import { DoctorsPage } from "../../pages/DoctorsPage/DoctorsPage";
+import { DoctorDetailPage } from "../../pages/DoctorDetailPage/DoctorDetailPage";
 import { MainPage } from "../../pages/MainPage/MainPage";
 
 import { InfoAboutPage } from '../../pages/InformationPage/InfoAboutPage/InfoAboutPage'
@@ -56,6 +57,7 @@ export const NavigationRouter = () => {
                 <Routes>
                 <Route path="/" exact element={<MainPage />} />
                 <Route path="/doctors" element={<DoctorsPage />} />
+                <Route path="/doctors/:id" element={<DoctorDetailPage />} />
                 <Route path="/dms" element={<DmsPage />} />
                 <Route path="/contacts" element={<ContactsPage />} />
                 <Route path="/news" element={<NewsPage/>} />

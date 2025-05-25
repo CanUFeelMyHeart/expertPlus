@@ -10,10 +10,12 @@ export const DoctorsPage = () => {
          {doctors.map((doctor, index) => (
             <DoctorComponent
                key={index}
+               id={doctor.id}
                image={doctor.image}
                name={doctor.name}
                speciality={doctor.speciality}
                doctorInfo={doctor.doctorInfo}
+               isClickable={true}
             />
          ))}
       </>

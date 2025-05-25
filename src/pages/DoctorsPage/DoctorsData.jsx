@@ -32,6 +32,7 @@ import melnik from "assets/images/doctors/melnik.jpg";
 
 export const doctors = [
    {
+      id: 1,
       image: aseeva,
       name: "Асеева Татьяна Александровна",
       speciality:
@@ -65,6 +66,7 @@ export const doctors = [
       ],
    },
    {
+      id: 2,
       image: "",
       name: "Банкина Айман Галимовна",
       speciality: "Врач-физиотерапевт",
@@ -93,6 +95,7 @@ export const doctors = [
       ],
    },
    {
+      id: 3,
       image: bezverhiy,
       name: "Безверхий Алексей Владимирович",
       speciality: "Врач-онколог, врач ультразвуковой диагностики",
@@ -120,6 +123,7 @@ export const doctors = [
       ],
    },
    {
+      id: 4,
       image: berdnikovEA,
       name: "Бердников Евгений Александрович",
       speciality: "Врач ультразвуковой диагностики",
@@ -144,6 +148,7 @@ export const doctors = [
       ],
    },
    {
+      id: 5,
       image: biryukova,
       name: "Бирюкова Ирина Александровна",
       speciality: "Врач-невролог",
@@ -173,6 +178,7 @@ export const doctors = [
       ],
    },
    {
+      id: 6,
       image: bondarenkoSU,
       name: "Бондаренко Светлана Юрьевна",
       speciality: "Врач-акушер-гинеколог",
@@ -198,6 +204,7 @@ export const doctors = [
       ],
    },
    {
+      id: 7,
       image: gigolaevaAP,
       name: "Гиголаева Алла Павловна",
       speciality: "Врач-невролог",
@@ -230,6 +237,7 @@ export const doctors = [
       ],
    },
    {
+      id: 8,
       image: grigorieva,
       name: "Григорьева Лариса Вячеславовна",
       speciality: "Врач-хирург",
@@ -258,6 +266,7 @@ export const doctors = [
       ],
    },
    {
+      id: 9,
       image: dorofeevAA,
       name: "Дорофеев Алексей Александрович",
       speciality: "Врач-невролог",
@@ -287,6 +296,7 @@ export const doctors = [
       ],
    },
    {
+      id: 10,
       image: isaeva,
       name: "Исаева Наталья Станиславовна",
       speciality: "Врач-гастроэнтеролог, врач-ревматолог",
@@ -319,6 +329,7 @@ export const doctors = [
       ],
    },
    {
+      id: 11,
       image: inozemtsevAV,
       name: "Иноземцев Алексей Владимирович",
       speciality: "Врач-дерматовенеролог",
@@ -348,6 +359,7 @@ export const doctors = [
       ],
    },
    {
+      id: 12,
       image: kislova,
       name: "Кислова Светлана Александровна",
       speciality: "Врач-акушер-гинеколог; Врач ультразвуковой диагностики",
@@ -380,6 +392,7 @@ export const doctors = [
       ],
    },
    {
+      id: 13,
       image: litvinenko,
       name: "Литвиненко Мадина Геннадьевна",
       speciality: "Врач ультразвуковой диагностики",
@@ -410,6 +423,7 @@ export const doctors = [
       ],
    },
    {
+      id: 14,
       image: matrosov,
       name: "Матросов Владимир Геннадьевич",
       speciality: "Врач-колопроктолог",
@@ -437,6 +451,7 @@ export const doctors = [
       ],
    },
    {
+      id: 15,
       image: melnik,
       name: "Мельникова Ольга Андреевна",
       speciality: "Врач-дераматовенеролог",
@@ -465,6 +480,7 @@ export const doctors = [
       ],
    },
    {
+      id: 16,
       image: medvedevaEV,
       name: "Медведева Елена Владимировна",
       speciality: "Врач ультразвуковой диагностики",
@@ -491,6 +507,7 @@ export const doctors = [
       ],
    },
    {
+      id: 17,
       image: "",
       name: "Меркушова (Павлова) Анна Эдуардовна",
       speciality: "Врач ультразвуковой диагностики",
@@ -522,6 +539,7 @@ export const doctors = [
       ],
    },
    {
+      id: 18,
       image: nazarova,
       name: "Назарова Нина Владимировна",
       speciality:
@@ -554,6 +572,7 @@ export const doctors = [
       ],
    },
    {
+      id: 19,
       image: naumenko,
       name: "Науменко Антон Евгеньевич",
       speciality: "Врач-уролог",
@@ -572,6 +591,7 @@ export const doctors = [
       ],
    },
    {
+      id: 20,
       image: noginaNV,
       name: "Ногина Наталья Вячеславовна",
       speciality: "Врач-невролог",
@@ -608,6 +628,7 @@ export const doctors = [
       ],
    },
    {
+      id: 21,
       image: pleshakovAV,
       name: "Плешаков Александр Викторович",
       speciality: "Врач травматолог-ортопед",
@@ -627,6 +648,7 @@ export const doctors = [
       ],
    },
    {
+      id: 22,
       image: petruhina,
       name: "Петрухина Галина Геннадиевна",
       speciality: "Врач-оториноларинголог",
@@ -655,6 +677,7 @@ export const doctors = [
       ],
    },
    {
+      id: 23,
       image: "",
       name: "Полякова Людмила Александровна",
       speciality: "Врач-уролог",
@@ -681,6 +704,7 @@ export const doctors = [
       ],
    },
    {
+      id: 24,
       image: "",
       name: "Полякова Олеся Сергеевна",
       speciality: "Врач-оториноларинголог",
@@ -706,6 +730,7 @@ export const doctors = [
       ],
    },
    {
+      id: 25,
       image: ryabinin,
       name: "Рябинин Олег Анатольевич",
       speciality: "Врач-невролог",
@@ -731,6 +756,7 @@ export const doctors = [
       ],
    },
    {
+      id: 26,
       image: pochivalovaEE,
       name: "Почивалова Екатерина Евгеньевна",
       speciality: "Врач-эндокринолог",
@@ -749,6 +775,7 @@ export const doctors = [
       ],
    },
    {
+      id: 27,
       image: sizovaIV,
       name: "Сизова Ирина Валентиновна",
       speciality: "Врач ультразвуковой диагностики, врач-акушер-гинеколог",
@@ -777,6 +804,7 @@ export const doctors = [
       ],
    },
    {
+      id: 28,
       image: simonovaMG,
       name: "Симонова Марина Геннадьевна",
       speciality: "Врач функциональной диагностики",
@@ -804,6 +832,7 @@ export const doctors = [
       ],
    },
    {
+      id: 29,
       image: subbotina,
       name: "Субботина Людмила Николаевна",
       speciality: "Врач-терапевт",
@@ -835,6 +864,7 @@ export const doctors = [
       ],
    },
    {
+      id: 30,
       image: tvorogova,
       name: "Творогова Лариса Георгиевна",
       speciality: "Врач-терапевт",
@@ -875,6 +905,7 @@ export const doctors = [
       ],
    },
    {
+      id: 31,
       image: "",
       name: "Титовская Недежда Александровна ",
       speciality: "Врач-кардиолог",
@@ -904,6 +935,7 @@ export const doctors = [
       ],
    },
    {
+      id: 32,
       image: filippova,
       name: "Филиппова Юлия Борисовна",
       speciality: "Врач-эндокринолог",
@@ -931,6 +963,7 @@ export const doctors = [
       ],
    },
    {
+      id: 33,
       image: kharitonov,
       name: "Харитонов Борис Александрович",
       speciality: "Врач-кардиолог",
@@ -957,6 +990,7 @@ export const doctors = [
       ],
    },
    {
+      id: 34,
       image: chupryna,
       name: "Чупрына Петр Сергеевич",
       speciality: "Врач-уролог",
@@ -985,6 +1019,7 @@ export const doctors = [
       ],
    },
    {
+      id: 35,
       image: shaposhnikova,
       name: "Шапошникова Наталья Владимировна",
       speciality: "Врач-невролог, врач функциональной диагностики",
@@ -1023,6 +1058,7 @@ export const doctors = [
       ],
    },
    {
+      id: 36,
       image: sherbinina,
       name: "Щербинина Татьяна Валентиновна",
       speciality: "Врач-терапевт; Врач ультразвуковой диагностики",

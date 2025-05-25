@@ -44,6 +44,15 @@
   color: #3281c9;
 }
 
+.DoctorComponent__info_header--active {
+  cursor: pointer;
+  transition: all .15s ease;
+
+  &:hover {
+    color: #215585;
+  }
+}
+
 .DoctorComponent__info_speciality {
   font-family: "Roboto Condensed", sans-serif;
   font-style: normal;
