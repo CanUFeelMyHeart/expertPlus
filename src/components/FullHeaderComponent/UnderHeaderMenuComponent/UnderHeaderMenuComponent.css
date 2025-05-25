@@ -2,7 +2,7 @@
   background-color: #6385db;
   position: sticky;
   top: var(--h-header-lg);
-  z-index: 5000;
+  z-index: 500;
 }
 
 .menuButtonsAll {

@@ -26,7 +26,7 @@ export const NewsPage = () => {
          <div className="container">
             <InformationContainerComponent header="Новости">
                {currentNewsData.map((singleNew, index) => (
-                  <div className="newsPage__new_component">
+                  <div className="newsPage__new_component" key={index}>
                      <button
                         onClick={(e) => handleClick(singleNew.ref)}
                         className="newsPage__new_header"

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { MenuButtonsPhoneComponent } from "./MenuButtonsPhoneComponent/MenuButtonsPhoneComponent";
 import { MenuButtonsComponent } from "../MenuButtonsComponent/MenuButtonsComponent";
@@ -6,6 +6,7 @@ import { informationButton } from "../ButtonsInfo/informationButtonInner";
 import { medicalServicesButton } from "../ButtonsInfo/medicalServicesButtonInner";
 import "./HeaderComponent.css";
 import logo from "../../../img/logo.svg";
+import {TheModal} from "../../TheModal/TheModal";
 
 const buttons = [
    {
@@ -33,6 +34,7 @@ const buttons = [
 export const HeaderComponent = () => {
    const navigate = useNavigate();
 
+   const [isModalOpen, setModalOpen] = useState(false);
    const [mobileNavActive, setMobileNavActive] = React.useState(false);
    const location = useLocation();
 
@@ -120,13 +122,17 @@ export const HeaderComponent = () => {
                         servicesButton={medicalServicesButton}
                         buttons={buttons}
                      />
-                     <button className="menuButtonsAll__makeAnAppointmentButton">
+                     <button
+                         className="menuButtonsAll__makeAnAppointmentButton"
+                         onClick={() => setModalOpen(true)}
+                     >
                         <div>Записаться на прием</div>
                      </button>
                   </div>
                </div>
             </div>
          </div>
+         <TheModal isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
       </>
    );
 };
