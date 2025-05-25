@@ -15,31 +15,29 @@ export const PriceListComponent = (props) => {
             </thead>
             <tbody>
                {props.priceInfo.map((info, index) => (
-                  <>
-                     <tr key={index} className="PriceListComponent__trow">
-                        <td
-                           className="text"
-                           style={
-                              info.price
-                                 ? { fontWeight: "normal" }
-                                 : { fontWeight: "bold" }
-                           }
-                        >
-                           {info.code}
-                        </td>
-                        <td
-                           className="text"
-                           style={
-                              info.price
-                                 ? { fontWeight: "normal" }
-                                 : { fontWeight: "bold" }
-                           }
-                        >
-                           {info.name}
-                        </td>
-                        <td className="text">{info.price}</td>
-                     </tr>
-                  </>
+                  <tr key={index} className="PriceListComponent__trow">
+                     <td
+                        className="text"
+                        style={
+                           info.price
+                              ? { fontWeight: "normal" }
+                              : { fontWeight: "bold" }
+                        }
+                     >
+                        {info.code}
+                     </td>
+                     <td
+                        className="text"
+                        style={
+                           info.price
+                              ? { fontWeight: "normal" }
+                              : { fontWeight: "bold" }
+                        }
+                     >
+                        {info.name}
+                     </td>
+                     <td className="text">{info.price}</td>
+                  </tr>
                ))}
             </tbody>
          </table>

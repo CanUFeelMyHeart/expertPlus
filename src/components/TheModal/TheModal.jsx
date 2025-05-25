@@ -7,7 +7,7 @@ export const TheModal = ({ isOpen, onClose }) => {
 
     useEffect(() => {
         if (isOpen) {
-            fetch("https://kmpexpert.ru/api/csrf/", {
+            fetch(process.env.REACT_APP_FETCH_CSRF, {
                 method: "GET",
                 credentials: "include",
             }).catch(err => console.error("Ошибка CSRF init:", err));
@@ -16,7 +16,6 @@ export const TheModal = ({ isOpen, onClose }) => {
             setError('');
         }
     }, [isOpen]);
-
 
     function getCookie(name) {
         const match = document.cookie.match(new RegExp("(^| )" + name + "=([^;]+)"));
@@ -28,7 +27,7 @@ export const TheModal = ({ isOpen, onClose }) => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        fetch("https://kmpexpert.ru/api/make-call/", {
+        fetch(process.env.REACT_APP_MAKE_APPOINTMENT, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
