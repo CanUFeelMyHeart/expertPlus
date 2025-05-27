@@ -1,7 +1,6 @@
 import React from "react";
 import { DoctorComponent } from "../../components/DoctorComponent/DoctorComponent";
 import { doctors } from "../DoctorsPage/DoctorsData";
-import "./DoctorDetailPage.css";
 import {useParams} from "react-router-dom";
 
 export const DoctorDetailPage = () => {
