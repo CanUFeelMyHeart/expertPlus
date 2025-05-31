@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./TheModal.css";
 
 export const TheModal = ({ isOpen, onClose }) => {
-    const [phone, setPhone] = useState("");
+    const [phone, setPhone] = useState("+7");
     const [error, setError] = useState("");
 
     useEffect(() => {
@@ -46,6 +46,25 @@ export const TheModal = ({ isOpen, onClose }) => {
             });
     };
 
+    const handlePhoneChange = (e) => {
+        let input = e.target.value;
+
+        let numbers = input.replace(/\D/g, '');
+
+        if (numbers.startsWith('8')) numbers = numbers.slice(1);
+        if (numbers.startsWith('7')) numbers = numbers.slice(1);
+
+        numbers = numbers.slice(0, 10);
+
+        let formatted = '+7';
+        if (numbers.length > 0) formatted += ' (' + numbers.slice(0, 3);
+        if (numbers.length >= 4) formatted += ') ' + numbers.slice(3, 6);
+        if (numbers.length >= 7) formatted += '-' + numbers.slice(6, 8);
+        if (numbers.length >= 9) formatted += '-' + numbers.slice(8, 10);
+
+        setPhone(formatted);
+    };
+
     if (!isOpen) return null;
 
     return (
@@ -58,7 +77,7 @@ export const TheModal = ({ isOpen, onClose }) => {
                         className="TheModal__input"
                         type="tel"
                         value={phone}
-                        onChange={(e) => setPhone(e.target.value)}
+                        onChange={handlePhoneChange}
                         placeholder="+7 (___) ___-__-__"
                         required
                     />
