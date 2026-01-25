@@ -4,10 +4,15 @@
 
 .PriceListComponent__table {
    border-collapse: collapse;
+   table-layout: auto;
    width: 100%;
 
    td {
       padding-left: 25px;
+
+      &:last-child {
+         padding-right: 25px;
+      }
    }
 
    td {
@@ -27,6 +32,15 @@
          border-bottom: 1px solid #ddd;
       }
    }
+}
+
+.code,
+.price {
+   white-space: nowrap;
+}
+
+.name {
+   width: 100%;
 }
 
 .OfertaComponent {
@@ -49,5 +63,38 @@
 @media (min-width: 992px) {
    .OfertaComponent {
       min-width: 700px;
+   }
+}
+
+.pagination {
+   display: flex;
+   width: 100%;
+   align-items: center;
+   justify-content: flex-end;
+   gap: 2rem;
+   margin-top: 2rem;
+
+   button {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 50rem;
+      cursor: pointer;
+      background-color: #91a4e4;
+      color: #fff;
+      font-size: 1.4rem;
+      transition: all 0.3s ease-in-out;
+
+      &:disabled {
+         background-color: #dcdcdc;
+         cursor: not-allowed;
+      }
+
+      &:hover:not(:disabled) {
+         opacity: 0.6;
+      }
+   }
+
+   span {
+      font-size: 1.4rem;
    }
 }

@@ -48,6 +48,7 @@ import { TherapistServicePage } from '../../pages/ServicesPages/TherapistService
 import { TreatmentRoomServicePage } from '../../pages/ServicesPages/TreatmentRoomServicePage/TreatmentRoomServicePage'
 import { UltrasoundDiagnosticsServicePage } from '../../pages/ServicesPages/UltrasoundDiagnosticsServicePage/UltrasoundDiagnosticsServicePage'
 import { UrologistServicePage } from '../../pages/ServicesPages/UrologistServicePage/UrologistServicePage'
+import { LaboratorytServicePage } from "../../pages/ServicesPages/LaboratoryServicePage/LaboratoryService";
 
 export const NavigationRouter = () => {
     return (
@@ -101,6 +102,7 @@ export const NavigationRouter = () => {
                 <Route path="/services/ultrazvukovaya-diagnostika" element={<UltrasoundDiagnosticsServicePage />} />
                 <Route path="/services/urolog" element={<UrologistServicePage />} />
                 <Route path="/services/speechtherapist" element={<SpeechTherapistServicePage />} />
+                <Route path="/services/laboratory" element={<LaboratorytServicePage />} />
             </Routes>
             <MapComponent/>
             <FooterComponent/>

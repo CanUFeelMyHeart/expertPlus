@@ -1,4 +1,5 @@
 export const medicalServicesButton = [
+    { name: "Лабораторные исследования", ref: "/services/laboratory" },
     { name: "Акушер-гинеколог", ref: "/services/ginekolog" },
     { name: "Аллерголог-иммунолог", ref: "/services/allergolog-immunolog" },
     { name: "Гастроэнтеролог", ref: "/services/gastroenterolog" },
