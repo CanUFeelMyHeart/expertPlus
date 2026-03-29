@@ -1,10 +1,12 @@
 import aseeva from "assets/images/doctors/aseeva.jpg";
+import bankina from "assets/images/doctors/bankina.jpeg";
 import bezverhiy from "assets/images/doctors/bezverhiy.jpg";
 import berdnikovEA from "assets/images/doctors/berdnikovEA.jpg";
 import biryukova from "assets/images/doctors/biryukova.jpg";
 import bondarenkoSU from "assets/images/doctors/bondarenkoSU.jpg";
 import chupryna from "assets/images/doctors/chupryna.jpg";
 import dorofeevAA from "assets/images/doctors/dorofeevAA.jpg";
+import epifanova from "assets/images/doctors/epifanova.jpg";
 import filippova from "assets/images/doctors/filippova.jpg";
 import grigorieva from "assets/images/doctors/grigorieva.jpg";
 import gigolaevaAP from "assets/images/doctors/gigolaevaAP.jpg"
@@ -15,18 +17,27 @@ import kislova from "assets/images/doctors/kislova.jpg";
 import litvinenko from "assets/images/doctors/litvinenko.jpg";
 import matrosov from "assets/images/doctors/matrosov.jpg";
 import medvedevaEV from "assets/images/doctors/medvedevaEV.jpg";
+import najjar from "assets/images/doctors/najjar.jpg";
 import nazarova from "assets/images/doctors/nazarova.jpg";
+import nazarukAS from "assets/images/doctors/nazarukAS.jpg";
 import naumenko from "assets/images/doctors/naumenko.jpg";
 import noginaNV from "assets/images/doctors/noginaNV.jpg";
 import petruhina from "assets/images/doctors/petruhina.jpg";
 import pleshakovAV from "assets/images/doctors/pleshakovAV.jpg";
 import pochivalovaEE from "assets/images/doctors/pochivalovaEE.jpg";
+import polyakovaLA from "assets/images/doctors/polyakovaLA.jpg";
+import polyakovaOS from "assets/images/doctors/polyakovaOS.jpeg";
 import ryabinin from "assets/images/doctors/ryabinin.jpg";
+import savushkinDV from "assets/images/doctors/savushkinDV.jpeg";
 import shaposhnikova from "assets/images/doctors/shaposhnikova.jpg";
 import sherbinina from "assets/images/doctors/sherbinina.jpg";
 import simonovaMG from "assets/images/doctors/simonovaMG.jpg";
 import sizovaIV from "assets/images/doctors/sizovaIV.jpg";
 import subbotina from "assets/images/doctors/subbotina.jpg";
+import susinaGE from "assets/images/doctors/susinaGE.jpg";
+import tazbiev from "assets/images/doctors/tazbiev.jpg";
+import titovskayaNA from "assets/images/doctors/titovskayaNA.jpg";
+import tsarkovaIV from "assets/images/doctors/tsarkovaIV.jpg";
 import tvorogova from "assets/images/doctors/tvorogova.jpg";
 import melnik from "assets/images/doctors/melnik.jpg";
 
@@ -67,7 +78,7 @@ export const doctors = [
    },
    {
       id: 2,
-      image: "",
+      image: bankina,
       name: "Банкина Айман Галимовна",
       speciality: "Врач-физиотерапевт",
       doctorInfo: [
@@ -271,7 +282,7 @@ export const doctors = [
    },
    {
       id: 40,
-      image: "",
+      image: epifanova,
       name: "Епифанова Лариса Анатольевна",
       speciality: "Врач-терапевт",
       doctorInfo: [
@@ -606,7 +617,7 @@ export const doctors = [
    },
    {
       id: 43,
-      image: "",
+      image: nazarukAS,
       name: "Назарук Александр Сергеевич",
       speciality: "Врач-хирург",
       doctorInfo: [
@@ -660,7 +671,7 @@ export const doctors = [
    },
    {
       id: 44,
-      image: "",
+      image: najjar,
       name: "Нажжар Махмуд М.А.",
       speciality: "Врач-травматолог-ортопед",
       doctorInfo: [
@@ -746,7 +757,7 @@ export const doctors = [
    },
    {
       id: 23,
-      image: "",
+      image: polyakovaLA,
       name: "Полякова Людмила Александровна",
       speciality: "Врач-уролог",
       doctorInfo: [
@@ -773,7 +784,7 @@ export const doctors = [
    },
    {
       id: 24,
-      image: "",
+      image: polyakovaOS,
       name: "Полякова Олеся Сергеевна",
       speciality: "Врач-оториноларинголог",
       doctorInfo: [
@@ -852,7 +863,7 @@ export const doctors = [
    },
    {
       id: 45,
-      image: "",
+      image: savushkinDV,
       name: "Савушкин Дмитрий Викторович",
       speciality: "Медицинская сестра по массажу",
       doctorInfo: [
@@ -966,7 +977,7 @@ export const doctors = [
    },
    {
       id: 47,
-      image: "",
+      image: susinaGE,
       name: "Сусина Гаяне Эдуардовна",
       speciality: "Врач-хирург, врач ультразвуковой диагностики",
       doctorInfo: [
@@ -1037,7 +1048,7 @@ export const doctors = [
    },
    {
       id: 49,
-      image: "",
+      image: tazbiev,
       name: "Тазбиев Сейд-Магомед Мусаевич",
       speciality: "Врач сердечно-сосудистый хирург",
       doctorInfo: [
@@ -1063,7 +1074,7 @@ export const doctors = [
    },
    {
       id: 31,
-      image: "",
+      image: titovskayaNA,
       name: "Титовская Недежда Александровна",
       speciality: "Врач-кардиолог, врач функциональной диагностики",
       doctorInfo: [
@@ -1175,7 +1186,7 @@ export const doctors = [
    },
    {
       id: 51,
-      image: "",
+      image: tsarkovaIV,
       name: "Царькова Ирина Вячеславовна",
       speciality: "Врач-эндокринолог",
       doctorInfo: [
