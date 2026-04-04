@@ -16,6 +16,7 @@ import kharitonov from "assets/images/doctors/kharitonov.jpg";
 import kislova from "assets/images/doctors/kislova.jpg";
 import litvinenko from "assets/images/doctors/litvinenko.jpg";
 import matrosov from "assets/images/doctors/matrosov.jpg";
+import merkushova from "assets/images/doctors/merkushova.jpg";
 import medvedevaEV from "assets/images/doctors/medvedevaEV.jpg";
 import najjar from "assets/images/doctors/najjar.jpg";
 import nazarova from "assets/images/doctors/nazarova.jpg";
@@ -552,7 +553,7 @@ export const doctors = [
    },
    {
       id: 17,
-      image: "",
+      image: merkushova,
       name: "Меркушова (Павлова) Анна Эдуардовна",
       speciality: "Врач ультразвуковой диагностики",
       doctorInfo: [
