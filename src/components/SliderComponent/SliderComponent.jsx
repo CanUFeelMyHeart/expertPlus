@@ -6,9 +6,9 @@ import "./SliderComponent.css";
 
 export const SliderComponent = () => {
    const properties = {
-      duration: 3000,
+      duration: 10000,
       indicators: true,
-      transitionDuration: 1500,
+      transitionDuration: 1000,
       indicators: (i) => <div className="indicator"></div>,
    };
 

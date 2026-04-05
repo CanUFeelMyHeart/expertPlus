@@ -22,10 +22,11 @@
    height: 100%;
    margin-top: -5px;
    background-position: center top;
-   background-size: 100% 100%;
+   background-size: auto 100%;
    background-repeat: no-repeat;
    position: initial;
    z-index: -1;
+   background-color: #6495ed1c;
 }
 
 .indicator {
