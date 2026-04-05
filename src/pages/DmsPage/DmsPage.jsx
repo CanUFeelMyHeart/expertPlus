@@ -21,6 +21,17 @@ export const DmsPage = () => {
                   <li>Капитал Лайф</li>
                   <li>Альфастрахование</li>
                   <li>Росгосстрах</li>
+                  <li>Ресо</li>
+                  <li>ВСК</li>
+                  <li>Ренессанс</li>
+                  <li>Лучи Здоровья</li>
+                  <li>Совкомбанк</li>
+                  <li>Зетта</li>
+                  <li>Согаз</li>
+                  <li>Сбербанк</li>
+                  <li>Югория</li>
+                  <li>Пари</li>
+                  <li>ПСБ</li>
                </ul>
             </InformationContainerComponent>
          </div>
